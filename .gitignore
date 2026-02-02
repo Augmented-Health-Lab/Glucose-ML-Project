@@ -1,0 +1,26 @@
+.vscode
+**/.DS_Store
+# dependencies
+node_modules/
+
+# Vite cache 
+.vite/
+
+# build output
+dist/
+dist-ssr/
+
+# logs
+*.log
+logs/
+
+# env
+.env
+.env.*
+*.local
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+

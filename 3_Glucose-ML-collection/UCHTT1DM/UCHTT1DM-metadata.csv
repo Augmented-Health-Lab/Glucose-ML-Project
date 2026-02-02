@@ -1,0 +1,21 @@
+﻿person_id,diabetes_type,age,gender,race_ethnicity,hba1c_%,CGM,glucose_level_record_count,average_glucose_level_mg_dl,count_days_with_CGM_data
+HT_01,No diabetes,,,,,Medtronic Guardian 3,1672,91.78,7
+HT_02,No diabetes,,,,,Medtronic Guardian 3,1714,91.13,7
+HT_03,No diabetes,,,,,Medtronic Guardian 3,1827,89.51,7
+HT_04,No diabetes,,,,,Medtronic Guardian 3,1933,88.99,8
+HT_05,No diabetes,,,,,Medtronic Guardian 3,1403,84.49,6
+HT_06,No diabetes,,,,,Medtronic Guardian 3,1685,92.63,7
+HT_07,No diabetes,,,,,Medtronic Guardian 3,1382,91.7,7
+HT_08,No diabetes,,,,,Medtronic Guardian 3,1529,94.59,6
+HT_09,No diabetes,,,,,Medtronic Guardian 3,1549,94.6,7
+HT_10,No diabetes,,,,,Medtronic Guardian 3,1502,79.21,6
+HT_11,No diabetes,,,,,Medtronic Guardian 3,1590,81.52,7
+T1DM_02,T1D,,,,,Medtronic Guardian 3,1326,158.05,6
+T1DM_03,T1D,,,,,Medtronic Guardian 3,1818,130.49,8
+T1DM_04,T1D,,,,,Medtronic Guardian 3,1767,132,8
+T1DM_05,T1D,,,,,Medtronic Guardian 3,1608,123.94,7
+T1DM_06,T1D,,,,,Medtronic Guardian 3,1408,154.89,6
+T1DM_07,T1D,,,,,Medtronic Guardian 3,1251,135.43,5
+T1DM_08,T1D,,,,,Medtronic Guardian 3,925,161.89,5
+T1DM_09,T1D,,,,,Medtronic Guardian 3,567,180.51,3
+T1DM_10,T1D,,,,,Medtronic Guardian 3,718,176.27,4

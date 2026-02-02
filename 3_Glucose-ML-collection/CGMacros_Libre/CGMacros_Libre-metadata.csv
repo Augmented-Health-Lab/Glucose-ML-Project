@@ -1,0 +1,46 @@
+﻿person_id,diabetes_type,age,gender,race_ethnicity,hba1c_%,CGM_type,glucose_level_record_count,average_glucose_level_mg_dl,count_days_with_CGM_data
+CGMacros-001,No diabetes,27,male,Hispanic/Latino,5.4,Abbott FreeStyle Libre Pro,14730,88.52,11
+CGMacros-002,No diabetes,49,female,Hispanic/Latino,5.5,Abbott FreeStyle Libre Pro,17025,78.99,13
+CGMacros-003,T2D,59,female,Hispanic/Latino,6.5,Abbott FreeStyle Libre Pro,14565,107.57,11
+CGMacros-004,No diabetes,33,female,Hispanic/Latino,5.5,Abbott FreeStyle Libre Pro,14055,90.82,11
+CGMacros-005,T2D,51,female,Hispanic/Latino,6.6,Abbott FreeStyle Libre Pro,14460,111.51,11
+CGMacros-006,No diabetes,51,female,White,5.2,Abbott FreeStyle Libre Pro,14460,88.85,11
+CGMacros-007,Prediabetes,66,female,Hispanic/Latino,5.9,Abbott FreeStyle Libre Pro,5655,54.28,8
+CGMacros-008,Prediabetes,54,male,Hispanic/Latino,5.8,Abbott FreeStyle Libre Pro,14760,93.82,11
+CGMacros-009,Prediabetes,34,female,Hispanic/Latino,5.7,Abbott FreeStyle Libre Pro,14370,106.38,11
+CGMacros-010,Prediabetes,54,female,Hispanic/Latino,5.7,Abbott FreeStyle Libre Pro,16155,92.65,12
+CGMacros-011,Prediabetes,34,male,Hispanic/Latino,5.7,Abbott FreeStyle Libre Pro,14805,110.85,11
+CGMacros-012,T2D,52,male,Hispanic/Latino,7.1,Abbott FreeStyle Libre Pro,14655,164.8,11
+CGMacros-013,Prediabetes,56,female,Hispanic/Latino,6.2,Abbott FreeStyle Libre Pro,15840,126.09,12
+CGMacros-014,T2D,53,male,Hispanic/Latino,7.1,Abbott FreeStyle Libre Pro,17250,109.74,13
+CGMacros-015,No diabetes,47,female,Hispanic/Latino,5.4,Abbott FreeStyle Libre Pro,16875,50.71,13
+CGMacros-016,Prediabetes,48,female,African American,5.8,Abbott FreeStyle Libre Pro,16290,84.78,12
+CGMacros-017,No diabetes,33,female,White,5,Abbott FreeStyle Libre Pro,16185,76.51,12
+CGMacros-018,No diabetes,18,male,Hispanic/Latino,5.4,Abbott FreeStyle Libre Pro,14085,100.79,20
+CGMacros-019,No diabetes,40,female,Hispanic/Latino,5.6,Abbott FreeStyle Libre Pro,14430,85.19,11
+CGMacros-020,Prediabetes,59,female,African American,6.4,Abbott FreeStyle Libre Pro,16260,131.51,12
+CGMacros-021,No diabetes,63,female,African American,5.3,Abbott FreeStyle Libre Pro,16125,100.86,12
+CGMacros-022,Prediabetes,69,female,White,5.9,Abbott FreeStyle Libre Pro,17625,98.5,13
+CGMacros-023,Prediabetes,55,male,Hispanic/Latino,6.2,Abbott FreeStyle Libre Pro,16185,112.77,12
+CGMacros-026,Prediabetes,35,male,Hispanic/Latino,5.9,Abbott FreeStyle Libre Pro,16320,97.55,12
+CGMacros-027,No diabetes,24,female,Hispanic/Latino,4.7,Abbott FreeStyle Libre Pro,14535,76.51,11
+CGMacros-028,T2D,59,female,Hispanic/Latino,7,Abbott FreeStyle Libre Pro,18735,114.76,14
+CGMacros-029,Prediabetes,52,male,Hispanic/Latino,6.1,Abbott FreeStyle Libre Pro,17730,110.25,13
+CGMacros-030,T2D,60,female,Hispanic/Latino,7.6,Abbott FreeStyle Libre Pro,15465,155.5,12
+CGMacros-031,No diabetes,46,female,White,5.1,Abbott FreeStyle Libre Pro,13725,81.87,11
+CGMacros-032,No diabetes,64,male,White,5.3,Abbott FreeStyle Libre Pro,13785,67.59,11
+CGMacros-033,No diabetes,40,male,Hispanic/Latino,5.6,Abbott FreeStyle Libre Pro,15840,121.43,12
+CGMacros-034,No diabetes,24,male,White,4.6,Abbott FreeStyle Libre Pro,14700,79.32,11
+CGMacros-035,T2D,45,female,Hispanic/Latino,8.5,Abbott FreeStyle Libre Pro,14400,196.59,11
+CGMacros-036,T2D,61,male,Hispanic/Latino,6.9,Abbott FreeStyle Libre Pro,17115,110.06,13
+CGMacros-038,T2D,52,male,Hispanic/Latino,7.2,Abbott FreeStyle Libre Pro,14505,115.4,11
+CGMacros-039,T2D,45,female,Hispanic/Latino,8.3,Abbott FreeStyle Libre Pro,17205,139.23,13
+CGMacros-041,Prediabetes,58,female,Hispanic/Latino,6.3,Abbott FreeStyle Libre Pro,14310,133.39,11
+CGMacros-042,T2D,51,female,Hispanic/Latino,7.1,Abbott FreeStyle Libre Pro,14520,133.03,11
+CGMacros-043,Prediabetes,45,female,Hispanic/Latino,6,Abbott FreeStyle Libre Pro,14520,89.69,11
+CGMacros-044,Prediabetes,60,female,"Black, African American",6,Abbott FreeStyle Libre Pro,14535,111.77,11
+CGMacros-045,Prediabetes,46,female,Hispanic/Latino,6.1,Abbott FreeStyle Libre Pro,15570,128.31,12
+CGMacros-046,T2D,51,male,Hispanic/Latino,7.4,Abbott FreeStyle Libre Pro,14655,172.36,11
+CGMacros-047,T2D,62,male,Hispanic/Latino,6.9,Abbott FreeStyle Libre Pro,15690,155.19,12
+CGMacros-048,No diabetes,22,female,White,4.8,Abbott FreeStyle Libre Pro,17340,82.51,13
+CGMacros-049,T2D,58,female,Hispanic/Latino,7.2,Abbott FreeStyle Libre Pro,15315,140.94,12

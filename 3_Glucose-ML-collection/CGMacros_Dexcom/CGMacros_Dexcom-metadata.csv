@@ -1,0 +1,46 @@
+﻿person_id,diabetes_type,age,gender,race_ethnicity,hba1c_%,CGM_type,glucose_level_record_count,average_glucose_level_mg_dl,count_days_with_CGM_data
+CGMacros-001,No diabetes,27,male,Hispanic/Latino,5.4,Dexcom G6 Pro,14265,106.83,11
+CGMacros-002,No diabetes,49,female,Hispanic/Latino,5.5,Dexcom G6 Pro,13677,128.79,11
+CGMacros-003,T2D,59,female,Hispanic/Latino,6.5,Dexcom G6 Pro,14260,119.34,11
+CGMacros-004,No diabetes,33,female,Hispanic/Latino,5.5,Dexcom G6 Pro,14275,116.65,11
+CGMacros-005,T2D,51,female,Hispanic/Latino,6.6,Dexcom G6 Pro,14275,147.49,11
+CGMacros-006,No diabetes,51,female,White,5.2,Dexcom G6 Pro,14275,115.05,11
+CGMacros-007,Prediabetes,66,female,Hispanic/Latino,5.9,Dexcom G6 Pro,5640,112.82,8
+CGMacros-008,Prediabetes,54,male,Hispanic/Latino,5.8,Dexcom G6 Pro,14220,121.25,11
+CGMacros-009,Prediabetes,34,female,Hispanic/Latino,5.7,Dexcom G6 Pro,14226,129.47,11
+CGMacros-010,Prediabetes,54,female,Hispanic/Latino,5.7,Dexcom G6 Pro,14275,127.58,11
+CGMacros-011,Prediabetes,34,male,Hispanic/Latino,5.7,Dexcom G6 Pro,14275,128.97,11
+CGMacros-012,T2D,52,male,Hispanic/Latino,7.1,Dexcom G6 Pro,14270,139.98,11
+CGMacros-013,Prediabetes,56,female,Hispanic/Latino,6.2,Dexcom G6 Pro,14275,123.35,11
+CGMacros-014,T2D,53,male,Hispanic/Latino,7.1,Dexcom G6 Pro,14275,137.76,11
+CGMacros-015,No diabetes,47,female,Hispanic/Latino,5.4,Dexcom G6 Pro,14210,106.87,11
+CGMacros-016,Prediabetes,48,female,African American,5.8,Dexcom G6 Pro,14275,126.03,11
+CGMacros-017,No diabetes,33,female,White,5,Dexcom G6 Pro,14240,128.46,11
+CGMacros-018,No diabetes,18,male,Hispanic/Latino,5.4,Dexcom G6 Pro,13934,147.21,11
+CGMacros-019,No diabetes,40,female,Hispanic/Latino,5.6,Dexcom G6 Pro,14260,143.91,11
+CGMacros-020,Prediabetes,59,female,African American,6.4,Dexcom G6 Pro,14275,165.8,11
+CGMacros-021,No diabetes,63,female,African American,5.3,Dexcom G6 Pro,14275,119.61,11
+CGMacros-022,Prediabetes,69,female,White,5.9,Dexcom G6 Pro,14275,117.09,11
+CGMacros-023,Prediabetes,55,male,Hispanic/Latino,6.2,Dexcom G6 Pro,14265,143.44,11
+CGMacros-026,Prediabetes,35,male,Hispanic/Latino,5.9,Dexcom G6 Pro,13824,142.27,12
+CGMacros-027,No diabetes,24,female,Hispanic/Latino,4.7,Dexcom G6 Pro,14210,127.76,11
+CGMacros-028,T2D,59,female,Hispanic/Latino,7,Dexcom G6 Pro,14230,153.56,11
+CGMacros-029,Prediabetes,52,male,Hispanic/Latino,6.1,Dexcom G6 Pro,14275,125.28,11
+CGMacros-030,T2D,60,female,Hispanic/Latino,7.6,Dexcom G6 Pro,14210,192.66,11
+CGMacros-031,No diabetes,46,female,White,5.1,Dexcom G6 Pro,13673,115.77,11
+CGMacros-032,No diabetes,64,male,White,5.3,Dexcom G6 Pro,13656,109.42,11
+CGMacros-033,No diabetes,40,male,Hispanic/Latino,5.6,Dexcom G6 Pro,14215,148.9,11
+CGMacros-034,No diabetes,24,male,White,4.6,Dexcom G6 Pro,14275,106.62,11
+CGMacros-035,T2D,45,female,Hispanic/Latino,8.5,Dexcom G6 Pro,14270,222.47,11
+CGMacros-036,T2D,61,male,Hispanic/Latino,6.9,Dexcom G6 Pro,14275,142.44,11
+CGMacros-038,T2D,52,male,Hispanic/Latino,7.2,Dexcom G6 Pro,14270,151.63,11
+CGMacros-039,T2D,45,female,Hispanic/Latino,8.3,Dexcom G6 Pro,14275,209.97,11
+CGMacros-041,Prediabetes,58,female,Hispanic/Latino,6.3,Dexcom G6 Pro,14241,172.14,11
+CGMacros-042,T2D,51,female,Hispanic/Latino,7.1,Dexcom G6 Pro,14275,158.15,11
+CGMacros-043,Prediabetes,45,female,Hispanic/Latino,6,Dexcom G6 Pro,14260,129.19,11
+CGMacros-044,Prediabetes,60,female,"Black, African American",6,Dexcom G6 Pro,14225,132.28,11
+CGMacros-045,Prediabetes,46,female,Hispanic/Latino,6.1,Dexcom G6 Pro,13669,165.41,11
+CGMacros-046,T2D,51,male,Hispanic/Latino,7.4,Dexcom G6 Pro,14245,185.88,11
+CGMacros-047,T2D,62,male,Hispanic/Latino,6.9,Dexcom G6 Pro,14225,195.92,11
+CGMacros-048,No diabetes,22,female,White,4.8,Dexcom G6 Pro,14260,113.67,11
+CGMacros-049,T2D,58,female,Hispanic/Latino,7.2,Dexcom G6 Pro,14275,165.73,11

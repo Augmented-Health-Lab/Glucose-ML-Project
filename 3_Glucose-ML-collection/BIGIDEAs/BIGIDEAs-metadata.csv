@@ -1,0 +1,17 @@
+﻿person_id,diabetes_type,age,gender,race_ethnicity,hba1c_%,CGM_type,glucose_level_record_count,average_glucose_level_mg_dl,count_days_with_CGM_data
+001,No diabetes,35-65,female,,5.5,Dexcom G6,2561,106.09,10
+002,No diabetes,35-65,male,,5.6,Dexcom G6,2119,130.43,9
+003,Prediabetes,35-65,female,,5.9,Dexcom G6,2302,107.89,9
+004,Prediabetes,35-65,female,,6.4,Dexcom G6,2164,112.65,9
+005,Prediabetes,35-65,female,,5.7,Dexcom G6,2558,104.73,10
+006,Prediabetes,35-65,female,,5.8,Dexcom G6,2847,124.59,11
+007,No diabetes,35-65,female,,5.3,Dexcom G6,2207,93.07,9
+008,No diabetes,35-65,female,,5.6,Dexcom G6,2505,111.43,10
+009,Prediabetes,35-65,male,,6.1,Dexcom G6,2306,128.29,9
+010,Prediabetes,35-65,female,,6,Dexcom G6,2148,111.9,9
+011,Prediabetes,35-65,male,,6,Dexcom G6,2843,119.48,11
+012,No diabetes,35-65,male,,5.6,Dexcom G6,2169,122.16,9
+013,Prediabetes,35-65,male,,5.7,Dexcom G6,1979,127.46,8
+014,No diabetes,35-65,male,,5.5,Dexcom G6,2240,116.15,9
+015,No diabetes,35-65,female,,5.5,Dexcom G6,1673,109.43,9
+016,No diabetes,35-65,male,,5.5,Dexcom G6,2277,105.61,9

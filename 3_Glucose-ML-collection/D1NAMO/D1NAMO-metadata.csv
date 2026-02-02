@@ -1,0 +1,10 @@
+﻿person_id,diabetes_type,age,gender,race_ethnicity,hba1c_%,CGM_type,glucose_level_record_count,average_glucose_level_mg_dl,count_days_with_CGM_data
+001,T1D,,,,,Medtronic iPro2 Professional CGM,1438,183.49,6
+002,T1D,,,,,Medtronic iPro2 Professional CGM,1071,182.88,5
+003,T1D,,,,,Medtronic iPro2 Professional CGM,185,128.28,2
+004,T1D,,,,,Medtronic iPro2 Professional CGM,984,201.55,4
+005,T1D,,,,,Medtronic iPro2 Professional CGM,928,153.96,4
+006,T1D,,,,,Medtronic iPro2 Professional CGM,1298,169.87,6
+007,T1D,,,,,Medtronic iPro2 Professional CGM,1011,149.18,5
+008,T1D,,,,,Medtronic iPro2 Professional CGM,1175,129.3,5
+009,T1D,,,,,Medtronic iPro2 Professional CGM,131,78.07,5

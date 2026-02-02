@@ -1,0 +1,13 @@
+﻿person_id,diabetes_type,age,gender,race_ethnicity,hba1c_%,CGM_type,glucose_level_record_count,average_glucose_level_mg_dl,count_days_with_CGM_data
+1001,T1D,66,female,,12.7,Abbott FreeStyle Libre H,658,196.83,8
+1002,T1D,68,male,,8.6,Abbott FreeStyle Libre H,2238,124.88,27
+1003,T1D,37,male,,13.3,Abbott FreeStyle Libre H,1339,151.02,15
+1004,T1D,67,female,,13.6,Abbott FreeStyle Libre H,917,183.16,11
+1005,T1D,58,male,,8.4,Abbott FreeStyle Libre H,1256,177.47,14
+1006,T1D,57,male,,8,Abbott FreeStyle Libre H,3710,187.01,42
+1007,T1D,40,male,,7.1,Abbott FreeStyle Libre H,1337,102.8,15
+1008,T1D,73,female,,7.9,Abbott FreeStyle Libre H,766,185.22,9
+1009,T1D,59,female,,9.3,Abbott FreeStyle Libre H,681,174.8,8
+1010,T1D,65,female,,17.3,Abbott FreeStyle Libre H,918,190.49,11
+1011,T1D,51,female,,7.1,Abbott FreeStyle Libre H,536,146.67,7
+1012,T1D,53,female,,,Abbott FreeStyle Libre H,1339,177.81,14

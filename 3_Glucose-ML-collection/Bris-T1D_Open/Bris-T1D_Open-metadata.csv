@@ -1,0 +1,21 @@
+﻿person_id,diabetes_type,age,gender,race_ethnicity,hba1c_%,CGM_type,glucose_level_record_count,average_glucose_level_mg_dl,count_days_with_CGM_data
+P01,T1D,24,female,white british,,Freestyle Libre 2,18975,158.47,202
+P02,T1D,24,female,white british,,Dexcom G6,54104,171.01,193
+P03,T1D,24,non-binary,white british,,Dexcom G6,27652,154.05,98
+P04,T1D,21,female,white british,,Dexcom G6,58031,140.64,205
+P05,T1D,26,female,white irish,,Freestyle Libre 2,19824,150.73,217
+P06,T1D,21,male,white british,,"Freestyle Libre 2, Dexcom G6",18153,169.27,198
+P07,T1D,22,female,white british,,Dexcom G6,57893,173.69,209
+P10,T1D,18,male,white,,Dexcom G6,47071,121.49,168
+P11,T1D,23,female,white british,,Dexcom G6,52559,161.89,192
+P12,T1D,23,female,white british,,Medtronic Guardian 4,61565,149.19,223
+P13,T1D,21,female,white scottish,,Freestyle Libre 2,8739,152.46,95
+P15,T1D,22,female,indian,,Dexcom One,61851,152.08,219
+P16,T1D,21,female,british,,Medtronic Guardian 4,55533,151.38,199
+P17,T1D,26,female,white,,Dexcom G6,51925,159.57,187
+P18,T1D,22,female,white british,,"Dexcom One, Medtronic Guardian 4",47370,196.71,190
+P19,T1D,21,male,white british,,Dexcom G6,57930,156.17,204
+P21,T1D,24,female,white,,"Freestyle Libre 2, Dexcom G6",22532,197.86,198
+P22,T1D,20,female,white british,,Dexcom G6,49714,141.86,181
+P23,T1D,21,female,white,,Dexcom G6,17919,144.57,67
+P24,T1D,21,non-binary,white british,,Dexcom G6,59234,142.05,211

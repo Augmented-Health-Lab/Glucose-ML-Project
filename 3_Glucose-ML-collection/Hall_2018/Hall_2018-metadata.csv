@@ -1,0 +1,58 @@
+﻿person_id,diabetes_type,age,gender,race_ethnicity,hba1c_%,CGM_type,glucose_level_record_count,average_glucose_level_mg_dl,count_days_with_CGM_data
+1636-69-001,T2D,59,,,6.7,Dexcom G4,1846,108.23,8
+1636-69-026,T2D,67,,,6.2,Dexcom G4,1796,115.16,8
+1636-69-028,Prediabetes,50,,,5.2,Dexcom G4,1822,115.39,9
+1636-69-032,No diabetes,59,,,5.7,Dexcom G4,1783,108.32,7
+1636-69-035,Prediabetes,60,,,5.5,Dexcom G4,2180,116.56,12
+1636-69-048,No diabetes,60,,,5.2,Dexcom G4,1779,97.01,7
+1636-69-053,No diabetes,60,,,5,Dexcom G4,1867,100.84,9
+1636-69-060,No diabetes,55,,,5.2,Dexcom G4,1821,124.35,8
+1636-69-064,No diabetes,51,,,5.2,Dexcom G4,1584,116.33,7
+1636-69-069,No diabetes,56,,,5.5,Dexcom G4,1897,108.58,10
+1636-69-090,No diabetes,76,,,5.6,Dexcom G4,1863,108.75,7
+1636-69-091,No diabetes,62,,,6.5,Dexcom G4,1803,103.11,8
+1636-69-100,T2D,45,,,5.3,Dexcom G4,1880,97.4,9
+1636-69-104,No diabetes,56,,,4.6,Dexcom G4,2361,89.69,17
+1636-69-107,No diabetes,53,,,5.6,Dexcom G4,1897,112.33,8
+1636-69-111,No diabetes,48,,,5.2,Dexcom G4,1868,99.23,9
+1636-69-114,No diabetes,65,,,5.8,Dexcom G4,1796,113.13,7
+1636-69-123,Prediabetes,54,,,5.3,Dexcom G4,1905,86.47,9
+1636-70-1002,No diabetes,51,,,5.2,Dexcom G4,1794,99.39,7
+1636-70-1003,No diabetes,51,,,5.2,Dexcom G4,1895,90.36,8
+1636-70-1005,No diabetes,66,,,5.5,Dexcom G4,1846,112.85,9
+1636-70-1008,No diabetes,62,,,5.4,Dexcom G4,1760,100.23,7
+1636-70-1010,No diabetes,68,,,5.5,Dexcom G4,1820,113.98,9
+2133-001,No diabetes,27,,,5.2,Dexcom G4,1814,85.13,8
+2133-002,No diabetes,29,,,5.3,Dexcom G4,1806,94.56,8
+2133-003,No diabetes,36,,,5.4,Dexcom G4,1805,100.04,8
+2133-004,No diabetes,54,,,6,Dexcom G4,1776,126.62,7
+2133-006,Prediabetes,29,,,5.3,Dexcom G4,1777,83.62,7
+2133-007,No diabetes,48,,,5.5,Dexcom G4,1877,111.02,9
+2133-008,No diabetes,31,,,,Dexcom G4,1805,89.35,7
+2133-009,No diabetes,25,,,5.2,Dexcom G4,1781,109.65,7
+2133-010,No diabetes,29,,,,Dexcom G4,1832,93.41,8
+2133-011,No diabetes,32,,,5.4,Dexcom G4,1933,95.26,10
+2133-012,No diabetes,27,,,5.3,Dexcom G4,1935,96.02,10
+2133-013,No diabetes,65,,,5.4,Dexcom G4,1960,96.84,9
+2133-015,No diabetes,51,,,5.7,Dexcom G4,1835,108.78,8
+2133-017,Prediabetes,47,,,5.3,Dexcom G4,1799,109.6,7
+2133-018,No diabetes,64,,,6.4,Dexcom G4,1775,126.57,7
+2133-019,T2D,64,,,6.2,Dexcom G4,1801,106.73,8
+2133-020,Prediabetes,53,,,5.1,Dexcom G4,1826,96.93,7
+2133-021,No diabetes,56,,,6,Dexcom G4,1797,130.04,7
+2133-022,Prediabetes,60,,,4.9,Dexcom G4,1814,105.54,8
+2133-023,No diabetes,52,,,5.2,Dexcom G4,1838,87.62,9
+2133-024,No diabetes,28,,,5.2,Dexcom G4,1821,99.42,8
+2133-025,No diabetes,64,,,5.1,Dexcom G4,1865,87.06,8
+2133-026,No diabetes,34,,,5.1,Dexcom G4,1782,82.69,7
+2133-027,No diabetes,58,,,5.5,Dexcom G4,1936,91.12,9
+2133-028,No diabetes,25,,,5,Dexcom G4,1850,74.79,8
+2133-030,No diabetes,31,,,5.4,Dexcom G4,1818,93.2,8
+2133-032,No diabetes,35,,,5.1,Dexcom G4,1781,99.48,7
+2133-033,No diabetes,42,,,5,Dexcom G4,1892,92.98,8
+2133-035,No diabetes,61,,,5.4,Dexcom G4,1830,101.77,8
+2133-036,No diabetes,30,,,5.9,Dexcom G4,1954,107.53,10
+2133-037,Prediabetes,28,,,4.9,Dexcom G4,1785,92.97,7
+2133-039,No diabetes,46,,,5.1,Dexcom G4,2013,103.92,10
+2133-040,No diabetes,39,,,5.2,Dexcom G4,1792,92.59,8
+2133-041,No diabetes,51,,,4.9,Dexcom G4,1858,108.56,9
