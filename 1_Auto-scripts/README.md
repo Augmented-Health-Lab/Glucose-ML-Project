@@ -93,10 +93,10 @@ For each dataset, the script:
 
 ---
 
-## Harmonizing Controlled Access Datasets
+## Harmonizing Controlled-Access Datasets
 Though not all Glucose-ML datasets can be downloaded using the auto-download script, all Glucose-ML datasets can be standardized using the `auto-harmonize-CGM-datasets.py` if set up properly.
 
-Steps to add a controlled access dataset:
+Steps to add a controlled-access dataset:
 1. Create or locate the directory `Auto-scripts/Original-Glucose-ML-datasets/`
 2. Create a folder with the following nomenclature `Auto-scripts/Original-Glucose-ML-datasets/<Dataset>_raw_data/`
 3. Rename `<Dataset>_raw_data/` to the proper dataset. This can be done by copying/pasteing the appropriate dataset key from the "Harmonize script keys" section below. (e.g. `Auto-scripts/Original-Glucose-ML-datasets/ai-readi_raw_data/`)
