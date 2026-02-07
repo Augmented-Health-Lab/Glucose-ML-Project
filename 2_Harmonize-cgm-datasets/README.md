@@ -1,5 +1,5 @@
 
-# README - {Dataset}_extract-glucose-data.py & {Dataset}_metadata.py
+# README - /{Dataset}_extract-glucose-data.py & /{Dataset}_metadata.py
 
 This directory contains the harmonization helper scripts called to standardize raw Continuous Glucose Monitoring (CGM) data for Glucose-ML compatible projects.
 
@@ -80,3 +80,10 @@ To add a **Controlled-Access** dataset:
 * **Copy-Paste Ready Controlled-Access {Dataset} Keys:** AI-READI, DiaTrend, T1DiabetesGranada, T1DEXI, T1DEXIP, OhioT1DM, Hall_2018 (not controlled-access, but manual download required), Colas_2019 (not controlled-access, but manual download required).
 
 ---
+
+
+<p>&nbsp;</p>
+
+<p align="center">
+  <img src="../Logos/glucose-ml-logo_horizontal_white.svg" alt="Glucose-ML logo" width="450">
+</p>

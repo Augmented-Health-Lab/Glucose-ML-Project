@@ -1,4 +1,4 @@
-# README — auto-download-open-datasets.py & auto-harmonize-CGM-datasets.py
+# README - /auto-download-open-datasets.py & /auto-harmonize-CGM-datasets.py
 
 This repository includes two command-line scripts that automate a simple pipeline:
 
@@ -22,19 +22,19 @@ Key features:
 - Streams downloads and prints periodic progress updates.
 - Unzips `.zip` downloads automatically (if appropriate).
 
-**NOTE:** Only publically avalible datasets may be downloaded using the auto-download-open-datasets.py script. See which datasets can be downloaded in the "Download script keys" section below.
+_NOTE_: Only open-access datasets may be downloaded using the auto-download-open-datasets.py script. See which datasets can be downloaded in the "Download script keys" section below.
 
 ### 2. `auto-harmonize-CGM-datasets.py`
 Takes one or more datasetkeys and runs a two-step harmonization pipeline by calling dataset-specific scripts in `auto-harmonize-CGM-datasets/`:
 
 1) `<Dataset>_extract-glucose-data.py` (fed the raw dataset directory)  
-2) `<Dataset>_metadata.py` (fed `Standardized-datasets/<Dataset>`)
+2) `<Dataset>_metadata.py` (input is `Standardized-datasets/<Dataset>`)
 
 Key features:
-- Accepts multiple datasets (public or private access) in one command.
+- Accepts multiple datasets (open or controlled access) in one command.
 - Standardzizes raw dataset downloads and calculates metadata statistics.
 
-**NOTE:** The auto-harmoniza-CGM-datasets.py script can standardize datasets that cannot be downloaded from the auto-download-open-datasets.py script so long as they are part of the 20 Glucose-ML datasets (See "Harmonize script keys" section below for compatible datasets.)
+_NOTE_: The auto-harmoniza-CGM-datasets.py script can standardize datasets that cannot be downloaded from the auto-download-open-datasets.py script so long as they are part of the 20 Glucose-ML datasets (See "Harmonize script keys" section below for compatible datasets.)
 
 It also handles cases where one download contains multiple datasets (e.g. CGMacros Dexcom/Libre and Shanghai T1DM/T2DM) by pointing each harmonizer at the correct subfolder.
 
@@ -108,25 +108,26 @@ Steps to add a controlled-access dataset:
 ## Supported dataset keys
 
 ### Download script keys
-These are the dataset keys recognized by `auto-download-open-datasets.py` (only public datasets can be downloaded):
+These are the dataset keys recognized by `auto-download-open-datasets.py` (only open-access datasets can be downloaded):
 
-- `d1namo`
-- `bigideas`
-- `shanghai` (download bundle used for both T1DM and T2DM)
-- `uchtt1dm`
-- `hupa-ucm`
-- `cgmacros`
-- `t1d-uom`
-- `bris-t1d_open`
 - `azt1d`
+- `bigideas`
+- `bris-t1d_open`
+- `cgmacros`
+- `d1namo`
+- `hupa-ucm`
 - `park_2025`
 - `physiocgm`
+- `shanghai` (download bundle used for both T1DM and T2DM)
+- `t1d-uom`
+- `uchtt1dm`
+
 
 Special Cases:
-- `cgmacros` downlaods BOTH `cgmacros_libre` and `cgmacros_dexcom`.
+- `cgmacros` downloads BOTH `cgmacros_libre` and `cgmacros_dexcom`.
 - `shanghai` downloads BOTH `shanghait1dm`, `shanghait2dm`.
 
-Note: `colas_2019` and `hall_2018` are publically accessible datasets, but can only be downloaded through their respective publications. 
+_NOTE_: `colas_2019` and `hall_2018` are open-access datasets but can only be downloaded through their respective publications. 
 
 ### Harmonize script keys
 `auto-harmonize-CGM-datasets.py`:
@@ -186,3 +187,9 @@ python auto-harmonize-CGM-datasets.py t1diabetesgranada bris-t1d_open park_2025 
 ```
 
 ---
+
+<p>&nbsp;</p>
+
+<p align="center">
+  <img src="../Logos/glucose-ml-logo_horizontal_white.svg" alt="Glucose-ML logo" width="450">
+</p>
