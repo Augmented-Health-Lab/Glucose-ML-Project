@@ -16,11 +16,9 @@ Please cite the associated paper as follows:
 
 ## Overview
 
-This repository contains the code developed for harmonized analysis of 20+ publicly available diabetes datasets curated in the Glucose-ML collection as published here: [insert publication here]. This repository does _not_ host any of the datasets directly, but _instead_ provides easy-to-use resources for downloading and standardizingfor working with each dataset. 
+This repository contains the code developed for harmonized analysis of 20+ publicly available diabetes datasets curated in the Glucose-ML collection as published here: [insert publication here]. This repository does _not_ host any of the datasets directly, but _instead_ provides easy-to-use resources for downloading and standardizing compatible datasets. 
 
-Do we need this line?? [Table 1](./Paper_Tables/Table1.csv) includes direct links for accessing all 10 publicly available diabetes datasets, including open-access datasets (5 out of 10) which can be downloading immediately and direct links for requesting access to the controlled-access datasets (5 out of 10) in the Glucose-ML collection. 
-
-To support ease of use, this repository provides automated scripts in the ```/1_Auto-scripts/``` directory for downloading the open-access diabetes datasets (12) in the Glucose-ML collection, and automated scripts (20) for harmonizing and jointly analyzing all 20 publicly available datasets, including metadata for all participants with accessible CGM data (open-access datasets only).
+To support ease of use, this repository provides automated scripts in the ```1_Auto-scripts/``` directory for downloading the open-access diabetes datasets (14) in the Glucose-ML collection, and automated scripts (20) for harmonizing and jointly analyzing all 20 publicly available datasets, including metadata for all participants with accessible CGM data (open-access datasets only).
 
 ## Getting Started
 
@@ -101,8 +99,7 @@ To reproduce the full pipeline from (data acquisition to data standardization) t
 
 ## Comparative Analysis
 
- ```Paper_Figures/``` includes the figures presented in the paper. For the code to plot those figures and the tables included in the paper, please refer to the ```Script_for_Figures/``` and ```Script_for_Tables/```.
-
+ ```4_Figures-from-paper``` and ```5_Tables-from-paper``` includes the figures and tables presented in the paper, respectively. For the code to plot those figures and the tables included in the paper, please refer to ```Scripts/``` found in both directories.
 
 ## Project Contributors
 - Ryan Pontius
