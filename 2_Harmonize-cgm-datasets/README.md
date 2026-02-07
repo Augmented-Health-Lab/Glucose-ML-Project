@@ -1,5 +1,4 @@
-
-# README - /{Dataset}_extract-glucose-data.py & /{Dataset}_metadata.py
+# 2_Harmonize-cgm-datasets - /{Dataset}_extract-glucose-data.py & /{Dataset}_metadata.py
 
 This directory contains the harmonization helper scripts called to standardize raw Continuous Glucose Monitoring (CGM) data for Glucose-ML compatible projects.
 

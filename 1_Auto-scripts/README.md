@@ -1,6 +1,6 @@
-# README - /auto-download-open-datasets.py & /auto-harmonize-CGM-datasets.py
+# 1_Auto-scripts - auto-download-open-datasets.py & auto-harmonize-CGM-datasets.py
 
-This repository includes two command-line scripts that automate a simple pipeline:
+This directory includes two command-line scripts that automate the primary Glucose-ML pipeline:
 
 1) Download supported open datasets into a consistent `Original-Glucose-ML-datasets/` structure.  
 2) Run dataset-specific harmonization scripts to create standardized outputs and metadata.

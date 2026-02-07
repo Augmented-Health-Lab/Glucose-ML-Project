@@ -80,10 +80,6 @@ To reproduce the full pipeline from (data acquisition to data standardization) t
 
     **Compatible datasets:** azt1d, bigideas, bris-t1d_open, cgmacros, d1namo, hupa-ucm, park_2025, physiocgm, shanghai, t1d-uom, uchtt1dm
 
-    **Special Cases**:
-    - `cgmacros` downloads BOTH `cgmacros_libre` and `cgmacros_dexcom`.
-    - `shanghai` downloads BOTH `shanghait1dm`, `shanghait2dm`.
-
     _Note_: colas_2019 and hall_2018 are open-access datasets but can only be downloaded through their respective publications.
 
     For more detailed information please see [README](/1_Auto-scripts/README.md)
