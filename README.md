@@ -8,8 +8,10 @@
 ## Abstract
 Wearable continuous glucose monitors (CGMs) collect large volumes of personal health data that is critical to develop transformative solutions for diabetes prevention and care. However, limited access to high-quality datasets is a significant barrier that impedes progress for data-centric researchers and innovators. To address this challenge, we present Glucose-ML -- an evolving collection of publicly available continuous glucose datasets -- curated to push the boundaries of data science and machine research, and accelerate development of next-generation computing solutions. At present, Glucose-ML comprises 44.9 million continuous glucose samples from 20+ datasets collected from 4,400+ individuals across 6 countries. This unique resource spans populations with type 1 diabetes (38\%), type 2 diabetes (25\%), prediabetes (13\%), and no diabetes (24\%). To support researchers and innovators with leveraging multiple datasets from the Glucose-ML collection, we provide automated tools for seamlessly downloading and harmonizing continuous glucose data from each dataset and the associated metadata (e.g., demographic information, clinical metrics, and CGM features). Additionally, we provide an interactive web interface (https://glucose-ml-project.com/) to support dataset exploration, visualization, and selection for researchers and practitioners. Guided by our learnings from curating and consolidating the Glucose-ML collection, we also provide insights and recommendations for dataset creators and curators to support future research and development. Our provided dataset resources and related code are openly accessible here: (https://github.com/Augmented-Health-Lab/Glucose-ML-Project)
 
+## Citing Glucose-ML
+
 Please cite the associated paper as follows:
-- **Prioleau, T., Lu, B. and Cui, Y., 2025. Glucose-ML: An evolving collection of continuous glucose datasets to accelerate data-centric AI for diabetes.**
+- **Prioleau, T., Lu, B. and Cui, Y., 2026. Glucose-ML: An evolving collection of continuous glucose datasets to accelerate data-centric AI for diabetes.**
 
 
 ## Overview
