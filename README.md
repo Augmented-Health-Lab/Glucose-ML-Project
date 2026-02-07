@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Logos/glucose-ml-logo_horizontal.svg" alt="Glucose-ML logo" width="800">
+  <img src="Logos/glucose-ml-logo_horizontal.svg" alt="Glucose-ML logo" width="600">
 </p>
 
 <h1 align="center"> Glucose-ML: An evolving collection of continuous glucose datasets to accelerate data-centric AI for diabetes</h1>
