@@ -6,5 +6,5 @@ This is a controlled-access dataset. Existing data use agreements (DUA) do not p
 <p>&nbsp;</p>
 
 <p align="center">
-  <img src="../Logos/glucose-ml-logo_horizontal_white.svg" alt="Glucose-ML logo" width="450">
+  <img src="../../Logos/glucose-ml-logo_horizontal_white.svg" alt="Glucose-ML logo" width="450">
 </p>
