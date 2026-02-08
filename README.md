@@ -10,15 +10,15 @@ Wearable continuous glucose monitors (CGMs) collect large volumes of personal he
 
 ## Citing Glucose-ML
 
-Please cite the associated paper as follows:
-- **Prioleau, T., Lu, B. and Cui, Y., 2026. Glucose-ML: An evolving collection of continuous glucose datasets to accelerate data-centric AI for diabetes.**
+If you use this resource, please cite the associated papers as follows:
+- **Pontius, R., Pitakanonda, P., Li, Z., Lhabaik, K., Wang, F., Lu, B. and Cui, Y., Prioleau, T., 2026. Glucose-ML: An evolving collection of continuous glucose datasets to accelerate data-centric AI for diabetes. (under review)**
+- **Prioleau, T., Lu, B. and Cui, Y., 2025. Glucose-ML: A collection of longitudinal diabetes datasets for development of robust AI solutions. arXiv preprint arXiv:2507.14077.
+https://doi.org/10.48550/arXiv.2507.14077**
 
 
 ## Overview
 
-This repository contains the code developed for harmonized analysis of 20+ publicly available diabetes datasets curated in the Glucose-ML collection as published here: [insert publication here]. This repository does _not_ host any of the datasets directly, but _instead_ provides easy-to-use resources for downloading and standardizing compatible datasets. 
-
-To support ease of use, this repository provides automated scripts in the ```1_Auto-scripts/``` directory for downloading the open-access diabetes datasets (14) in the Glucose-ML collection, and automated scripts (20) for harmonizing and jointly analyzing all 20 publicly available datasets, including metadata for all participants with accessible CGM data (open-access datasets only).
+This repository contains the code developed for harmonized analysis of 20+ publicly available diabetes datasets curated in the Glucose-ML collection as published here: [insert publication here]. To support ease of use, this repository provides automated scripts in the ```1_Auto-scripts/``` directory for downloading open-access diabetes datasets (14) in the Glucose-ML collection, and automated scripts (20) for harmonizing and jointly analyzing all 20 publicly available datasets, including metadata for all participants with accessible CGM data (open-access datasets only).
 
 ## Getting Started
 
@@ -39,13 +39,13 @@ pip install -r dependencies.txt
 
 1. ```1_Auto-scripts/```
     Contains the 2 main scripts for downloading and processing Glucose-ML compatible datasets:
-    - ```auto-download-open-datasets.sh``` : Automatically download 1, 2, or all 12 open-access datasets.
-    - ```auto-harmonize-CGM-datasets.sh``` : Automatically standardize 1, 2, or all 20 open-access AND controlled-access raw dataset downloads & calculate metadata all at once.
+    - ```auto-download-open-datasets.sh``` : Automatically download any number of open-access dataset (e.g., 1, 2, or all 14 open-access datasets).
+    - ```auto-harmonize-CGM-datasets.sh``` : Automatically standardize any number of open-access AND controlled-access raw dataset downloads & extract/calculate associated metadata for each.
     
     *For more information and detailed directions on using these scripts please refer to the instructions in [README](/1_Auto-scripts/README.md).
 
 2. ```2_Harmonized-cgm-datasets/```
-    Contains helper scripts that work directly with ```auto-harmonize-CGM-datasets.sh``` that standardize and calcualte metadata for each Glucose-ML compatible project.
+    Contains helper scripts that work directly with ```auto-harmonize-CGM-datasets.sh``` that standardize and calcualte metadata for each Glucose-ML compatible dataset.
     - ```{Project-ID}/```
         - ```{Project-ID}_extract-glucose-data.py```
         - ```{Project-ID}_metadata.py```
@@ -59,13 +59,13 @@ pip install -r dependencies.txt
         - Contains standardized CGM data for all participants with valid CGM data avalible and pulled metadata for each of these participants.
 
     - Controlled-access Datasets:
-        - Each project-level folder contains a README that includes information on where to request access for the dataset & information on how you can use ```auto-harmonize-CGM-datasets.sh``` to standardize the raw data if aquired. 
+        - Each project-level folder contains a README that includes information on where to request access for the dataset & information on how you can use ```auto-harmonize-CGM-datasets.sh``` to standardize the raw data files if acquired. 
 
 4. ```4_Figures-from-paper/```
-    Includes all Figures from the official publication.
+    Includes all Figures from the associated Glucose-ML publication.
 
 5. ```5_Tables-from-paper/```
-    Includes all Tables from the official publication.
+    Includes all Tables from the associated Glucose-ML publication.
 
 
 ## Run Automation Scripts
@@ -110,7 +110,6 @@ To reproduce the Glucose-ML pipeline (from data acquisition to data standardizat
 ## Questions, Comments or Feedback
 
 Please reach out to the Principal Investigator: Temiloluwa Prioleau, PhD ([tpriole@emory.edu](mailto:tpriole@emory.edu)).
-Should I add my info too??
 
 ## License
 
