@@ -174,7 +174,6 @@ def download_datasets(download_request):
 
             dst_file = output_path / name
 
-            # Skip if exists and size matches (good for reruns)
             if dst_file.exists() and size > 0 and dst_file.stat().st_size == size:
                 print(f"{YELLOW}Glucose-ML{R}: [{i}/{len(raw_zip_files)}] Skipping existing {name} (size matches).")
                 continue
@@ -191,7 +190,7 @@ def download_datasets(download_request):
             total_downloaded += downloaded
 
             subject_name = Path(name).stem
-            subject_dir = output_path / subject_name  # PhysioCGM_raw_data/SUBJECT_012_raw
+            subject_dir = output_path / subject_name  
             subject_dir.mkdir(exist_ok=True)
 
             if zipfile.is_zipfile(dst_file):
@@ -202,8 +201,7 @@ def download_datasets(download_request):
                 shutil.unpack_archive(str(dst_file), str(subject_dir))
                 print(f"{LIME_GREEN}Glucose-ML{R}: Successfully unpacked {LIGHT_RED}{name}{R}")
 
-                # OPTIONAL but recommended: remove the zip to save space
-                dst_file.unlink()
+                #dst_file.unlink()
             else:
                 raise ValueError(f"{LIGHT_RED}Glucose-ML{R}: {name} was downloaded but is not a valid ZIP archive.")
 
@@ -237,7 +235,7 @@ def download_datasets(download_request):
 
             now = time.time()
             if now - last_print_time >= update_interval:
-                # Prefer Content-Length if present, otherwise fall back to raw_size_bytes
+                # Prefer Content-Length if aval. otherwise fall back to raw_size_bytes
                 total_bytes = response.headers.get("Content-Length")
                 if total_bytes is not None:
                     try:
