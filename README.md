@@ -35,7 +35,7 @@ pip install -r dependencies.txt
 ```
 
 
-## Structure
+## Contents & Structure
 
 1. ```1_Auto-scripts/```
     Contains the 2 main scripts for downloading and processing Glucose-ML compatible datasets:
@@ -69,7 +69,7 @@ pip install -r dependencies.txt
 
 
 ## Run Automation Scripts
-To reproduce the full pipeline from (data acquisition to data standardization) the scripts located in the ```1_Auto-scripts/``` directory and can be run as follows:
+To reproduce the Glucose-ML pipeline (from data acquisition to data standardization) use the scripts located in the ```1_Auto-scripts/``` directory. They can be run as follows:
 
 1. Downloading Datasets with ```auto-download-open-datasets.sh``` (dataset compatibility: open-accessonly)
 
@@ -110,6 +110,7 @@ To reproduce the full pipeline from (data acquisition to data standardization) t
 ## Questions, Comments or Feedback
 
 Please reach out to the Principal Investigator: Temiloluwa Prioleau, PhD ([tpriole@emory.edu](mailto:tpriole@emory.edu)).
+Should I add my info too??
 
 ## License
 
