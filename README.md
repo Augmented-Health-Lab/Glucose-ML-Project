@@ -28,7 +28,7 @@ This repository contains the code developed for harmonized analysis of 20+ publi
 git clone https://github.com/Augmented-Health-Lab/Glucose-ML-Project.git
 ```
 
-2. Glucose-ML requires the installation of 3 dependencies to function: pandas, requests, and numpy. To install all required dependencies in one download, input the following:
+2. Glucose-ML requires the installation of 4 dependencies to function: pandas, requests, matplotlib and numpy. To install all required dependencies in one download, input the following:
 
 ```bash
 pip install -r dependencies.txt
