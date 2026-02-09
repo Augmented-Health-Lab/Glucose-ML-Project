@@ -1,5 +1,5 @@
-﻿Publically avalible CGM Datasets,Accessibility,Year,Country,Population,Person Count,Days / Person,,
-,,,,,,Mean,Range,Total Glucose samples
+﻿Publically avalible CGM Datasets,Accessibility,Year,Country,Population,Person Count,Days / Person,,Total Glucose samples
+,,,,,,Mean,Range,
 Hall_2018,Open,2018,US,"T2D, PreD, ND",57,8.3,7 – 17,105426
 D1NAMO,Open,2018,Switzerland,T1D,9,4.3,2 – 6,8691
 Colas_2019,Open,2019,Spain,"T2D, ND",208,1.9,1 – 2,114253
