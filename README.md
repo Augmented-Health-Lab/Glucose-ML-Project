@@ -62,10 +62,16 @@ pip install -r dependencies.txt
         - Each project-level folder contains a README that includes information on where to request access for the dataset & information on how you can use ```auto-harmonize-CGM-datasets.sh``` to standardize the raw data files if acquired. 
 
 4. ```4_Figures-from-paper/```
-    Includes all Figures from the associated Glucose-ML publication.
+    Includes all Figures from the associated Glucose-ML publication and any scripts used to generate them.
+    - ```Figures/```
+    - ```Generate_figure-3.py```
 
 5. ```5_Tables-from-paper/```
     Includes all Tables from the associated Glucose-ML publication.
+    - ```Table_1.csv```
+    - ```Table_2.csv```
+    - ```Table_3.csv```
+
 
 
 ## Run Automation Scripts
@@ -95,7 +101,7 @@ To reproduce the Glucose-ML pipeline (from data acquisition to data standardizat
 
 ## Comparative Analysis
 
- ```4_Figures-from-paper``` and ```5_Tables-from-paper``` includes the figures and tables presented in the paper, respectively. For the code to plot those figures and the tables included in the paper, please refer to ```Scripts/``` found in both directories.
+ ```4_Figures-from-paper``` and ```5_Tables-from-paper``` includes the figures and tables presented in the paper, respectively. Any scripts used to generate the figures are also included for reproducibility.
 
 ## Project Contributors
 - Ryan Pontius

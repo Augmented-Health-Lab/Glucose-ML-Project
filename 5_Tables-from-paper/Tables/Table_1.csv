@@ -1,8 +1,0 @@
-﻿,,,,Utility Tools and Resources,,,
-Refs.,# Datasets,# Participants,Population,Auto. Download,Harmonization,Visualization,Metadata
-JAEB,32,N/A,T1D,✗,✗,✗,✗
-Babelbetes,9,≈2524,T1D,✗,✓,✗,✗
-DiaData,15,2510,T1D,✓,✓,✗,✗
-MetaboNet,21,3135,T1D,✓,✓,✗,✓
-Awesome-CGM,17,2428,"T1D, T2D, PreD, ND",✗,✓,✗,✗
-Glucose-ML,20,4428,"T1D, T2D, PreD, ND",✓,✓,✓,✓
