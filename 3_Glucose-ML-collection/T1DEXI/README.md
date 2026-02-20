@@ -2,8 +2,5 @@
 
 This is a controlled-access dataset. Existing data use agreements (DUA) do not permit access to the extracted glucose files and metadata for this dataset. Please request access at https://doi.org/10.25934/PR00008428, after which you can use our provided harmonize-cgm-dataset `1_Auto-scripts/auto-harmonize-CGM-datasets.py` script for processing. See section "Harmonizing Controlled-Access Datasets" in `1_Auto-scripts/README.md` for detailed instructions on harmonizing controlled-access datasets.
 
-<p>&nbsp;</p>
-
-<p align="center">
-  <img src="../../Logos/glucose-ml-logo_horizontal_white.svg" alt="Glucose-ML logo" width="450">
-</p>
+**Publication References**
+- Riddell, M. C., Li, Z., Gal, R. L., Calhoun, P., Jacobs, P. G., Clements, M. A., Martin, C. K., Doyle Iii, F. J., Patton, S. R., Castle, J. R., Gillingham, M. B., Beck, R. W., Rickels, M. R., & T1DEXI Study Group (2023). Examining the Acute Glycemic Effects of Different Types of Structured Exercise Sessions in Type 1 Diabetes in a Real-World Setting: The Type 1 Diabetes and Exercise Initiative (T1DEXI). Diabetes care, 46(4), 704–713. https://doi.org/10.2337/dc22-1721

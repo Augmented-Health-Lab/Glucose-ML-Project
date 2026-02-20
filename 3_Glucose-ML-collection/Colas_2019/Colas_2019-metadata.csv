@@ -1,4 +1,4 @@
-﻿subject_id,diabetes_type,age,gender,race_ethnicity,hba1c_%,CGM_type,glucose_level_record_count,average_glucose_level_mg_dl,count_days_with_CGM_data
+﻿person_id,diabetes_type,age,gender,race_ethnicity,hba1c_%,CGM_type,glucose_level_record_count,average_glucose_level_mg_dl,count_days_with_CGM_data
 case  1,No diabetes,77,female,,6.3,Medtronic MiniMed iPro,567,98.63,2
 case  2,No diabetes,42,male,,5.8,Medtronic MiniMed iPro,576,107.27,2
 case  3,No diabetes,61,male,,5.5,Medtronic MiniMed iPro,576,90.12,2
