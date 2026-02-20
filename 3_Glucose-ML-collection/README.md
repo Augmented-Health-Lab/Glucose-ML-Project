@@ -41,5 +41,5 @@ This section provides descriptive information for each data column found in the 
 <p>&nbsp;</p>
 
 <p align="center">
-  <img src="../Logos/glucose-ml-logo_stacked.svg" alt="Glucose-ML logo" width="450">
+  <img src="../Logos/glucose-ml-logo_horizontal.svg" alt="Glucose-ML logo" width="450">
 </p>

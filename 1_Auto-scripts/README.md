@@ -191,5 +191,5 @@ python auto-harmonize-CGM-datasets.py t1diabetesgranada bris-t1d_open park_2025 
 <p>&nbsp;</p>
 
 <p align="center">
-  <img src="../Logos/glucose-ml-logo_stacked.svg" alt="Glucose-ML logo" width="450">
+  <img src="../Logos/glucose-ml-logo_horizontal.svg" alt="Glucose-ML logo" width="450">
 </p>
