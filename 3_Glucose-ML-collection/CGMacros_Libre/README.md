@@ -4,3 +4,5 @@
 **Publication References**
 - Das, A., Kerr, D., Glantz, N. et al. CGMacros: a pilot scientific dataset for personalized nutrition and diet monitoring. Sci Data 12, 1557 (2025). https://doi.org/10.1038/s41597-025-05851-7
 
+**License Details**
+- This dataset is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) (CC BY-NC-SA 4.0)

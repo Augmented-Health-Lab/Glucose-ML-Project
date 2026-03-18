@@ -4,4 +4,5 @@
 **Publication References**
 - S. Langarica et al., "Deep Learning-Based Glucose Prediction Models: A Guide for Practitioners and a Curated Dataset for Improved Diabetes Management," in IEEE Open Journal of Engineering in Medicine and Biology, vol. 5, pp. 467-475, 2024, doi: 10.1109/OJEMB.2024.3365290.
 
-
+**License Details**
+- This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/) (CC BY-NC-ND 4.0)

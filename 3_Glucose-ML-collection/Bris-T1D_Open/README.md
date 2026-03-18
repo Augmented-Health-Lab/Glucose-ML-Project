@@ -3,3 +3,6 @@
 
 **Publication References**
 - Sam Gordon James, Miranda Elaine Glynis Armstrong, Aisling Ann O’Kane, Harry Emerson, and Zahraa S Abdallah. 2025. BrisT1D Dataset: Young Adults with Type 1 Diabetes in the UK using Smartwatches. arXiv preprint arXiv:2507.17757 (2025).
+
+**License Details**
+- This dataset is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0)

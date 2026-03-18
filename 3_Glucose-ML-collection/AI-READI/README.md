@@ -4,3 +4,6 @@ This is a controlled-access dataset. Existing data use agreements (DUA) do not p
 
 **Publication References**
 AI-READI Consortium. 2024. AI-READI: Rethinking AI data collection, preparation and sharing in diabetes research and beyond. Nature Metabolism (2024),1–3
+
+**License Details**
+- This dataset is distributed under a custom data use license developed by the AI-READI project. Full license details are available for the 3.0.0 version here: https://doi.org/10.5281/zenodo.17555036

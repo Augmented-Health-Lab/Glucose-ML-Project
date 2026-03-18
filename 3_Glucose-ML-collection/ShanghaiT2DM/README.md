@@ -3,3 +3,6 @@
 
 **Publication References**
 - Zhao, Q., Zhu, J., Shen, X. et al. Chinese diabetes datasets for data-driven machine learning. Sci Data 10, 35 (2023). https://doi.org/10.1038/s41597-023-01940-7
+
+**License Details**
+- This article is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0)
