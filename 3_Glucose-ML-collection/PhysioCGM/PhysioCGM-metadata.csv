@@ -1,0 +1,11 @@
+person_id,diabetes_type,age,gender,race_ethnicity,hba1c_%,CGM_type,glucose_level_record_count,average_glucose_level_mg_dl,count_days_with_CGM_data
+c1s01,T1D,41,male,,5.5,Dexcom G6,25368,119.09,90
+c1s02,T1D,24,male,,6.9,Dexcom G6,21172,157.44,76
+c1s03,T1D,34,male,,6.9,Dexcom G6,25361,145.69,90
+c1s04,T1D,34,female,,6.4,Dexcom G6,4634,156.53,19
+c1s05,T1D,35,female,,5.4,Dexcom G6,25260,103.9,90
+c2s01,T1D,30,male,,5.9,Dexcom G6,25001,134.77,89
+c2s02,T1D,31,female,,5.8,Dexcom G6,,,
+c2s03,T1D,30,male,,6.5,Dexcom G6,24304,140.47,89
+c2s04,T1D,30,female,,5.8,Dexcom G6,25508,134.76,90
+c2s05,T1D,29,male,,6,Dexcom G6,24978,120.48,90
