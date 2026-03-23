@@ -2,7 +2,7 @@
 - Sam Gordon James, Miranda Armstrong, Aisling O'Kane, Harry Emerson, Zahraa Abdallah (2025): BrisT1D-Open Dataset. https://doi.org/10.5523/bris.33z5jc8fa6tob21ptrugzqog08
 
 **License Details**
-- This dataset is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0)
+- The original dataset is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0)
 
 
 **Publication Reference(s)**
