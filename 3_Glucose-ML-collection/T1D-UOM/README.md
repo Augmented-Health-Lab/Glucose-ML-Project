@@ -4,6 +4,6 @@
 **License Details**
 - The original dataset is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0)
 
-**Publication References**
+**Publication Reference(s)**
 - Alsuhaymi, A., Bilal, A., García, D.G. et al. A Longitudinal Multimodal Dataset of Type 1 Diabetes. Sci Data 12, 1379 (2025). https://doi.org/10.1038/s41597-025-05695-1
 
