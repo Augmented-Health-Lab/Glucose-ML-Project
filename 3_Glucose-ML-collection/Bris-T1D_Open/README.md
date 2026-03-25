@@ -1,10 +1,11 @@
+To download a zipped version of the extracted glucose files and metadata harmonized by the Glucose-ML standard, please download the Bris-T1D_Open-from-Glucose-ML.zip file.
+
 **Where to find the original dataset?**
-- Sam Gordon James, Miranda Armstrong, Aisling O'Kane, Harry Emerson, Zahraa Abdallah (2025): BrisT1D-Open Dataset. https://doi.org/10.5523/bris.33z5jc8fa6tob21ptrugzqog08
+- Sam Gordon James, Miranda Armstrong, Aisling O'Kane, Harry Emerson, Zahraa Abdallah (2025): BrisT1D-Open Dataset. [https://doi.org/10.5523/bris.33z5jc8fa6tob21ptrugzqog08](https://doi.org/10.5523/bris.33z5jc8fa6tob21ptrugzqog08)
 
 **License Details**
 - The original dataset is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0)
 
-
 **Publication Reference(s)**
-- Sam Gordon James, Miranda Elaine Glynis Armstrong, Aisling Ann O’Kane, Harry Emerson, and Zahraa S Abdallah. 2025. BrisT1D Dataset: Young Adults with Type 1 Diabetes in the UK using Smartwatches. https://arxiv.org/abs/2507.17757
+- Sam Gordon James, Miranda Elaine Glynis Armstrong, Aisling Ann O’Kane, Harry Emerson, and Zahraa S Abdallah. 2025. BrisT1D Dataset: Young Adults with Type 1 Diabetes in the UK using Smartwatches. [https://arxiv.org/abs/2507.17757](https://arxiv.org/abs/2507.17757)
 

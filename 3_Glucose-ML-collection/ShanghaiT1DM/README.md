@@ -1,8 +1,10 @@
-**Where to find the original dataset?**
-- Zhao, Qinpei; Zhu, Jinhao; Wang, Congrong; Rao, Weixiong (2022). Diabetes Datasets, ShanghaiT1DM and ShanghaiT2DM. figshare. Collection. https://doi.org/10.6084/m9.figshare.c.6310860
+To download a zipped version of the extracted glucose files and metadata harmonized by the Glucose-ML standard, please download the ShanghaiT1DM-from-Glucose-ML.zip file.
 
-**Publication References**
-- Zhao, Q., Zhu, J., Shen, X. et al. Chinese diabetes datasets for data-driven machine learning. Sci Data 10, 35 (2023). https://doi.org/10.1038/s41597-023-01940-7
+**Where to find the original dataset?**
+- Zhao, Qinpei; Zhu, Jinhao; Wang, Congrong; Rao, Weixiong (2022). Diabetes Datasets, ShanghaiT1DM and ShanghaiT2DM. figshare. Collection. [https://doi.org/10.6084/m9.figshare.c.6310860](https://doi.org/10.6084/m9.figshare.c.6310860)
 
 **License Details**
-- This article is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0)
+- No dataset license was found. The associated publication is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0)
+
+**Publication Reference(s)**
+- Zhao, Q., Zhu, J., Shen, X. et al. Chinese diabetes datasets for data-driven machine learning. Sci Data 10, 35 (2023). [https://doi.org/10.1038/s41597-023-01940-7](https://doi.org/10.1038/s41597-023-01940-7)

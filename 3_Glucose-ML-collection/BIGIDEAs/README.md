@@ -1,6 +1,7 @@
+To download a zipped version of the extracted glucose files and metadata harmonized by the Glucose-ML standard, please download the BIGIDEAs-from-Glucose-ML.zip file.
+
 **Where to find the original dataset?**
-- Peter Cho, Juseong Kim, Brinnae Bent, and Jessilyn Dunn. 2023. BIG IDEAs Lab Glycemic Variability and Wearable Device Data (version 1.1.2). [https:
-//doi.org/10.13026/zthx-5212](https://doi.org/10.13026/zthx-5212).
+- Cho, P., Kim, J., Bent, B., & Dunn, J. (2023). BIG IDEAs Lab Glycemic Variability and Wearable Device Data (version 1.1.2). PhysioNet. RRID:SCR_007345. [https://doi.org/10.13026/zthx-5212](https://doi.org/10.13026/zthx-5212)
 
 **License Details**
 - The original dataset is made available under the [Open Data Commons Attribution License](https://opendatacommons.org/licenses/by/1.0/) (ODC-By) v1.0 
