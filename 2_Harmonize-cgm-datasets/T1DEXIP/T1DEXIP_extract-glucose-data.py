@@ -60,7 +60,6 @@ def main():
     standardizing column names to match project conventions.
     Input: Raw data directory.
     Outputs: 1) Standardized CSV files for each subject. Creates a directory "Standardized-datasets" that will contain the generated output.
-             2) "hb1ac_per_subject.csv" - All HB1AC readings for each subject.
 
     Each subject standardized csv output file has 2 column's:
      1) "timestamp" = the CGM generated timestamp in which the associated glucose reading was recorded.

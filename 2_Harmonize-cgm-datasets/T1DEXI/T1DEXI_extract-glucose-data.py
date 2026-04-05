@@ -24,7 +24,7 @@ def clean_t1dexi_data(df, output_dir):
     # Rename columns & convert timestamp data to the standardized names used throughout the project.
     df.rename(columns={"LBDTC": "timestamp", "LBORRES": "glucose_value_mg_dl"}, inplace=True)
 
-    # # Create a df that contains one row per subject, regardless if they have HB1AC data or not.
+    # Create a df that contains one row per subject, regardless if they have HB1AC data or not.
     all_subjects = pd.DataFrame({"USUBJID": df["USUBJID"].unique()}) 
 
     #Create a new df that only contains glucose readings.
@@ -58,7 +58,6 @@ def main():
     standardizing column names to match project conventions.
     Input: Raw data directory.
     Outputs: 1) Standardized CSV files for each subject. Creates a directory "Standardized-datasets" that will contain the generated output.
-             2) "hb1ac_per_subject.csv" - All HB1AC readings for each subject.
 
     Each subject standardized csv output file has 2 column's:
      1) "timestamp" = the CGM generated timestamp in which the associated glucose reading was recorded.
