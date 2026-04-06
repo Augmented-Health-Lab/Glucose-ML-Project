@@ -1,6 +1,7 @@
 import pandas as pd
 from pathlib import Path
 import sys
+import os
 
 LIME_GREEN = "\033[92m"
 LIGHT_RED = "\033[91m"
@@ -71,6 +72,7 @@ def main():
     metadata_df = metadata_df.sort_values("subject_id")
 
     # Write metadata calculations to the output csv.
+    os.makedirs("Standardized-metadata", exist_ok=True)
     metadata_df.to_csv("Standardized-metadata/Hall_2018_metadata_calcs.csv", index=False)
     print(f"{LIME_GREEN}Glucose-ML{R}: Generated metadata for {LIGHT_RED}{len(metadata_df)}{R} subjects.")
 

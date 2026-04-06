@@ -1,6 +1,7 @@
 import pandas as pd
 import sys
 from pathlib import Path
+import os
 
 
 def clean_and_compute_metadata(df, subject_id):
@@ -68,7 +69,7 @@ def main():
     metadata_df[["cohort_num", "subject_num"]] = (metadata_df["subject_id"].str.extract(r"c(\d+)s(\d+)").astype(int))
     metadata_df = (metadata_df.sort_values(["cohort_num", "subject_num"]).drop(columns=["cohort_num", "subject_num"]))
 
-
+    os.makedirs("Standardized-metadata", exist_ok=True)
     metadata_df.to_csv("Standardized-metadata/PhysioCGM_metadata_calcs.csv", index=False)
 
 if __name__ == "__main__":

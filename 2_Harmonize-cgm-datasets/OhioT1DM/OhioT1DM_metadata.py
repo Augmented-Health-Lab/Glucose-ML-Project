@@ -73,6 +73,7 @@ def main():
     metadata_df = metadata_df.sort_values("subject_id")
 
     # Write metadata calculations to the output csv.
+    os.makedirs("Standardized-metadata", exist_ok=True)
     metadata_df.to_csv("Standardized-metadata/OhioT1DM_metadata_calcs.csv", index=False)
     print(f"{LIME_GREEN}Glucose-ML{R}: Generated metadata for {LIGHT_RED}{len(metadata_df)}{R} subjects.")
 
