@@ -119,7 +119,7 @@ Please reach out to the Principal Investigator: Temiloluwa Prioleau, PhD ([tprio
 
 ## Have a CGM Dataset you believe should be on Glucose-ML?
 
-For detailed instructions on submitting datasets please see [CONTRIBUTING](/CONTRIBUTING.md)
+For detailed instructions on submitting datasets please see [CONTRIBUTING.md](/CONTRIBUTING.md)
 
 
 ## License
