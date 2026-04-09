@@ -117,6 +117,11 @@ To reproduce the Glucose-ML pipeline (from data acquisition to data standardizat
 
 Please reach out to the Principal Investigator: Temiloluwa Prioleau, PhD ([tpriole@emory.edu](mailto:tpriole@emory.edu)).
 
+## Have a CGM Dataset you believe should be on Glucose-ML?
+
+For detailed instructions on submitting datasets please see [CONTRIBUTING](/CONTRIBUTING.md)
+
+
 ## License
 
 This project is licensed under the MIT License.

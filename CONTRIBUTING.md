@@ -10,7 +10,7 @@ This document describes how you can submit datasets and how these datasets are i
 
 ---
 
-## How to Submit a Dataset
+## How to Submit a Dataset Request
 
 Researchers interested in contributing a CGM dataset can either:
 
@@ -28,22 +28,22 @@ When submitting a request, please include:
 
 ## Required Dataset Components
 
-To facilitate evaluation and integration, submitted datasets should contain:
+Strong dataset candidates should contain:
 
 ### 1. Raw CGM Data
 
-* Continuous glucose measurements per subject
+* Continuous glucose measurements per participant
 * Timestamps associated with each glucose reading
 
 ### 2. Metadata
 
-* Subject-level or dataset-level information (if available), such as:
+* Participant-level or dataset-level information (if available), such as:
   * Diabetes status or cohort (e.g., T1D, T2D, prediabetes, non-diabetic)
-  * Device/sensor type
+  * CGM Device
   * Sampling frequency
   * Study information
 
-### 3. Documentation
+### 3. Documentation (if available)
 
 * Description of how the data were collected
 * Any preprocessing already performed
