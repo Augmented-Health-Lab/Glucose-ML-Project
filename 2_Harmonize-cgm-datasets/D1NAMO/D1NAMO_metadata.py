@@ -30,7 +30,7 @@ def clean_and_compute_metadata(df, subject_id):
     metadata = {
         "subject_id": subject_id,
         "glucose_level_record_count": glucose_level_record_count,
-        "average_glucose_level_mg_dl": round((average_glucose_level_mg_dl/18),2),
+        "average_glucose_level_mg_dl": round((average_glucose_level_mg_dl),2),
         "count_days_with_CGM_data": int(count_days_with_CGM_data),
     }
 
@@ -67,7 +67,6 @@ def main():
         # Store output in bin until output file generation.
         metadata_list.append(metadata)
         count += 1
-    print(f'Metadata calculated for {count} subjects')
     
     metadata_df = pd.DataFrame(metadata_list)
     #Order rows by subject ID.
