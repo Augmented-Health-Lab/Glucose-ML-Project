@@ -19,8 +19,7 @@ def clean_d1namo_data(df, subject_id, output_dir):
     # Rename columns & convert timestamp data to the standardized names used throughout the project.
     df.rename(columns={"glucose": "glucose_value_mg_dl"}, inplace=True)
 
-    # Standardize time stamp data.
-    #print(df["date"].iloc[0], df["time"].iloc[0])
+
     # Need to handle different timestamp formats, so push to function parse_timestamp to figure out the inconsistencies.
     df["timestamp"] = parse_timestamp(df["date"] + " " + df["time"])
     
@@ -29,6 +28,9 @@ def clean_d1namo_data(df, subject_id, output_dir):
     # Convert glucose records from mmol/L to mg/dL
     df["glucose_value_mg_dl"] = (df["glucose_value_mg_dl"] * 18).round(1)
     
+    # exclude any values that are "manual"
+    df = df[df["type"] == "cgm"]
+
     # Drop rows missing timestamps or glucose values
     df = df.dropna(subset=["timestamp", "glucose_value_mg_dl"])
 

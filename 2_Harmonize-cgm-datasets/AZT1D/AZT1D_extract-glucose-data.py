@@ -71,7 +71,6 @@ def main():
     # Loop through raw directory contents and pull the subject ID from the raw file name.
     count = 0
     for subject in input_path.rglob("*Diabetes/AZT1D 2025/CGM Records/**/**/*.csv"):
-        print(subject)
         df=pd.read_csv(subject)
         subject_id = subject.parent.name #pull the subject ID from the raw file name.
         clean_azt1d_data(df, subject_id, output_dir)
