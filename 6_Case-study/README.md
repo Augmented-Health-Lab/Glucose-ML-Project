@@ -1,6 +1,6 @@
 # 6_Case-study
 
-This directory contains a four-step workflow for building a diabetes classification model from the Open-Access Glucose-ML standardized continuous glucose monitoring (CGM) data.
+This directory contains a four-step workflow for building diabetes classification models using the Open-Access Glucose-ML standardized continuous glucose monitoring (CGM) data.
 
 ## Workflow
 
@@ -110,7 +110,7 @@ Features include summary statistics and glycemic variability measures such as:
 
 ### `4_machine_learning.py`
 
-Trains and evaluates a logistic regression model using the calculated features.
+Trains and evaluates 3 models: logistic regression, random forest, and XGBoost using the calculated features.
 
 **Input:**
 `feature_calcs.csv`
@@ -119,6 +119,10 @@ Trains and evaluates a logistic regression model using the calculated features.
 
 * `Logistic-regression-results/test_scores.csv`
 * `Logistic-regression-results/test_confusion_matrix.csv`
+* `Random-forest-results/test_scores.csv`
+* `Random-forest-results/test_confusion_matrix.csv`
+* `XGBoost-results/test_scores.csv`
+* `XGBoost-results/test_confusion_matrix.csv`
 
 Metrics include:
 
