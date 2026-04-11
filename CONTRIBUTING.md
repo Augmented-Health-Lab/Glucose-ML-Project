@@ -4,9 +4,9 @@
 
 Glucose-ML is a curated collection of standardized continuous glucose monitoring (CGM) datasets designed to facilitate reproducible research and machine learning applications.
 
-While Glucose-ML is not an open contribution repository for direct code or data integration, we actively welcome **submission requests of new CGM datasets** for consideration.
+While Glucose-ML is not an open-contribution repository for direct code or data integration, we actively welcome **submission of new CGM datasets** for consideration.
 
-This document describes how you can submit datasets and how these datasets are integrated into Glucose-ML.
+This document describes how you can submit dataset requests and how these datasets are integrated into Glucose-ML.
 
 ---
 
