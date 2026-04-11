@@ -1,0 +1,565 @@
+person_id,diabetes_type,split_category,dataset
+Subject 20,T1D,train,AZT1D
+Subject 24,T1D,train,AZT1D
+Subject 13,T1D,train,AZT1D
+Subject 5,T1D,train,AZT1D
+Subject 19,T1D,train,AZT1D
+Subject 2,T1D,train,AZT1D
+Subject 14,T1D,train,AZT1D
+Subject 17,T1D,train,AZT1D
+Subject 23,T1D,train,AZT1D
+Subject 7,T1D,train,AZT1D
+Subject 18,T1D,train,AZT1D
+Subject 25,T1D,train,AZT1D
+Subject 22,T1D,train,AZT1D
+Subject 15,T1D,train,AZT1D
+Subject 11,T1D,train,AZT1D
+Subject 6,T1D,train,AZT1D
+Subject 9,T1D,train,AZT1D
+Subject 1,T1D,train,AZT1D
+Subject 3,T1D,validate,AZT1D
+Subject 8,T1D,validate,AZT1D
+Subject 12,T1D,test,AZT1D
+Subject 21,T1D,test,AZT1D
+Subject 10,T1D,test,AZT1D
+Subject 16,T1D,test,AZT1D
+Subject 4,T1D,test,AZT1D
+014,No diabetes,train,BIGIDEAs
+016,No diabetes,train,BIGIDEAs
+001,No diabetes,train,BIGIDEAs
+002,No diabetes,train,BIGIDEAs
+015,No diabetes,train,BIGIDEAs
+012,No diabetes,train,BIGIDEAs
+007,No diabetes,validate,BIGIDEAs
+008,No diabetes,test,BIGIDEAs
+010,Prediabetes,train,BIGIDEAs
+013,Prediabetes,train,BIGIDEAs
+003,Prediabetes,train,BIGIDEAs
+004,Prediabetes,train,BIGIDEAs
+011,Prediabetes,train,BIGIDEAs
+009,Prediabetes,train,BIGIDEAs
+005,Prediabetes,validate,BIGIDEAs
+006,Prediabetes,test,BIGIDEAs
+P21,T1D,train,Bris-T1D_Open
+P17,T1D,train,Bris-T1D_Open
+P13,T1D,train,Bris-T1D_Open
+P05,T1D,train,Bris-T1D_Open
+P02,T1D,train,Bris-T1D_Open
+P18,T1D,train,Bris-T1D_Open
+P22,T1D,train,Bris-T1D_Open
+P16,T1D,train,Bris-T1D_Open
+P24,T1D,train,Bris-T1D_Open
+P06,T1D,train,Bris-T1D_Open
+P11,T1D,train,Bris-T1D_Open
+P23,T1D,train,Bris-T1D_Open
+P01,T1D,train,Bris-T1D_Open
+P03,T1D,train,Bris-T1D_Open
+P10,T1D,validate,Bris-T1D_Open
+P07,T1D,validate,Bris-T1D_Open
+P15,T1D,test,Bris-T1D_Open
+P12,T1D,test,Bris-T1D_Open
+P19,T1D,test,Bris-T1D_Open
+P04,T1D,test,Bris-T1D_Open
+CGMacros-048,No diabetes,train,CGMacros_Dexcom
+CGMacros-032,No diabetes,train,CGMacros_Dexcom
+CGMacros-021,No diabetes,train,CGMacros_Dexcom
+CGMacros-002,No diabetes,train,CGMacros_Dexcom
+CGMacros-017,No diabetes,train,CGMacros_Dexcom
+CGMacros-001,No diabetes,train,CGMacros_Dexcom
+CGMacros-004,No diabetes,train,CGMacros_Dexcom
+CGMacros-019,No diabetes,train,CGMacros_Dexcom
+CGMacros-018,No diabetes,train,CGMacros_Dexcom
+CGMacros-015,No diabetes,train,CGMacros_Dexcom
+CGMacros-027,No diabetes,validate,CGMacros_Dexcom
+CGMacros-034,No diabetes,validate,CGMacros_Dexcom
+CGMacros-033,No diabetes,test,CGMacros_Dexcom
+CGMacros-031,No diabetes,test,CGMacros_Dexcom
+CGMacros-006,No diabetes,test,CGMacros_Dexcom
+CGMacros-049,T2D,train,CGMacros_Dexcom
+CGMacros-046,T2D,train,CGMacros_Dexcom
+CGMacros-038,T2D,train,CGMacros_Dexcom
+CGMacros-005,T2D,train,CGMacros_Dexcom
+CGMacros-030,T2D,train,CGMacros_Dexcom
+CGMacros-003,T2D,train,CGMacros_Dexcom
+CGMacros-012,T2D,train,CGMacros_Dexcom
+CGMacros-036,T2D,train,CGMacros_Dexcom
+CGMacros-035,T2D,train,CGMacros_Dexcom
+CGMacros-028,T2D,train,CGMacros_Dexcom
+CGMacros-039,T2D,validate,CGMacros_Dexcom
+CGMacros-047,T2D,test,CGMacros_Dexcom
+CGMacros-042,T2D,test,CGMacros_Dexcom
+CGMacros-014,T2D,test,CGMacros_Dexcom
+CGMacros-045,Prediabetes,train,CGMacros_Dexcom
+CGMacros-008,Prediabetes,train,CGMacros_Dexcom
+CGMacros-013,Prediabetes,train,CGMacros_Dexcom
+CGMacros-043,Prediabetes,train,CGMacros_Dexcom
+CGMacros-022,Prediabetes,train,CGMacros_Dexcom
+CGMacros-029,Prediabetes,train,CGMacros_Dexcom
+CGMacros-007,Prediabetes,train,CGMacros_Dexcom
+CGMacros-009,Prediabetes,train,CGMacros_Dexcom
+CGMacros-020,Prediabetes,train,CGMacros_Dexcom
+CGMacros-016,Prediabetes,train,CGMacros_Dexcom
+CGMacros-011,Prediabetes,train,CGMacros_Dexcom
+CGMacros-023,Prediabetes,validate,CGMacros_Dexcom
+CGMacros-044,Prediabetes,validate,CGMacros_Dexcom
+CGMacros-041,Prediabetes,test,CGMacros_Dexcom
+CGMacros-026,Prediabetes,test,CGMacros_Dexcom
+CGMacros-010,Prediabetes,test,CGMacros_Dexcom
+case  34,No diabetes,train,Colas_2019
+case  146,No diabetes,train,Colas_2019
+case  196,No diabetes,train,Colas_2019
+case  88,No diabetes,train,Colas_2019
+case  84,No diabetes,train,Colas_2019
+case  182,No diabetes,train,Colas_2019
+case  181,No diabetes,train,Colas_2019
+case  74,No diabetes,train,Colas_2019
+case  132,No diabetes,train,Colas_2019
+case  71,No diabetes,train,Colas_2019
+case  14,No diabetes,train,Colas_2019
+case  185,No diabetes,train,Colas_2019
+case  149,No diabetes,train,Colas_2019
+case  66,No diabetes,train,Colas_2019
+case  193,No diabetes,train,Colas_2019
+case  58,No diabetes,train,Colas_2019
+case  79,No diabetes,train,Colas_2019
+case  117,No diabetes,train,Colas_2019
+case  187,No diabetes,train,Colas_2019
+case  40,No diabetes,train,Colas_2019
+case  205,No diabetes,train,Colas_2019
+case  53,No diabetes,train,Colas_2019
+case  6,No diabetes,train,Colas_2019
+case  183,No diabetes,train,Colas_2019
+case  99,No diabetes,train,Colas_2019
+case  155,No diabetes,train,Colas_2019
+case  138,No diabetes,train,Colas_2019
+case  191,No diabetes,train,Colas_2019
+case  98,No diabetes,train,Colas_2019
+case  100,No diabetes,train,Colas_2019
+case  204,No diabetes,train,Colas_2019
+case  127,No diabetes,train,Colas_2019
+case  208,No diabetes,train,Colas_2019
+case  201,No diabetes,train,Colas_2019
+case  173,No diabetes,train,Colas_2019
+case  172,No diabetes,train,Colas_2019
+case  123,No diabetes,train,Colas_2019
+case  112,No diabetes,train,Colas_2019
+case  113,No diabetes,train,Colas_2019
+case  180,No diabetes,train,Colas_2019
+case  142,No diabetes,train,Colas_2019
+case  52,No diabetes,train,Colas_2019
+case  50,No diabetes,train,Colas_2019
+case  13,No diabetes,train,Colas_2019
+case  135,No diabetes,train,Colas_2019
+case  192,No diabetes,train,Colas_2019
+case  69,No diabetes,train,Colas_2019
+case  2,No diabetes,train,Colas_2019
+case  70,No diabetes,train,Colas_2019
+case  164,No diabetes,train,Colas_2019
+case  62,No diabetes,train,Colas_2019
+case  115,No diabetes,train,Colas_2019
+case  143,No diabetes,train,Colas_2019
+case  21,No diabetes,train,Colas_2019
+case  24,No diabetes,train,Colas_2019
+case  51,No diabetes,train,Colas_2019
+case  153,No diabetes,train,Colas_2019
+case  129,No diabetes,train,Colas_2019
+case  95,No diabetes,train,Colas_2019
+case  161,No diabetes,train,Colas_2019
+case  35,No diabetes,train,Colas_2019
+case  136,No diabetes,train,Colas_2019
+case  139,No diabetes,train,Colas_2019
+case  97,No diabetes,train,Colas_2019
+case  41,No diabetes,train,Colas_2019
+case  116,No diabetes,train,Colas_2019
+case  94,No diabetes,train,Colas_2019
+case  111,No diabetes,train,Colas_2019
+case  206,No diabetes,train,Colas_2019
+case  75,No diabetes,train,Colas_2019
+case  43,No diabetes,train,Colas_2019
+case  101,No diabetes,train,Colas_2019
+case  1,No diabetes,train,Colas_2019
+case  107,No diabetes,train,Colas_2019
+case  12,No diabetes,train,Colas_2019
+case  140,No diabetes,train,Colas_2019
+case  55,No diabetes,train,Colas_2019
+case  134,No diabetes,train,Colas_2019
+case  72,No diabetes,train,Colas_2019
+case  207,No diabetes,train,Colas_2019
+case  73,No diabetes,train,Colas_2019
+case  106,No diabetes,train,Colas_2019
+case  47,No diabetes,train,Colas_2019
+case  186,No diabetes,train,Colas_2019
+case  118,No diabetes,train,Colas_2019
+case  64,No diabetes,train,Colas_2019
+case  3,No diabetes,train,Colas_2019
+case  76,No diabetes,train,Colas_2019
+case  81,No diabetes,train,Colas_2019
+case  57,No diabetes,train,Colas_2019
+case  109,No diabetes,train,Colas_2019
+case  169,No diabetes,train,Colas_2019
+case  65,No diabetes,train,Colas_2019
+case  174,No diabetes,train,Colas_2019
+case  63,No diabetes,train,Colas_2019
+case  37,No diabetes,train,Colas_2019
+case  15,No diabetes,train,Colas_2019
+case  122,No diabetes,train,Colas_2019
+case  96,No diabetes,train,Colas_2019
+case  45,No diabetes,train,Colas_2019
+case  150,No diabetes,train,Colas_2019
+case  80,No diabetes,train,Colas_2019
+case  89,No diabetes,train,Colas_2019
+case  61,No diabetes,train,Colas_2019
+case  131,No diabetes,train,Colas_2019
+case  144,No diabetes,train,Colas_2019
+case  83,No diabetes,train,Colas_2019
+case  105,No diabetes,train,Colas_2019
+case  59,No diabetes,train,Colas_2019
+case  27,No diabetes,train,Colas_2019
+case  121,No diabetes,train,Colas_2019
+case  137,No diabetes,train,Colas_2019
+case  10,No diabetes,train,Colas_2019
+case  44,No diabetes,train,Colas_2019
+case  179,No diabetes,train,Colas_2019
+case  60,No diabetes,train,Colas_2019
+case  104,No diabetes,train,Colas_2019
+case  130,No diabetes,train,Colas_2019
+case  126,No diabetes,train,Colas_2019
+case  20,No diabetes,train,Colas_2019
+case  54,No diabetes,train,Colas_2019
+case  167,No diabetes,train,Colas_2019
+case  148,No diabetes,train,Colas_2019
+case  42,No diabetes,train,Colas_2019
+case  36,No diabetes,train,Colas_2019
+case  133,No diabetes,train,Colas_2019
+case  93,No diabetes,train,Colas_2019
+case  67,No diabetes,train,Colas_2019
+case  163,No diabetes,train,Colas_2019
+case  145,No diabetes,train,Colas_2019
+case  198,No diabetes,train,Colas_2019
+case  18,No diabetes,train,Colas_2019
+case  124,No diabetes,train,Colas_2019
+case  125,No diabetes,train,Colas_2019
+case  165,No diabetes,validate,Colas_2019
+case  90,No diabetes,validate,Colas_2019
+case  188,No diabetes,validate,Colas_2019
+case  166,No diabetes,validate,Colas_2019
+case  9,No diabetes,validate,Colas_2019
+case  168,No diabetes,validate,Colas_2019
+case  33,No diabetes,validate,Colas_2019
+case  5,No diabetes,validate,Colas_2019
+case  202,No diabetes,validate,Colas_2019
+case  77,No diabetes,validate,Colas_2019
+case  175,No diabetes,validate,Colas_2019
+case  103,No diabetes,validate,Colas_2019
+case  48,No diabetes,validate,Colas_2019
+case  39,No diabetes,validate,Colas_2019
+case  102,No diabetes,validate,Colas_2019
+case  159,No diabetes,validate,Colas_2019
+case  29,No diabetes,validate,Colas_2019
+case  86,No diabetes,validate,Colas_2019
+case  178,No diabetes,validate,Colas_2019
+case  199,No diabetes,test,Colas_2019
+case  200,No diabetes,test,Colas_2019
+case  87,No diabetes,test,Colas_2019
+case  176,No diabetes,test,Colas_2019
+case  195,No diabetes,test,Colas_2019
+case  49,No diabetes,test,Colas_2019
+case  158,No diabetes,test,Colas_2019
+case  4,No diabetes,test,Colas_2019
+case  19,No diabetes,test,Colas_2019
+case  203,No diabetes,test,Colas_2019
+case  189,No diabetes,test,Colas_2019
+case  11,No diabetes,test,Colas_2019
+case  38,No diabetes,test,Colas_2019
+case  119,No diabetes,test,Colas_2019
+case  91,No diabetes,test,Colas_2019
+case  68,No diabetes,test,Colas_2019
+case  141,No diabetes,test,Colas_2019
+case  30,No diabetes,test,Colas_2019
+case  151,No diabetes,test,Colas_2019
+case  197,No diabetes,test,Colas_2019
+case  7,No diabetes,test,Colas_2019
+case  8,No diabetes,test,Colas_2019
+case  110,No diabetes,test,Colas_2019
+case  114,No diabetes,test,Colas_2019
+case  157,No diabetes,test,Colas_2019
+case  17,No diabetes,test,Colas_2019
+case  32,No diabetes,test,Colas_2019
+case  46,No diabetes,test,Colas_2019
+case  128,No diabetes,test,Colas_2019
+case  177,No diabetes,test,Colas_2019
+case  78,No diabetes,test,Colas_2019
+case  26,No diabetes,test,Colas_2019
+case  82,No diabetes,test,Colas_2019
+case  162,No diabetes,test,Colas_2019
+case  147,No diabetes,test,Colas_2019
+case  170,No diabetes,test,Colas_2019
+case  16,No diabetes,test,Colas_2019
+case  108,No diabetes,test,Colas_2019
+case  194,T2D,train,Colas_2019
+case  23,T2D,train,Colas_2019
+case  56,T2D,train,Colas_2019
+case  156,T2D,train,Colas_2019
+case  120,T2D,train,Colas_2019
+case  184,T2D,train,Colas_2019
+case  171,T2D,train,Colas_2019
+case  22,T2D,train,Colas_2019
+case  25,T2D,train,Colas_2019
+case  92,T2D,train,Colas_2019
+case  85,T2D,train,Colas_2019
+case  31,T2D,train,Colas_2019
+case  152,T2D,validate,Colas_2019
+case  190,T2D,validate,Colas_2019
+case  160,T2D,test,Colas_2019
+case  154,T2D,test,Colas_2019
+case  28,T2D,test,Colas_2019
+009,T1D,train,D1NAMO
+007,T1D,train,D1NAMO
+006,T1D,train,D1NAMO
+001,T1D,train,D1NAMO
+002,T1D,train,D1NAMO
+008,T1D,train,D1NAMO
+005,T1D,validate,D1NAMO
+003,T1D,test,D1NAMO
+004,T1D,test,D1NAMO
+1636-69-091,T2D,train,Hall_2018
+2133-039,T2D,train,Hall_2018
+1636-69-001,T2D,train,Hall_2018
+2133-004,T2D,train,Hall_2018
+2133-018,T2D,test,Hall_2018
+2133-036,Prediabetes,train,Hall_2018
+2133-027,Prediabetes,train,Hall_2018
+2133-019,Prediabetes,train,Hall_2018
+1636-69-032,Prediabetes,train,Hall_2018
+1636-70-1010,Prediabetes,train,Hall_2018
+1636-69-026,Prediabetes,train,Hall_2018
+1636-69-090,Prediabetes,train,Hall_2018
+2133-017,Prediabetes,train,Hall_2018
+2133-015,Prediabetes,train,Hall_2018
+1636-70-1005,Prediabetes,train,Hall_2018
+2133-021,Prediabetes,validate,Hall_2018
+2133-035,Prediabetes,test,Hall_2018
+2133-024,Prediabetes,test,Hall_2018
+1636-69-114,Prediabetes,test,Hall_2018
+1636-69-060,No diabetes,train,Hall_2018
+2133-013,No diabetes,train,Hall_2018
+1636-70-1008,No diabetes,train,Hall_2018
+1636-69-035,No diabetes,train,Hall_2018
+2133-025,No diabetes,train,Hall_2018
+1636-70-1003,No diabetes,train,Hall_2018
+2133-011,No diabetes,train,Hall_2018
+1636-70-1002,No diabetes,train,Hall_2018
+1636-69-053,No diabetes,train,Hall_2018
+2133-003,No diabetes,train,Hall_2018
+1636-69-111,No diabetes,train,Hall_2018
+2133-006,No diabetes,train,Hall_2018
+2133-030,No diabetes,train,Hall_2018
+2133-041,No diabetes,train,Hall_2018
+2133-022,No diabetes,train,Hall_2018
+1636-69-064,No diabetes,train,Hall_2018
+2133-033,No diabetes,train,Hall_2018
+2133-026,No diabetes,train,Hall_2018
+2133-012,No diabetes,train,Hall_2018
+1636-69-069,No diabetes,train,Hall_2018
+2133-002,No diabetes,train,Hall_2018
+2133-007,No diabetes,train,Hall_2018
+2133-009,No diabetes,train,Hall_2018
+1636-69-104,No diabetes,train,Hall_2018
+2133-032,No diabetes,train,Hall_2018
+1636-69-028,No diabetes,train,Hall_2018
+1636-69-048,No diabetes,train,Hall_2018
+1636-69-100,No diabetes,validate,Hall_2018
+2133-010,No diabetes,validate,Hall_2018
+1636-69-123,No diabetes,validate,Hall_2018
+2133-008,No diabetes,validate,Hall_2018
+1636-69-107,No diabetes,test,Hall_2018
+2133-040,No diabetes,test,Hall_2018
+2133-023,No diabetes,test,Hall_2018
+2133-028,No diabetes,test,Hall_2018
+2133-001,No diabetes,test,Hall_2018
+2133-020,No diabetes,test,Hall_2018
+2133-037,No diabetes,test,Hall_2018
+HUPA0023P,T1D,train,HUPA-UCM
+HUPA0027P,T1D,train,HUPA-UCM
+HUPA0016P,T1D,train,HUPA-UCM
+HUPA0005P,T1D,train,HUPA-UCM
+HUPA0022P,T1D,train,HUPA-UCM
+HUPA0002P,T1D,train,HUPA-UCM
+HUPA0017P,T1D,train,HUPA-UCM
+HUPA0020P,T1D,train,HUPA-UCM
+HUPA0026P,T1D,train,HUPA-UCM
+HUPA0007P,T1D,train,HUPA-UCM
+HUPA0021P,T1D,train,HUPA-UCM
+HUPA0028P,T1D,train,HUPA-UCM
+HUPA0025P,T1D,train,HUPA-UCM
+HUPA0018P,T1D,train,HUPA-UCM
+HUPA0014P,T1D,train,HUPA-UCM
+HUPA0006P,T1D,train,HUPA-UCM
+HUPA0010P,T1D,train,HUPA-UCM
+HUPA0001P,T1D,train,HUPA-UCM
+HUPA0003P,T1D,validate,HUPA-UCM
+HUPA0009P,T1D,validate,HUPA-UCM
+HUPA0015P,T1D,test,HUPA-UCM
+HUPA0024P,T1D,test,HUPA-UCM
+HUPA0011P,T1D,test,HUPA-UCM
+HUPA0019P,T1D,test,HUPA-UCM
+HUPA0004P,T1D,test,HUPA-UCM
+c2s03,T1D,train,PhysioCGM
+c1s02,T1D,train,PhysioCGM
+c2s04,T1D,train,PhysioCGM
+c2s01,T1D,train,PhysioCGM
+c1s01,T1D,train,PhysioCGM
+c1s03,T1D,train,PhysioCGM
+c2s02,T1D,train,PhysioCGM
+c2s05,T1D,validate,PhysioCGM
+c1s05,T1D,test,PhysioCGM
+c1s04,T1D,test,PhysioCGM
+1008,T1D,train,ShanghaiT1DM
+1002,T1D,train,ShanghaiT1DM
+1009,T1D,train,ShanghaiT1DM
+1006,T1D,train,ShanghaiT1DM
+1001,T1D,train,ShanghaiT1DM
+1003,T1D,train,ShanghaiT1DM
+1007,T1D,train,ShanghaiT1DM
+1012,T1D,train,ShanghaiT1DM
+1005,T1D,validate,ShanghaiT1DM
+1010,T1D,test,ShanghaiT1DM
+1011,T1D,test,ShanghaiT1DM
+1004,T1D,test,ShanghaiT1DM
+2070,T2D,train,ShanghaiT2DM
+2074,T2D,train,ShanghaiT2DM
+2002,T2D,train,ShanghaiT2DM
+2044,T2D,train,ShanghaiT2DM
+2056,T2D,train,ShanghaiT2DM
+2048,T2D,train,ShanghaiT2DM
+2012,T2D,train,ShanghaiT2DM
+2036,T2D,train,ShanghaiT2DM
+2000,T2D,train,ShanghaiT2DM
+2049,T2D,train,ShanghaiT2DM
+2076,T2D,train,ShanghaiT2DM
+2093,T2D,train,ShanghaiT2DM
+2088,T2D,train,ShanghaiT2DM
+2092,T2D,train,ShanghaiT2DM
+2005,T2D,train,ShanghaiT2DM
+2077,T2D,train,ShanghaiT2DM
+2023,T2D,train,ShanghaiT2DM
+2063,T2D,train,ShanghaiT2DM
+2087,T2D,train,ShanghaiT2DM
+2038,T2D,train,ShanghaiT2DM
+2037,T2D,train,ShanghaiT2DM
+2051,T2D,train,ShanghaiT2DM
+2035,T2D,train,ShanghaiT2DM
+2065,T2D,train,ShanghaiT2DM
+2031,T2D,train,ShanghaiT2DM
+2021,T2D,train,ShanghaiT2DM
+2001,T2D,train,ShanghaiT2DM
+2096,T2D,train,ShanghaiT2DM
+2069,T2D,train,ShanghaiT2DM
+2019,T2D,train,ShanghaiT2DM
+2039,T2D,train,ShanghaiT2DM
+2064,T2D,train,ShanghaiT2DM
+2072,T2D,train,ShanghaiT2DM
+2060,T2D,train,ShanghaiT2DM
+2046,T2D,train,ShanghaiT2DM
+2008,T2D,train,ShanghaiT2DM
+2089,T2D,train,ShanghaiT2DM
+2027,T2D,train,ShanghaiT2DM
+2004,T2D,train,ShanghaiT2DM
+2047,T2D,train,ShanghaiT2DM
+2094,T2D,train,ShanghaiT2DM
+2041,T2D,train,ShanghaiT2DM
+2053,T2D,train,ShanghaiT2DM
+2050,T2D,train,ShanghaiT2DM
+2066,T2D,train,ShanghaiT2DM
+2030,T2D,train,ShanghaiT2DM
+2042,T2D,train,ShanghaiT2DM
+2052,T2D,train,ShanghaiT2DM
+2033,T2D,train,ShanghaiT2DM
+2055,T2D,train,ShanghaiT2DM
+2082,T2D,train,ShanghaiT2DM
+2024,T2D,train,ShanghaiT2DM
+2014,T2D,train,ShanghaiT2DM
+2068,T2D,train,ShanghaiT2DM
+2045,T2D,train,ShanghaiT2DM
+2029,T2D,train,ShanghaiT2DM
+2054,T2D,train,ShanghaiT2DM
+2011,T2D,train,ShanghaiT2DM
+2080,T2D,train,ShanghaiT2DM
+2059,T2D,train,ShanghaiT2DM
+2078,T2D,train,ShanghaiT2DM
+2097,T2D,train,ShanghaiT2DM
+2067,T2D,train,ShanghaiT2DM
+2081,T2D,train,ShanghaiT2DM
+2043,T2D,train,ShanghaiT2DM
+2017,T2D,train,ShanghaiT2DM
+2073,T2D,train,ShanghaiT2DM
+2018,T2D,train,ShanghaiT2DM
+2079,T2D,train,ShanghaiT2DM
+2010,T2D,train,ShanghaiT2DM
+2032,T2D,validate,ShanghaiT2DM
+2057,T2D,validate,ShanghaiT2DM
+2061,T2D,validate,ShanghaiT2DM
+2003,T2D,validate,ShanghaiT2DM
+2025,T2D,validate,ShanghaiT2DM
+2058,T2D,validate,ShanghaiT2DM
+2091,T2D,validate,ShanghaiT2DM
+2013,T2D,validate,ShanghaiT2DM
+2086,T2D,validate,ShanghaiT2DM
+2006,T2D,validate,ShanghaiT2DM
+2007,T2D,test,ShanghaiT2DM
+2084,T2D,test,ShanghaiT2DM
+2062,T2D,test,ShanghaiT2DM
+2016,T2D,test,ShanghaiT2DM
+2083,T2D,test,ShanghaiT2DM
+2026,T2D,test,ShanghaiT2DM
+2085,T2D,test,ShanghaiT2DM
+2040,T2D,test,ShanghaiT2DM
+2034,T2D,test,ShanghaiT2DM
+2071,T2D,test,ShanghaiT2DM
+2022,T2D,test,ShanghaiT2DM
+2075,T2D,test,ShanghaiT2DM
+2020,T2D,test,ShanghaiT2DM
+2009,T2D,test,ShanghaiT2DM
+2098,T2D,test,ShanghaiT2DM
+2028,T2D,test,ShanghaiT2DM
+2095,T2D,test,ShanghaiT2DM
+2015,T2D,test,ShanghaiT2DM
+2090,T2D,test,ShanghaiT2DM
+2099,T2D,test,ShanghaiT2DM
+UoMGlucose2405,T1D,train,T1D-UOM
+UoMGlucose2302,T1D,train,T1D-UOM
+UoMGlucose2306,T1D,train,T1D-UOM
+UoMGlucose2314,T1D,train,T1D-UOM
+UoMGlucose2309,T1D,train,T1D-UOM
+UoMGlucose2403,T1D,train,T1D-UOM
+UoMGlucose2401,T1D,train,T1D-UOM
+UoMGlucose2301,T1D,train,T1D-UOM
+UoMGlucose2303,T1D,train,T1D-UOM
+UoMGlucose2308,T1D,train,T1D-UOM
+UoMGlucose2307,T1D,train,T1D-UOM
+UoMGlucose2305,T1D,train,T1D-UOM
+UoMGlucose2310,T1D,validate,T1D-UOM
+UoMGlucose2404,T1D,validate,T1D-UOM
+UoMGlucose2320,T1D,test,T1D-UOM
+UoMGlucose2313,T1D,test,T1D-UOM
+UoMGlucose2304,T1D,test,T1D-UOM
+HT_08,No diabetes,train,UCHTT1DM
+HT_02,No diabetes,train,UCHTT1DM
+HT_09,No diabetes,train,UCHTT1DM
+HT_06,No diabetes,train,UCHTT1DM
+HT_01,No diabetes,train,UCHTT1DM
+HT_03,No diabetes,train,UCHTT1DM
+HT_07,No diabetes,train,UCHTT1DM
+HT_11,No diabetes,train,UCHTT1DM
+HT_05,No diabetes,validate,UCHTT1DM
+HT_10,No diabetes,test,UCHTT1DM
+HT_04,No diabetes,test,UCHTT1DM
+T1DM_10,T1D,train,UCHTT1DM
+T1DM_08,T1D,train,UCHTT1DM
+T1DM_07,T1D,train,UCHTT1DM
+T1DM_02,T1D,train,UCHTT1DM
+T1DM_03,T1D,train,UCHTT1DM
+T1DM_09,T1D,train,UCHTT1DM
+T1DM_06,T1D,validate,UCHTT1DM
+T1DM_04,T1D,test,UCHTT1DM
+T1DM_05,T1D,test,UCHTT1DM
