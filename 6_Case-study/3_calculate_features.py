@@ -6,7 +6,7 @@ import numpy as np
 def calculate_features(participant_df, participant, project, participant_pop, split_assignment):
     """
     """
-    glucose_reads = participant_df["glucose_value_mg_dl"]
+    glucose_reads = pd.to_numeric(participant_df["glucose_value_mg_dl"], errors="coerce").dropna().reset_index(drop=True)
     feature_bin = {
         "person_id": participant,
         "dataset": project,
@@ -34,7 +34,7 @@ def calculate_features(participant_df, participant, project, participant_pop, sp
         "sdw": np.nan,
         "lbgi": np.nan,
         "j_index": np.nan,
-        "sd_glucose": glucose_reads.std(),
+        "sd_glucose": glucose_reads.std(ddof=1),
         "iqr_glucose": glucose_reads.quantile(0.75) - glucose_reads.quantile(0.25),
     }
 
@@ -48,7 +48,7 @@ def calculate_features(participant_df, participant, project, participant_pop, sp
         feature_bin["mage"] = mage
 
     # Calculate J-index
-    j_index = 0.001 * (glucose_reads.mean() + glucose_reads.std()) ** 2
+    j_index = 0.001 * (glucose_reads.mean() + glucose_reads.std(ddof=1)) ** 2
     if j_index > 0:
         feature_bin["j_index"] = j_index
 
@@ -91,10 +91,10 @@ def calculate_features(participant_df, participant, project, participant_pop, sp
             # Calculate sddm (SD of daily means)
             daily_means = temp_df.groupby("date")["glucose_value_mg_dl"].mean()
             if len(daily_means) >= 2:
-                feature_bin["sddm"] = daily_means.std()
+                feature_bin["sddm"] = daily_means.std(ddof=1)
 
             # Calculate sdw (mean of daily SDs)
-            daily_sds = temp_df.groupby("date")["glucose_value_mg_dl"].std().dropna()
+            daily_sds = temp_df.groupby("date")["glucose_value_mg_dl"].std(ddof=1).dropna()
             if len(daily_sds) > 0:
                 feature_bin["sdw"] = daily_sds.mean()
 
@@ -130,10 +130,10 @@ def calculate_mage(glucose_reads):
     """
 
     if len(glucose_reads) < 3:
-        return 0
+        return np.nan
 
     # Standard deviation threshold
-    sd = glucose_reads.std()
+    sd = glucose_reads.std(ddof=1)
 
     # Find peaks and troughs manually
     turning_points = []
@@ -189,7 +189,7 @@ def main():
             participant_file_path = Path("Processed-Data") / project / f'{participant}.csv'
             participant_file = Path(participant_file_path)
             participant_pop = entry["diabetes_type"]
-            split_assignment = entry["split_category"]
+            split_assignment = entry["split_assignment"]
             participant_df = pd.read_csv(participant_file)
             participant_features = calculate_features(participant_df, participant, project, participant_pop, split_assignment)
             final_df.append(participant_features)
@@ -197,11 +197,6 @@ def main():
     
     features_df = pd.DataFrame(final_df)
     features_df.to_csv("feature_calcs.csv", index=False)
-        
-
-
-
-
 
 
     print("Done!")

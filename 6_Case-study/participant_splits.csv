@@ -1,4 +1,4 @@
-person_id,diabetes_type,split_category,dataset
+person_id,diabetes_type,split_assignment,dataset
 Subject 20,T1D,train,AZT1D
 Subject 24,T1D,train,AZT1D
 Subject 13,T1D,train,AZT1D

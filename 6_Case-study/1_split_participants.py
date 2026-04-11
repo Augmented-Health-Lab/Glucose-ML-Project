@@ -48,7 +48,7 @@ def split_data(df,seed,split_proportions):
         for i in range(test_n):
             split_labels.append("test")
 
-        group["split_category"] = split_labels
+        group["split_assignment"] = split_labels
         split_groups.append(group)
 
     #Regroup split dfs

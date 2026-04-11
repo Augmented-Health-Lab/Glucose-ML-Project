@@ -14,7 +14,7 @@ from sklearn.metrics import confusion_matrix
 Runs a Logistic Regression model using the feature calculations.
 '''
 
-seed = 221
+seed = 20
 feature_data = pd.read_csv("feature_calcs.csv", dtype={"person_id": str})
 non_features = ["person_id", "diabetes_type", "split_assignment", "dataset"]
 features = [feat for feat in feature_data.columns if feat not in non_features]

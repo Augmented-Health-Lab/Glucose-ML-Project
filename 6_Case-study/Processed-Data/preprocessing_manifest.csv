@@ -1,4 +1,4 @@
-person_id,diabetes_type,split_category,dataset,passed,num_rows_raw,num_rows_processed,num_valid_days
+person_id,diabetes_type,split_assignment,dataset,passed,num_rows_raw,num_rows_processed,num_valid_days
 Subject 20,T1D,train,AZT1D,yes,12964,8640,30
 Subject 24,T1D,train,AZT1D,yes,9723,8640,30
 Subject 13,T1D,train,AZT1D,yes,12630,8640,30
@@ -404,10 +404,8 @@ HUPA0024P,T1D,test,HUPA-UCM,yes,2902,2592,9
 HUPA0011P,T1D,test,HUPA-UCM,yes,3839,3742,13
 HUPA0019P,T1D,test,HUPA-UCM,yes,3711,3456,12
 HUPA0004P,T1D,test,HUPA-UCM,yes,3184,3082,11
-c2s03,T1D,train,PhysioCGM,yes,24304,8610,30
 c1s02,T1D,train,PhysioCGM,yes,21172,8640,30
 c2s04,T1D,train,PhysioCGM,yes,25508,8640,30
-c2s01,T1D,train,PhysioCGM,yes,25001,8640,30
 c1s01,T1D,train,PhysioCGM,yes,25368,8640,30
 c1s03,T1D,train,PhysioCGM,yes,25361,8640,30
 c2s05,T1D,validate,PhysioCGM,yes,24978,8640,30
