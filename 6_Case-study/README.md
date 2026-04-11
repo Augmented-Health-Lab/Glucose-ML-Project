@@ -24,7 +24,7 @@ This pipeline assumes the base Glucose-ML file structure and accesses the CGM fi
 1. Install the following dependencies if you don't already have them
 
 ```bash
-pip install pandas numpy scikit-learn
+pip install pandas numpy scikit-learn xgboost
 ```
 
 2. Change your working directory to the following

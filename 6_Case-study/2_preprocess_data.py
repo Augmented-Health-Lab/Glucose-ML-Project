@@ -130,7 +130,7 @@ def main():
 
     '''
     # Can specify Coverage and Maximum CGM days to aggregate.
-    max_days = 30
+    max_days = 15
     minimum_coverage = 0.7
 
     # Pull path info

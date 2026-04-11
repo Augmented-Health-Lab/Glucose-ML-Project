@@ -3,3 +3,4 @@ numpy
 requests
 matplotlib
 scikit-learn
+xgboost
