@@ -4,7 +4,7 @@ import numpy as np
 import re
 
 
-def process_files(project_df, extracted_glucose_file_path, project, max_days, minimum_coverage):
+def process_files(project_df, extracted_glucose_file_path, project, minimum_coverage):
     """
     Process all participants for a given dataset.
 
@@ -76,8 +76,6 @@ def process_files(project_df, extracted_glucose_file_path, project, max_days, mi
             if day_row["coverage"] >= minimum_coverage:
                 valid_days.append(day_row["date"])
 
-        valid_days = valid_days[:max_days]
-
         df = df[df["date"].isin(valid_days)].copy()
         df = df.drop(columns=["date"])
 
@@ -129,8 +127,7 @@ def main():
         - Processed-Data/[datasets]
 
     '''
-    # Can specify Coverage and Maximum CGM days to aggregate.
-    max_days = 15
+    #Minimum coverage to be considered as a valid CGM day.
     minimum_coverage = 0.7
 
     # Pull path info
@@ -149,7 +146,7 @@ def main():
         project_path = f'{project}-extracted-glucose-files'
         extracted_glucose_file_path = glucose_ml_dir / "3_Glucose-ML-collection" / project/ project_path
 
-        project_rows = process_files(project_df, extracted_glucose_file_path, project, max_days, minimum_coverage)
+        project_rows = process_files(project_df, extracted_glucose_file_path, project, minimum_coverage)
 
         for row in project_rows:
             final_rows.append(row)
