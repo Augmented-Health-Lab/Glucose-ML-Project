@@ -68,7 +68,6 @@ Preprocesses glucose files by:
 * resampling to 5-minute intervals
 * interpolating small gaps up to 15 minutes
 * keeping days with at least 70% coverage
-* keeping up to as many valid days per participant (default is 15).
 
 **Input:**
 
@@ -85,6 +84,8 @@ Preprocesses glucose files by:
 ### `3_calculate_features.py`
 
 Calculates participant-level glucose features from the processed data.
+
+* Specify up to as many valid CGM days per participant (default is 15).
 
 **Input:**
 
