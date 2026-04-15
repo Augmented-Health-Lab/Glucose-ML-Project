@@ -77,51 +77,23 @@ def save_model_outputs(model_name, y_validate, valid_pred, y_test, test_pred, di
 
 
 #Log regression
-logistic_regression = Pipeline([
-    ("imputer", SimpleImputer(strategy="median")),
-    ("scaler", StandardScaler()),
-    ("model", LogisticRegression(
-        solver="lbfgs",
-        max_iter=5000,
-        class_weight="balanced",
-        random_state=seed,
-    )),
-])
+logistic_regression = Pipeline([("imputer", SimpleImputer(strategy="median")), ("scaler", StandardScaler()), ("model", LogisticRegression( solver="lbfgs", max_iter=5000, class_weight="balanced", random_state=seed,)),])
 
 logistic_regression.fit(x_train, y_train)
 valid_pred = logistic_regression.predict(x_validate)
 test_pred = logistic_regression.predict(x_test)
 
-save_model_outputs(
-    "Logistic-regression-results",
-    y_validate, valid_pred,
-    y_test, test_pred,
-    diabetes_groups
-)
+save_model_outputs("Logistic-regression-results", y_validate, valid_pred, y_test, test_pred, diabetes_groups)
 
 
 #Random Forest
-random_forest = Pipeline([
-    ("imputer", SimpleImputer(strategy="median")),
-    ("model", RandomForestClassifier(
-        n_estimators=500,
-        class_weight="balanced",
-        random_state=seed,
-        n_jobs=-1,
-    )),
-])
+random_forest = Pipeline([("imputer", SimpleImputer(strategy="median")), ("model", RandomForestClassifier(n_estimators=500, class_weight="balanced", random_state=seed, n_jobs=-1,)),])
 
 random_forest.fit(x_train, y_train)
 valid_pred = random_forest.predict(x_validate)
 test_pred = random_forest.predict(x_test)
 
-save_model_outputs(
-    "Random-forest-results",
-    y_validate, valid_pred,
-    y_test, test_pred,
-    diabetes_groups
-)
-
+save_model_outputs("Random-forest-results", y_validate, valid_pred, y_test, test_pred, diabetes_groups)
 
 
 # XGBoost
@@ -131,19 +103,17 @@ y_train_encoded = label_encoder.fit_transform(y_train)
 y_validate_encoded = label_encoder.transform(y_validate)
 y_test_encoded = label_encoder.transform(y_test)
 
-xgboost_model = Pipeline([
-    ("imputer", SimpleImputer(strategy="median")),
-    ("model", XGBClassifier(
-        n_estimators=500,
-        max_depth=4,
-        learning_rate=0.05,
-        subsample=0.8,
-        colsample_bytree=0.8,
-        objective="multi:softmax",
-        eval_metric="mlogloss",
-        num_class=len(label_encoder.classes_),
-        random_state=seed,
-        n_jobs=-1,
+xgboost_model = Pipeline([("imputer", SimpleImputer(strategy="median")),("model", XGBClassifier(
+    random_state=seed,
+    learning_rate=0.05,
+    n_estimators=500,
+    max_depth=4,
+    subsample=0.8,
+    colsample_bytree=0.8,
+    objective="multi:softmax",
+    eval_metric="mlogloss",
+    num_class=len(label_encoder.classes_),
+    n_jobs=-1,
     )),
 ])
 
@@ -155,11 +125,6 @@ test_pred_encoded = xgboost_model.predict(x_test)
 valid_pred = label_encoder.inverse_transform(valid_pred_encoded)
 test_pred = label_encoder.inverse_transform(test_pred_encoded)
 
-save_model_outputs(
-    "XGBoost-results",
-    y_validate, valid_pred,
-    y_test, test_pred,
-    diabetes_groups
-)
+save_model_outputs("XGBoost-results", y_validate, valid_pred, y_test, test_pred, diabetes_groups)
 
 print("Done!")

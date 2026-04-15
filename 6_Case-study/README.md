@@ -59,6 +59,8 @@ Splits participants within each dataset by `diabetes_type` into:
 **Output:**
 `participant_splits.csv`
 
+**Note**: User can modify variable `open_projects` to specify datasets to perform analysis on. Open Source Datasets are specified as default.
+
 ---
 
 ### `2_preprocess_data.py`
@@ -98,14 +100,12 @@ Calculates participant-level glucose features from the processed data.
 
 Features include summary statistics and glycemic variability measures such as:
 
-* mean glucose
-* median glucose
-* SD
+* mean, median, SD glucose
 * CV
 * MAGE
 * ADRR
-* LBGI / HBGI / BGRI
-* percent in glucose ranges
+* LBGI, HBGI, BGRI
+* percent in various glucose ranges
 
 ---
 
