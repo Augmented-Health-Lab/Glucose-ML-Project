@@ -1,4 +1,4 @@
-# Single-Dataset VS. Multi-Dataset Model Comparison
+# 6_Case-study: Single-Dataset VS. Multi-Dataset Model Comparison
 
 ## Overview
 
