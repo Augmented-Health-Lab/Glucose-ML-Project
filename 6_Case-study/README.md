@@ -125,11 +125,7 @@ Trains and evaluates 3 models: logistic regression, random forest, and XGBoost u
 * `XGBoost-results/test_scores.csv`
 * `XGBoost-results/test_confusion_matrix.csv`
 
-Metrics include:
-
-* accuracy
-* macro F1
-* balanced accuracy
+Metrics included in "test_scores.csv": accuracy, macro F1, balanced accuracy
 
 
 
