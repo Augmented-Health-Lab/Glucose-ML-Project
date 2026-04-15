@@ -176,11 +176,12 @@ def main():
         - "feature_calcs.csv"
 
     '''
+    max_days = 15 # Specify the max number of CGM days to consider for calculation.
 
     manifest = pd.read_csv("Processed-Data/preprocessing_manifest.csv", dtype={"person_id": str})
     manifest = manifest[manifest["passed"] == "yes"] # Only pull participants who passed.
     project_ids = manifest["dataset"].unique() # Pull dataset ids.
-
+    
     final_df = []
     for project in project_ids:
         project_df = manifest[manifest["dataset"]==project]
@@ -191,15 +192,14 @@ def main():
             participant_pop = entry["diabetes_type"]
             split_assignment = entry["split_assignment"]
             participant_df = pd.read_csv(participant_file)
-            max_days = 16
-
+            
+            # Filters for the max days specified above
             participant_df["timestamp"] = pd.to_datetime(participant_df["timestamp"], errors="coerce")
             participant_df["date"] = participant_df["timestamp"].dt.date
-
             valid_days = participant_df["date"].dropna().unique()[:max_days]
             participant_df = participant_df[participant_df["date"].isin(valid_days)].copy()
             participant_df = participant_df.drop(columns=["date"])
-            # filter for max days here
+            
             participant_features = calculate_features(participant_df, participant, project, participant_pop, split_assignment)
             final_df.append(participant_features)
 
