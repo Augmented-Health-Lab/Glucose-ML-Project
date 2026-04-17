@@ -1,0 +1,5 @@
+,predicted_No diabetes,predicted_Prediabetes,predicted_T1D,predicted_T2D
+true_No diabetes,46,0,0,5
+true_Prediabetes,3,1,0,3
+true_T1D,1,0,18,6
+true_T2D,4,0,1,22

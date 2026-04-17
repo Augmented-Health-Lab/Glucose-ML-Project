@@ -1,0 +1,46 @@
+person_id,diabetes_type,split_assignment,dataset,passed,num_rows_raw,num_rows_processed,num_valid_days
+CGMacros-048,No diabetes,train,CGMacros_Dexcom,yes,14260,2592,9
+CGMacros-032,No diabetes,train,CGMacros_Dexcom,yes,13656,2592,9
+CGMacros-021,No diabetes,train,CGMacros_Dexcom,yes,14275,2592,9
+CGMacros-002,No diabetes,train,CGMacros_Dexcom,yes,13677,2592,9
+CGMacros-017,No diabetes,train,CGMacros_Dexcom,yes,14240,2592,9
+CGMacros-001,No diabetes,train,CGMacros_Dexcom,yes,14265,2592,9
+CGMacros-004,No diabetes,train,CGMacros_Dexcom,yes,14275,2592,9
+CGMacros-019,No diabetes,train,CGMacros_Dexcom,yes,14260,2592,9
+CGMacros-018,No diabetes,train,CGMacros_Dexcom,yes,13934,2304,8
+CGMacros-015,No diabetes,train,CGMacros_Dexcom,yes,14210,2592,9
+CGMacros-027,No diabetes,validate,CGMacros_Dexcom,yes,14210,2592,9
+CGMacros-034,No diabetes,validate,CGMacros_Dexcom,yes,14275,2592,9
+CGMacros-033,No diabetes,test,CGMacros_Dexcom,yes,14215,2592,9
+CGMacros-031,No diabetes,test,CGMacros_Dexcom,yes,13673,2592,9
+CGMacros-006,No diabetes,test,CGMacros_Dexcom,yes,14275,2592,9
+CGMacros-049,T2D,train,CGMacros_Dexcom,yes,14275,2592,9
+CGMacros-046,T2D,train,CGMacros_Dexcom,yes,14245,2592,9
+CGMacros-038,T2D,train,CGMacros_Dexcom,yes,14270,2592,9
+CGMacros-005,T2D,train,CGMacros_Dexcom,yes,14275,2592,9
+CGMacros-030,T2D,train,CGMacros_Dexcom,yes,14210,2592,9
+CGMacros-003,T2D,train,CGMacros_Dexcom,yes,14260,2592,9
+CGMacros-012,T2D,train,CGMacros_Dexcom,yes,14270,2592,9
+CGMacros-036,T2D,train,CGMacros_Dexcom,yes,14275,2592,9
+CGMacros-035,T2D,train,CGMacros_Dexcom,yes,14270,2592,9
+CGMacros-028,T2D,train,CGMacros_Dexcom,yes,14230,2592,9
+CGMacros-039,T2D,validate,CGMacros_Dexcom,yes,14275,2592,9
+CGMacros-047,T2D,test,CGMacros_Dexcom,yes,14225,2592,9
+CGMacros-042,T2D,test,CGMacros_Dexcom,yes,14275,2592,9
+CGMacros-014,T2D,test,CGMacros_Dexcom,yes,14275,2592,9
+CGMacros-045,Prediabetes,train,CGMacros_Dexcom,yes,13669,2592,9
+CGMacros-008,Prediabetes,train,CGMacros_Dexcom,yes,14220,2592,9
+CGMacros-013,Prediabetes,train,CGMacros_Dexcom,yes,14275,2592,9
+CGMacros-043,Prediabetes,train,CGMacros_Dexcom,yes,14260,2592,9
+CGMacros-022,Prediabetes,train,CGMacros_Dexcom,yes,14275,2592,9
+CGMacros-029,Prediabetes,train,CGMacros_Dexcom,yes,14275,2592,9
+CGMacros-007,Prediabetes,train,CGMacros_Dexcom,yes,5640,1728,6
+CGMacros-009,Prediabetes,train,CGMacros_Dexcom,yes,14226,2592,9
+CGMacros-020,Prediabetes,train,CGMacros_Dexcom,yes,14275,2592,9
+CGMacros-016,Prediabetes,train,CGMacros_Dexcom,yes,14275,2592,9
+CGMacros-011,Prediabetes,train,CGMacros_Dexcom,yes,14275,2592,9
+CGMacros-023,Prediabetes,validate,CGMacros_Dexcom,yes,14265,2592,9
+CGMacros-044,Prediabetes,validate,CGMacros_Dexcom,yes,14225,2592,9
+CGMacros-041,Prediabetes,test,CGMacros_Dexcom,yes,14241,2592,9
+CGMacros-026,Prediabetes,test,CGMacros_Dexcom,yes,13824,2304,8
+CGMacros-010,Prediabetes,test,CGMacros_Dexcom,yes,14275,2592,9

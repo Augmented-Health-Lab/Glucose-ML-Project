@@ -1,0 +1,3 @@
+data_type,accuracy,macro_f1,balanced_accuracy
+test,0.6666666666666666,0.6793650793650793,0.6666666666666666
+validate,1.0,1.0,1.0

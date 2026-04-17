@@ -1,0 +1,4 @@
+,pred_No diabetes,pred_Prediabetes,pred_T2D
+true_No diabetes,42,1,6
+true_Prediabetes,3,1,3
+true_T2D,4,0,23
