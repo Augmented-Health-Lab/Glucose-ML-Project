@@ -79,7 +79,7 @@ pip install -r dependencies.txt
     - ```{Model}-results/```
     - ```1_Dataset_VS_5_Datasets_Comparison/```
 
-7. ```7_ML-tools/```
+7. ```7_Open-ML-Resources/```
     Includes tools for splitting and preprocessing datasets in the Glucose-ML collection for downstream ML analysis.
     - ```1_Split-participants.py```
     - ```2_Preprocess-datasets.py```
