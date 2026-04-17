@@ -8,8 +8,8 @@ See `1_Dataset_VS_5_Datasets_Comparison/` for the results of our Single vs Multi
 
 A total of 4 scripts need to be run in the following order: 
 
-1. `7_ML-Tools/1_Split-participants.py`
-2. `7_ML-Tools/2_Preprocess-datasets.py` -> Note: `ML-Ready-Datasets/` needs to be moved to `6_Case-study` to proceed with step 3.
+1. `7_Open-ML-Resources/1_Split-participants.py`
+2. `7_Open-ML-Resources/2_Preprocess-datasets.py` -> Note: `Open-ML-Ready-Datasets/` needs to be moved to `6_Case-study` to proceed with step 3.
 3. `Calculate-features.py`
 4. `Run-case-study-models.py`
 
@@ -17,7 +17,7 @@ A total of 4 scripts need to be run in the following order:
 
 ## Inputs
 
-This pipeline assumes the base Glucose-ML file structure and accesses the CGM files and metadata from 3_Glucose-ML-collection. The only exception is `ML-Ready-Datasets/` as stated in **Script Structure**.
+This pipeline assumes the base Glucose-ML file structure and accesses the CGM files and metadata from 3_Glucose-ML-collection. The only exception is `Open-ML-Ready-Datasets/` as stated in **Script Structure**.
 
 ---
 
@@ -34,7 +34,7 @@ pip install pandas numpy scikit-learn xgboost
 2. Change your working directory to the following
 
 ```bash
-cd 7_ML-Tools
+cd 7_Open-ML-Resources
 ```
 3. Run these 2 scripts! 
 
@@ -45,7 +45,7 @@ python 2_Preprocess-datasets.py
 4. Move the output from `2_Preprocess-datasets.py` to `6_Case-study` using the following command
 
 ```bash
-mv ML-Ready-Datasets ../6_Case-study/
+mv Open-ML-Ready-Datasets ../6_Case-study/
 ```
 
 5. Change your working directory to the following
@@ -65,7 +65,7 @@ python Run-case-study-models.py
 
 ## Script Summary
 
-See [README](/7_ML-Tools/README.md) for information about `1_Split-participants.py` and `2_Preprocess-datasets.py`
+See [README](/7_Open-ML-Resources/README.md) for information about `1_Split-participants.py` and `2_Preprocess-datasets.py`
 
 ### 1) Calculate-features.py
 
@@ -75,8 +75,8 @@ Calculates participant-level glucose features from the processed data.
 
 **Input:**
 
-* `ML-Ready-Datasets/preprocessing_manifest.csv`
-* `ML-Ready-Datasets/[dataset]/[person_id].csv`
+* `Open-ML-Ready-Datasets/preprocessing_manifest.csv`
+* `Open-ML-Ready-Datasets/[dataset]/[person_id].csv`
 
 **Output:**
 
@@ -108,8 +108,6 @@ Trains and evaluates 3 models: logistic regression, random forest, and XGBoost u
 * `XGBoost-results/test_confusion_matrix.csv`
 
 Metrics included in "test_scores.csv": accuracy, macro F1, balanced accuracy
-
-
 
 
 <p>&nbsp;</p>
