@@ -76,7 +76,7 @@ After running both scripts, the `ML-Ready-Datasets/` directory will contain:
 
 ---
 
-Glucose-ML hopes these tools will serve as the foundation for downstream feature extraction and AI/ML modeling.
+We hope these open-resources enable quick reproduction and experimentaion for downstream AI/ML tasks.
 
 <p>&nbsp;</p>
 
