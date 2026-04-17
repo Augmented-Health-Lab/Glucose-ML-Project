@@ -3,6 +3,20 @@ import pandas as pd
 
 
 
+
+### For Case_study_1: T1D, T2D, ND, PreD Classification 13 Open Datasets ###
+#open_projects = ["AZT1D", "BIGIDEAs", "Bris-T1D_Open", "CGMacros_Dexcom", "Colas_2019", "D1NAMO", "Hall_2018", "HUPA-UCM", 'PhysioCGM', "ShanghaiT1DM", "ShanghaiT2DM", "T1D-UOM", "UCHTT1DM"]
+
+
+### For Case_study_2: T2D, ND, PreD Classification Single vs Multi Datasets ###
+# Multi-Dataset Projects:   
+#open_projects = ["CGMacros_Dexcom", "Colas_2019", "Hall_2018", "ShanghaiT2DM", "BIGIDEAs"]
+
+# Single-Dataset Project:
+open_projects = ["CGMacros_Dexcom"]
+
+
+
 def split_data(df,seed,split_proportions):
     '''
     This function splits the specified datasets into test/train/split groups.
@@ -79,11 +93,6 @@ def main():
 
     if round(summ, 8) != 1.0:
         raise ValueError("Error: split proportions must equal 1!")
-
-    # For case_study.   
-    #open_projects = ["CGMacros_Dexcom", "Colas_2019", "Hall_2018", "ShanghaiT2DM", "BIGIDEAs"]
-    
-    open_projects = ["AZT1D", "BIGIDEAs", "Bris-T1D_Open", "CGMacros_Dexcom", "Colas_2019", "D1NAMO", "Hall_2018", "HUPA-UCM", 'PhysioCGM', "ShanghaiT1DM", "ShanghaiT2DM", "T1D-UOM", "UCHTT1DM"]
     
     final_df = []
     #Iterate through open project metadata

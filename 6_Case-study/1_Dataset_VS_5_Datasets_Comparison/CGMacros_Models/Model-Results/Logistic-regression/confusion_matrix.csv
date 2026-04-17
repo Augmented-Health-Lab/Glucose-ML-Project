@@ -1,4 +1,0 @@
-,pred_No diabetes,pred_Prediabetes,pred_T2D
-true_No diabetes,2,0,1
-true_Prediabetes,0,2,1
-true_T2D,0,1,2

@@ -1,12 +1,37 @@
 # 6_Case-study
 
-This directory contains a four-step workflow for building diabetes classification models using 13 Open-Access Glucose-ML standardized continuous glucose monitoring (CGM) data.
+This directory contains the results of two case studies using open-access CGM datasets from the Glucose-ML collection. Also included are the Python scripts needed to replicate these analyses. Detailed instructions for running both case studies are included in this README.
 
-For this case study we used:
+The 2 Case studies:
+- **Case_Study_1**: Trains three diabetes status classification models using 13 open-source datasets from the Glucose-ML collection.
+- **Case_Study_2**: Compares diabetes status model classification performance when two sets of three models trained on a single dataset vs multiple datasets from the Glucose-ML collection.
 
- **13 Open-Access Datasets**: AZT1D, BIGIDEAs, Bris-T1D_Open, CGMacros_Dexcom, Colas_2019, D1NAMO, Hall_2018, HUPA-UCM, PhysioCGM, ShanghaiT1DM, ShanghaiT2DM, T1D-UOM, UCHTT1DM
 
-Note: See `1_Dataset_VS_5_Datasets_Comparison/` for the results of our Single vs Multi-dataset Analysis. For more info see [README](1_Dataset_VS_5_Datasets_Comparison/README.md)
+
+## `Case_Study_1/`
+*Overview*: This first case study demonstrates a practical use case of harmonzied CGM datasets from the Glucose-ML collection to predict participant diabetes status (T1D, T2D, ND, PreD). Three common ML classification models (Logistic Regression, Random Forest, and XGBoost) are trained using 13 open-source datasets. Model performance was evaluated based on ability to classify diabetes status of participants from CGM-derived features.
+
+**The following 13 Open-Access datasets were used:**
+* AZT1D, BIGIDEAs, Bris-T1D_Open, CGMacros_Dexcom, Colas_2019, D1NAMO, Hall_2018, HUPA-UCM, PhysioCGM, ShanghaiT1DM, ShanghaiT2DM, T1D-UOM, UCHTT1DM
+
+**Pre-Generated Model-Result Contents**:
+* `Model-Results/`: Contains confusion matricies & performance scores for Logistic Regression, Random Forest, and XGBoost models trained on the 13 datasets.
+
+## `Case_Study_2/`
+*Overview*: This second case study evaluates whether increasing the number of datasets (and therefore sample size and sample diversity) improves overall model performance in classifying diabetes status (T2D, ND, PreD) from CGM-derived features. Three common ML classification models (Logistic Regression, Random Forest, and XGBoost) are trained two times. The first triplet of models was trained using a single CGM dataset (CGMacros_Dexcom) and the second triplet was trained using five CGM datasets (CGMacros_Dexcom, Colas_2019, Hall_2018, ShanghaiT2DM, BIGIDEAs). Their predictive performance was then compared with each other.
+
+**The following datasets were used for training**:
+* **Single-dataset**: CGMacros_Dexcom
+* **Multi-dataset**: CGMacros_Dexcom, Colas_2019, Hall_2018, ShanghaiT2DM, BIGIDEAs
+
+**Pre-Generated Model-Result Contents**:
+* `Single_Dataset_Model/Model-Results/`: Contains confusion matricies & performance scores for Logistic Regression, Random Forest, and XGBoost models trained on the CGMacros_Dexcom dataset.
+* `Multi_Dataset_Model/Model-Results/`: Contains confusion matricies & performance scores for Logistic Regression, Random Forest, and XGBoost models trained on all five datasets combined.
+
+
+
+
+
 
 ## Script Structure
 
@@ -17,17 +42,13 @@ A total of 4 scripts need to be run in the following order:
 3. `Calculate-features.py`
 4. `Run-case-study-models.py`
 
----
-
-## Inputs
-
-This pipeline assumes the base Glucose-ML file structure and accesses the CGM files and metadata from 3_Glucose-ML-collection. The only exception is `Open-ML-Ready-Datasets/` as stated in **Script Structure**.
 
 ---
 
-## Reproducing this Case Study
+## Running the 4 Script Pipeline.
 
-The following steps is assumed the user is in the Glucose-ML-Project directory.
+Note: The following steps assumes the user is starting from the Glucose-ML-Project directory & harmonized CGM files and metadata are avaible in `3_Glucose-ML-collection/`.
+
 
 1. Install the following dependencies if you don't already have them
 
