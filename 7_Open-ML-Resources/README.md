@@ -1,4 +1,4 @@
-# 7_ML-Tools
+# 7_Open-ML-Resources
 
 This directory contains ML-preprocessing tools used to prepare Continuous Glucose Monitoring (CGM) data for machine learning workflows in the Glucose-ML project.
 
