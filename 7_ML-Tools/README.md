@@ -76,7 +76,7 @@ After running both scripts, the `ML-Ready-Datasets/` directory will contain:
 
 ---
 
-We hope these open-resources enable quick reproduction and experimentaion for downstream AI/ML tasks.
+We hope these open-resources enable quick reproduction and experimentation for downstream AI/ML tasks.
 
 <p>&nbsp;</p>
 
