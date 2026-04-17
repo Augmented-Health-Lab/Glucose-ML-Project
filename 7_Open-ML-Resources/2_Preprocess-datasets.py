@@ -1,7 +1,7 @@
 from pathlib import Path
 import pandas as pd
 import numpy as np
-import re
+import shutil
 
 
 def process_files(project_df, extracted_glucose_file_path, project, minimum_coverage):
@@ -129,7 +129,10 @@ def main():
     # Pull path info
     script_path = Path(__file__).resolve()
     glucose_ml_dir = script_path.parent.parent
-    
+    output_dir = Path("Open-ML-Ready-Datasets")
+    if output_dir.exists():
+        shutil.rmtree(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
 
     split_participants_df = pd.read_csv("participant_splits.csv",dtype={"person_id": str})
     project_ids = split_participants_df["dataset"].unique() # Pull dataset ids.

@@ -9,6 +9,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import confusion_matrix
 from xgboost import XGBClassifier
+import shutil
 
 
 '''
@@ -41,7 +42,10 @@ x_validate = validate_data[features].copy()
 y_validate = validate_data["diabetes_type"].copy()
 
 diabetes_groups = sorted(feature_data["diabetes_type"].unique())
-
+output_dir = Path("Model-Results")
+if output_dir.exists():
+    shutil.rmtree(output_dir)
+output_dir.mkdir(parents=True, exist_ok=True)
 
 def save_model_outputs(model_name, y_validate, valid_pred, y_test, test_pred, diabetes_groups):
     out_folder = Path(model_name)

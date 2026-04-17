@@ -1,17 +1,8 @@
 # 7_Open-ML-Resources
 
-This directory contains ML-preprocessing tools used to prepare Continuous Glucose Monitoring (CGM) data for machine learning workflows in the Glucose-ML project.
+This directory contains tools for preprocessing CGM data from the Glucose-ML collection into standardized, machine learning–ready formats.
 
-These tools handle participant-level data splitting and preprocessing to generate standardized, model-ready datasets.
-
----
-
-## Overview
-
-At present, there are two ML-tool scripts available for use
-
-1. `1_Split-participants.py`
-2. `2_Preprocess-datasets.py`
+These scripts perform participant-level splitting and data preprocessing to generate standardized, model-ready datasets for downstream AI/ML tasks.
 
 ---
 
@@ -19,7 +10,7 @@ At present, there are two ML-tool scripts available for use
 
 ### 1) 1_Split-participants.py
 
-Splits participants into training, validation, and test sets. Splitting operates within each dataset independently and uses a fixed random seed for reproducibility.
+Splits participants into training, validation, and test sets. Splitting operates within each dataset independently and uses a fixed random seed (20) for reproducibility.
 
 **Input:**
 * `3_Glucose-ML-collection/[dataset]/[dataset]-metadata.csv`
@@ -32,8 +23,6 @@ For each dataset:
 * Splits datasets specified by variable **open_projects**.
 * Applies a 70/10/20 split (train/validate/test). Note: User can modify these values.
 
-
----
 
 ### 2) 2_Preprocess-datasets.py
 
@@ -58,18 +47,23 @@ Note: Participants who do not have any valid CGM data for ML analysis post-proce
 ---
 
 ## Running these Scripts
+Note: The following steps assumes the user is starting from the Glucose-ML-Project directory & harmonized CGM files and metadata are avaible in `3_Glucose-ML-collection/`.
 
-Run the scripts in order:
+2. Change your working directory to the following
+
+```bash
+cd 7_Open-ML-Resources
+```
+
+2. Run the scripts in order:
 
 ```bash
 python 1_Split-participants.py
 python 2_Preprocess-datasets.py
 ```
+Note: These two scripts are used in both case studies as listed here [README](/6_Case-study/README.md)
 
-
-## Output
-
-After running both scripts, the `Open-ML-Ready-Datasets/` directory will contain:
+Outputs: After running both scripts, the `Open-ML-Ready-Datasets/` directory will contain:
 
 * Cleaned CGM files for each participant
 * A preprocessing manifest summarizing data quality and processing status. 

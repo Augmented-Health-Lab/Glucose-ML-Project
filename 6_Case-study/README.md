@@ -14,7 +14,8 @@ The 2 Case studies:
 * AZT1D, BIGIDEAs, Bris-T1D_Open, CGMacros_Dexcom, Colas_2019, D1NAMO, Hall_2018, HUPA-UCM, PhysioCGM, ShanghaiT1DM, ShanghaiT2DM, T1D-UOM, UCHTT1DM
 
 **Pre-Generated Model-Result Contents**:
-* `Model-Results/`: Contains confusion matricies & performance scores for Logistic Regression, Random Forest, and XGBoost models trained on the 13 datasets.
+* `Case_Study_1/Model-Results/`: Contains confusion matricies & performance scores for Logistic Regression, Random Forest, and XGBoost models trained on the 13 datasets.
+* Additionally, the `Open-ML-Ready-Datasets/`, `feature_calcs.csv`, and `participant_splits.csv` are provided.
 
 ## `Case_Study_2/`
 *Overview*: This second case study evaluates whether increasing the number of datasets (and therefore sample size and sample diversity) improves overall model performance in classifying diabetes status (T2D, ND, PreD) from CGM-derived features. Three common ML classification models (Logistic Regression, Random Forest, and XGBoost) are trained two times. The first triplet of models was trained using a single CGM dataset (CGMacros_Dexcom) and the second triplet was trained using five CGM datasets (CGMacros_Dexcom, Colas_2019, Hall_2018, ShanghaiT2DM, BIGIDEAs). Their predictive performance was then compared with each other.
@@ -24,15 +25,13 @@ The 2 Case studies:
 * **Multi-dataset**: CGMacros_Dexcom, Colas_2019, Hall_2018, ShanghaiT2DM, BIGIDEAs
 
 **Pre-Generated Model-Result Contents**:
-* `Single_Dataset_Model/Model-Results/`: Contains confusion matricies & performance scores for Logistic Regression, Random Forest, and XGBoost models trained on the CGMacros_Dexcom dataset.
+* `Multi_Dataset_Model/Multi_Dataset_Model//Model-Results/`: Contains confusion matricies & performance scores for Logistic Regression, Random Forest, and XGBoost models trained on the CGMacros_Dexcom dataset.
 * `Multi_Dataset_Model/Model-Results/`: Contains confusion matricies & performance scores for Logistic Regression, Random Forest, and XGBoost models trained on all five datasets combined.
-
-
-
+* Additionally, the `Open-ML-Ready-Datasets/`, `feature_calcs.csv`, and `participant_splits.csv` inputs are provided in both the `Single_Dataset_Model/` and `Multi_Dataset_Model/` directories. 
 
 ## Script Structure
 
-A total of 4 scripts need to be run in the following order: 
+A total of 4 scripts need to be executed sequentially: 
 
 1. `7_Open-ML-Resources/1_Split-participants.py`
 2. `7_Open-ML-Resources/2_Preprocess-datasets.py` -> Note: `Open-ML-Ready-Datasets/` needs to be moved to `6_Case-study` to proceed with step 3.
@@ -40,11 +39,10 @@ A total of 4 scripts need to be run in the following order:
 4. `Run-case-study-models.py`
 
 
----
-
 ## Running the 4 Script Pipeline.
 
 Note: The following steps assumes the user is starting from the Glucose-ML-Project directory & harmonized CGM files and metadata are avaible in `3_Glucose-ML-collection/`.
+
 
 
 1. Install the following dependencies if you don't already have them
@@ -61,10 +59,12 @@ cd 7_Open-ML-Resources
 3. Run these 2 scripts! 
 
 ```bash
-python 1_Split-participants.py
+python 1_Split-participants.py # see note below for important detail.
 python 2_Preprocess-datasets.py
 ```
-4. Move the output from `2_Preprocess-datasets.py` to `6_Case-study` using the following command
+*IMPORTANT NOTE:* variable `open_datasets` at the top of the `1_Split-participants.py ` needs to be commented/uncommented to match the case study being executed.
+
+4. Move the `Open-ML-Ready-Datasets` output created by `2_Preprocess-datasets.py` to `6_Case-study` using the following command:
 
 ```bash
 mv Open-ML-Ready-Datasets ../6_Case-study/
@@ -76,7 +76,7 @@ mv Open-ML-Ready-Datasets ../6_Case-study/
 cd ../6_Case-study
 ```
 
-6. Finally, run the final 2 scripts
+6. Finally, calcualte the features and train the models by executing the 2 scripts
 
 ```bash
 python Calculate-features.py
@@ -85,15 +85,13 @@ python Run-case-study-models.py
 
 ---
 
-## Script Summary
+## Overview of the Scripts
 
-See [README](/7_Open-ML-Resources/README.md) for information about `1_Split-participants.py` and `2_Preprocess-datasets.py`
+See [README](/7_Open-ML-Resources/README.md) for overview about `1_Split-participants.py` and `2_Preprocess-datasets.py`
 
 ### 1) Calculate-features.py
 
-Calculates participant-level glucose features from the processed data.
-
-* Specify up to as many valid CGM days per participant (default is 15).
+Calculates participant-level glucose features using up to 15 CGM days from the processed data.
 
 **Input:**
 

@@ -5,6 +5,7 @@ import numpy as np
 
 def calculate_features(participant_df, participant, project, participant_pop, split_assignment):
     """
+    Calculates features for model training using CGM Readings.
     """
     glucose_reads = pd.to_numeric(participant_df["glucose_value_mg_dl"], errors="coerce").dropna().reset_index(drop=True)
     feature_bin = {
