@@ -1,4 +1,65 @@
 person_id,diabetes_type,split_assignment,dataset,passed,num_rows_raw,num_rows_processed,num_valid_days
+Subject 20,T1D,train,AZT1D,yes,12964,13247,46
+Subject 24,T1D,train,AZT1D,yes,9723,10080,35
+Subject 13,T1D,train,AZT1D,yes,12630,12959,45
+Subject 5,T1D,train,AZT1D,yes,12814,13248,46
+Subject 19,T1D,train,AZT1D,yes,12955,13248,46
+Subject 2,T1D,train,AZT1D,yes,10797,11232,39
+Subject 14,T1D,train,AZT1D,yes,12446,12960,45
+Subject 17,T1D,train,AZT1D,yes,12532,12672,44
+Subject 23,T1D,train,AZT1D,yes,13197,13823,48
+Subject 7,T1D,train,AZT1D,yes,12676,13536,47
+Subject 18,T1D,train,AZT1D,yes,10350,10656,37
+Subject 25,T1D,train,AZT1D,yes,10515,10944,38
+Subject 22,T1D,train,AZT1D,yes,10853,11520,40
+Subject 15,T1D,train,AZT1D,yes,15431,13824,48
+Subject 11,T1D,train,AZT1D,yes,12267,12960,45
+Subject 6,T1D,train,AZT1D,yes,12710,12672,44
+Subject 9,T1D,train,AZT1D,yes,10196,10944,38
+Subject 1,T1D,train,AZT1D,yes,10449,11231,39
+Subject 3,T1D,validate,AZT1D,yes,11045,10944,38
+Subject 8,T1D,validate,AZT1D,yes,7789,8064,28
+Subject 12,T1D,test,AZT1D,yes,12385,12671,44
+Subject 21,T1D,test,AZT1D,yes,12734,13535,47
+Subject 10,T1D,test,AZT1D,yes,11709,12096,42
+Subject 16,T1D,test,AZT1D,yes,12092,12384,43
+Subject 4,T1D,test,AZT1D,yes,12308,12891,45
+014,No diabetes,train,BIGIDEAs,yes,2240,2016,7
+016,No diabetes,train,BIGIDEAs,yes,2277,2016,7
+001,No diabetes,train,BIGIDEAs,yes,2561,2519,9
+002,No diabetes,train,BIGIDEAs,yes,2119,1728,6
+015,No diabetes,train,BIGIDEAs,yes,1673,1152,4
+012,No diabetes,train,BIGIDEAs,yes,2169,2016,7
+007,No diabetes,validate,BIGIDEAs,yes,2207,2016,7
+008,No diabetes,test,BIGIDEAs,yes,2505,2304,8
+010,Prediabetes,train,BIGIDEAs,yes,2148,2016,7
+013,Prediabetes,train,BIGIDEAs,yes,1979,1728,6
+003,Prediabetes,train,BIGIDEAs,yes,2302,2016,7
+004,Prediabetes,train,BIGIDEAs,yes,2164,2016,7
+011,Prediabetes,train,BIGIDEAs,yes,2843,2592,9
+009,Prediabetes,train,BIGIDEAs,yes,2306,2016,7
+005,Prediabetes,validate,BIGIDEAs,yes,2558,2304,8
+006,Prediabetes,test,BIGIDEAs,yes,2847,2592,9
+P21,T1D,train,Bris-T1D_Open,yes,22532,56160,195
+P17,T1D,train,Bris-T1D_Open,yes,51925,52992,184
+P13,T1D,train,Bris-T1D_Open,yes,8739,27058,94
+P05,T1D,train,Bris-T1D_Open,yes,19824,60946,212
+P02,T1D,train,Bris-T1D_Open,yes,54104,53856,187
+P18,T1D,train,Bris-T1D_Open,yes,47370,46580,162
+P22,T1D,train,Bris-T1D_Open,yes,49714,51552,179
+P16,T1D,train,Bris-T1D_Open,yes,55533,56422,196
+P24,T1D,train,Bris-T1D_Open,yes,59234,59328,206
+P06,T1D,train,Bris-T1D_Open,yes,18153,55296,192
+P11,T1D,train,Bris-T1D_Open,yes,52559,52128,181
+P23,T1D,train,Bris-T1D_Open,yes,17919,18432,64
+P01,T1D,train,Bris-T1D_Open,yes,18975,57599,200
+P03,T1D,train,Bris-T1D_Open,yes,27652,27936,97
+P10,T1D,validate,Bris-T1D_Open,yes,47071,47520,165
+P07,T1D,validate,Bris-T1D_Open,yes,57893,58752,204
+P15,T1D,test,Bris-T1D_Open,yes,61851,62496,217
+P12,T1D,test,Bris-T1D_Open,yes,61565,61609,214
+P19,T1D,test,Bris-T1D_Open,yes,57930,58176,202
+P04,T1D,test,Bris-T1D_Open,yes,58031,58427,203
 CGMacros-048,No diabetes,train,CGMacros_Dexcom,yes,14260,2592,9
 CGMacros-032,No diabetes,train,CGMacros_Dexcom,yes,13656,2592,9
 CGMacros-021,No diabetes,train,CGMacros_Dexcom,yes,14275,2592,9
@@ -252,6 +313,15 @@ case  190,T2D,validate,Colas_2019,yes,576,288,1
 case  160,T2D,test,Colas_2019,yes,576,288,1
 case  154,T2D,test,Colas_2019,yes,576,288,1
 case  28,T2D,test,Colas_2019,yes,576,288,1
+009,T1D,train,D1NAMO,no,117,0,0
+007,T1D,train,D1NAMO,yes,988,864,3
+006,T1D,train,D1NAMO,yes,1280,1152,4
+001,T1D,train,D1NAMO,yes,1413,1355,5
+002,T1D,train,D1NAMO,yes,1056,864,3
+008,T1D,train,D1NAMO,yes,1140,864,3
+005,T1D,validate,D1NAMO,yes,909,576,2
+003,T1D,test,D1NAMO,no,183,0,0
+004,T1D,test,D1NAMO,yes,969,781,3
 1636-69-091,T2D,train,Hall_2018,yes,1803,1728,6
 2133-039,T2D,train,Hall_2018,yes,2013,2016,7
 1636-69-001,T2D,train,Hall_2018,yes,1846,1684,6
@@ -309,6 +379,52 @@ case  28,T2D,test,Colas_2019,yes,576,288,1
 2133-001,No diabetes,test,Hall_2018,yes,1814,1728,6
 2133-020,No diabetes,test,Hall_2018,yes,1826,1717,6
 2133-037,No diabetes,test,Hall_2018,yes,1785,1703,6
+HUPA0023P,T1D,train,HUPA-UCM,yes,3919,3744,13
+HUPA0027P,T1D,train,HUPA-UCM,yes,165306,165285,574
+HUPA0016P,T1D,train,HUPA-UCM,yes,3835,3742,13
+HUPA0005P,T1D,train,HUPA-UCM,yes,3858,3742,13
+HUPA0022P,T1D,train,HUPA-UCM,yes,4023,4023,14
+HUPA0002P,T1D,train,HUPA-UCM,yes,3181,3166,11
+HUPA0017P,T1D,train,HUPA-UCM,yes,3599,3455,12
+HUPA0020P,T1D,train,HUPA-UCM,yes,2862,2817,10
+HUPA0026P,T1D,train,HUPA-UCM,yes,40605,40605,141
+HUPA0007P,T1D,train,HUPA-UCM,yes,3857,3742,13
+HUPA0021P,T1D,train,HUPA-UCM,yes,2343,2016,7
+HUPA0028P,T1D,train,HUPA-UCM,yes,25902,25632,89
+HUPA0025P,T1D,train,HUPA-UCM,yes,4006,3744,13
+HUPA0018P,T1D,train,HUPA-UCM,yes,3895,3742,13
+HUPA0014P,T1D,train,HUPA-UCM,yes,3829,3742,13
+HUPA0006P,T1D,train,HUPA-UCM,yes,2290,2016,7
+HUPA0010P,T1D,train,HUPA-UCM,yes,2976,2875,10
+HUPA0001P,T1D,train,HUPA-UCM,yes,4096,4032,14
+HUPA0003P,T1D,validate,HUPA-UCM,yes,3770,3742,13
+HUPA0009P,T1D,validate,HUPA-UCM,yes,3812,3699,13
+HUPA0015P,T1D,test,HUPA-UCM,yes,3792,3699,13
+HUPA0024P,T1D,test,HUPA-UCM,yes,2902,2592,9
+HUPA0011P,T1D,test,HUPA-UCM,yes,3839,3742,13
+HUPA0019P,T1D,test,HUPA-UCM,yes,3711,3456,12
+HUPA0004P,T1D,test,HUPA-UCM,yes,3184,3082,11
+c2s03,T1D,train,PhysioCGM,yes,24304,23874,83
+c1s02,T1D,train,PhysioCGM,yes,21172,21312,74
+c2s04,T1D,train,PhysioCGM,yes,25508,25632,89
+c2s01,T1D,train,PhysioCGM,yes,25001,25056,87
+c1s01,T1D,train,PhysioCGM,yes,25368,25632,89
+c1s03,T1D,train,PhysioCGM,yes,25361,25344,88
+c2s05,T1D,validate,PhysioCGM,yes,24978,25622,89
+c1s05,T1D,test,PhysioCGM,yes,25260,25632,89
+c1s04,T1D,test,PhysioCGM,yes,4634,4032,14
+1008,T1D,train,ShanghaiT1DM,yes,766,2016,7
+1002,T1D,train,ShanghaiT1DM,yes,2238,6048,21
+1009,T1D,train,ShanghaiT1DM,yes,681,1728,6
+1006,T1D,train,ShanghaiT1DM,yes,3710,10368,36
+1001,T1D,train,ShanghaiT1DM,yes,658,1728,6
+1003,T1D,train,ShanghaiT1DM,yes,1339,3744,13
+1007,T1D,train,ShanghaiT1DM,yes,1337,3744,13
+1012,T1D,train,ShanghaiT1DM,yes,1339,4015,14
+1005,T1D,validate,ShanghaiT1DM,yes,1256,3456,12
+1010,T1D,test,ShanghaiT1DM,yes,918,2592,9
+1011,T1D,test,ShanghaiT1DM,yes,536,1440,5
+1004,T1D,test,ShanghaiT1DM,yes,917,2592,9
 2070,T2D,train,ShanghaiT2DM,yes,1230,3456,12
 2074,T2D,train,ShanghaiT2DM,yes,2123,6004,21
 2002,T2D,train,ShanghaiT2DM,yes,571,1440,5
@@ -409,19 +525,40 @@ case  28,T2D,test,Colas_2019,yes,576,288,1
 2015,T2D,test,ShanghaiT2DM,yes,2657,7488,26
 2090,T2D,test,ShanghaiT2DM,yes,1330,3744,13
 2099,T2D,test,ShanghaiT2DM,yes,1329,3744,13
-014,No diabetes,train,BIGIDEAs,yes,2240,2016,7
-016,No diabetes,train,BIGIDEAs,yes,2277,2016,7
-001,No diabetes,train,BIGIDEAs,yes,2561,2519,9
-002,No diabetes,train,BIGIDEAs,yes,2119,1728,6
-015,No diabetes,train,BIGIDEAs,yes,1673,1152,4
-012,No diabetes,train,BIGIDEAs,yes,2169,2016,7
-007,No diabetes,validate,BIGIDEAs,yes,2207,2016,7
-008,No diabetes,test,BIGIDEAs,yes,2505,2304,8
-010,Prediabetes,train,BIGIDEAs,yes,2148,2016,7
-013,Prediabetes,train,BIGIDEAs,yes,1979,1728,6
-003,Prediabetes,train,BIGIDEAs,yes,2302,2016,7
-004,Prediabetes,train,BIGIDEAs,yes,2164,2016,7
-011,Prediabetes,train,BIGIDEAs,yes,2843,2592,9
-009,Prediabetes,train,BIGIDEAs,yes,2306,2016,7
-005,Prediabetes,validate,BIGIDEAs,yes,2558,2304,8
-006,Prediabetes,test,BIGIDEAs,yes,2847,2592,9
+UoMGlucose2405,T1D,train,T1D-UOM,yes,12547,28224,98
+UoMGlucose2302,T1D,train,T1D-UOM,yes,13656,38880,135
+UoMGlucose2306,T1D,train,T1D-UOM,yes,11710,29370,102
+UoMGlucose2314,T1D,train,T1D-UOM,yes,12783,26206,91
+UoMGlucose2309,T1D,train,T1D-UOM,yes,20665,19865,69
+UoMGlucose2403,T1D,train,T1D-UOM,yes,12860,32537,113
+UoMGlucose2401,T1D,train,T1D-UOM,yes,15047,26492,92
+UoMGlucose2301,T1D,train,T1D-UOM,yes,45768,31680,110
+UoMGlucose2303,T1D,train,T1D-UOM,yes,14188,14112,49
+UoMGlucose2308,T1D,train,T1D-UOM,yes,28694,28800,100
+UoMGlucose2307,T1D,train,T1D-UOM,yes,8385,8352,29
+UoMGlucose2305,T1D,train,T1D-UOM,yes,7190,18431,64
+UoMGlucose2310,T1D,validate,T1D-UOM,yes,50108,50976,177
+UoMGlucose2404,T1D,validate,T1D-UOM,yes,8236,22462,78
+UoMGlucose2320,T1D,test,T1D-UOM,yes,23965,24192,84
+UoMGlucose2313,T1D,test,T1D-UOM,yes,30832,27648,96
+UoMGlucose2304,T1D,test,T1D-UOM,yes,39512,22176,77
+HT_08,No diabetes,train,UCHTT1DM,yes,1529,1671,6
+HT_02,No diabetes,train,UCHTT1DM,yes,1714,1681,6
+HT_09,No diabetes,train,UCHTT1DM,yes,1549,1440,5
+HT_06,No diabetes,train,UCHTT1DM,yes,1685,1657,6
+HT_01,No diabetes,train,UCHTT1DM,yes,1672,1705,6
+HT_03,No diabetes,train,UCHTT1DM,yes,1827,1663,6
+HT_07,No diabetes,train,UCHTT1DM,yes,1382,1440,5
+HT_11,No diabetes,train,UCHTT1DM,yes,1590,1440,5
+HT_05,No diabetes,validate,UCHTT1DM,yes,1403,1152,4
+HT_10,No diabetes,test,UCHTT1DM,yes,1502,1397,5
+HT_04,No diabetes,test,UCHTT1DM,yes,1933,1728,6
+T1DM_10,T1D,train,UCHTT1DM,yes,718,576,2
+T1DM_08,T1D,train,UCHTT1DM,yes,925,864,3
+T1DM_07,T1D,train,UCHTT1DM,yes,1251,1127,4
+T1DM_02,T1D,train,UCHTT1DM,yes,1326,1400,5
+T1DM_03,T1D,train,UCHTT1DM,yes,1818,1728,6
+T1DM_09,T1D,train,UCHTT1DM,yes,567,288,1
+T1DM_06,T1D,validate,UCHTT1DM,yes,1408,1397,5
+T1DM_04,T1D,test,UCHTT1DM,yes,1767,1728,6
+T1DM_05,T1D,test,UCHTT1DM,yes,1608,1440,5

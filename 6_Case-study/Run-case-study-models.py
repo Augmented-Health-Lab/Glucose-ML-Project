@@ -52,9 +52,9 @@ def save_model_outputs(model_name, y_validate, valid_pred, y_test, test_pred, di
     cm_df = pd.DataFrame(
         test_confusion_matrix,
         index=[f"true_{c}" for c in diabetes_groups],
-        columns=[f"pred_{c}" for c in diabetes_groups],
+        columns=[f"predicted_{c}" for c in diabetes_groups],
     )
-    cm_df.to_csv(out_folder / "test_confusion_matrix.csv")
+    cm_df.to_csv(out_folder / "confusion_matrix.csv")
 
     accuracy_test = accuracy_score(y_test, test_pred)
     macro_f1_test = f1_score(y_test, test_pred, average="macro")
@@ -79,7 +79,7 @@ def save_model_outputs(model_name, y_validate, valid_pred, y_test, test_pred, di
     }])
 
     score_df = pd.concat([test_entry, validate_entry], ignore_index=True)
-    score_df.to_csv(out_folder / "test_scores.csv", index=False)
+    score_df.to_csv(out_folder / "scores.csv", index=False)
 
 
 #Log regression
@@ -89,7 +89,7 @@ logistic_regression.fit(x_train, y_train)
 valid_pred = logistic_regression.predict(x_validate)
 test_pred = logistic_regression.predict(x_test)
 
-save_model_outputs("Logistic-regression-results", y_validate, valid_pred, y_test, test_pred, diabetes_groups)
+save_model_outputs("Model-Results/Logistic-regression", y_validate, valid_pred, y_test, test_pred, diabetes_groups)
 
 
 #Random Forest
@@ -99,7 +99,7 @@ random_forest.fit(x_train, y_train)
 valid_pred = random_forest.predict(x_validate)
 test_pred = random_forest.predict(x_test)
 
-save_model_outputs("Random-forest-results", y_validate, valid_pred, y_test, test_pred, diabetes_groups)
+save_model_outputs("Model-Results/Random-forest", y_validate, valid_pred, y_test, test_pred, diabetes_groups)
 
 
 # XGBoost
@@ -131,6 +131,6 @@ test_pred_encoded = xgboost_model.predict(x_test)
 valid_pred = label_encoder.inverse_transform(valid_pred_encoded)
 test_pred = label_encoder.inverse_transform(test_pred_encoded)
 
-save_model_outputs("XGBoost-results", y_validate, valid_pred, y_test, test_pred, diabetes_groups)
+save_model_outputs("Model-Results/XGBoost", y_validate, valid_pred, y_test, test_pred, diabetes_groups)
 
 print("Done!")

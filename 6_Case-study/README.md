@@ -1,8 +1,12 @@
 # 6_Case-study
 
-This directory contains a four-step workflow for building diabetes classification models using the Open-Access Glucose-ML standardized continuous glucose monitoring (CGM) data.
+This directory contains a four-step workflow for building diabetes classification models using 13 Open-Access Glucose-ML standardized continuous glucose monitoring (CGM) data.
 
-See `1_Dataset_VS_5_Datasets_Comparison/` for the results of our Single vs Multi-dataset Analysis. For more info see [README](1_Dataset_VS_5_Datasets_Comparison/README.md)
+For this case study we used:
+
+ **13 Open-Access Datasets**: AZT1D, BIGIDEAs, Bris-T1D_Open, CGMacros_Dexcom, Colas_2019, D1NAMO, Hall_2018, HUPA-UCM, PhysioCGM, ShanghaiT1DM, ShanghaiT2DM, T1D-UOM, UCHTT1DM
+
+Note: See `1_Dataset_VS_5_Datasets_Comparison/` for the results of our Single vs Multi-dataset Analysis. For more info see [README](1_Dataset_VS_5_Datasets_Comparison/README.md)
 
 ## Script Structure
 
@@ -21,7 +25,7 @@ This pipeline assumes the base Glucose-ML file structure and accesses the CGM fi
 
 ---
 
-## Reproducing this Case-Study
+## Reproducing this Case Study
 
 The following steps is assumed the user is in the Glucose-ML-Project directory.
 
@@ -51,13 +55,13 @@ mv Open-ML-Ready-Datasets ../6_Case-study/
 5. Change your working directory to the following
 
 ```bash
-cd 6_Case-study
+cd ../6_Case-study
 ```
 
 6. Finally, run the final 2 scripts
 
 ```bash
-python Calculate_features.py
+python Calculate-features.py
 python Run-case-study-models.py
 ```
 
@@ -100,14 +104,14 @@ Trains and evaluates 3 models: logistic regression, random forest, and XGBoost u
 
 **Output:**
 
-* `Logistic-regression-results/test_scores.csv`
-* `Logistic-regression-results/test_confusion_matrix.csv`
-* `Random-forest-results/test_scores.csv`
-* `Random-forest-results/test_confusion_matrix.csv`
-* `XGBoost-results/test_scores.csv`
-* `XGBoost-results/test_confusion_matrix.csv`
+* `Model-Results/Logistic-regression/scores.csv`
+* `Model-Results/Logistic-regression/confusion_matrix.csv`
+* `Model-Results/Random-forest/scores.csv`
+* `Model-Results/Random-forest/confusion_matrix.csv`
+* `Model-Results/XGBoost/scores.csv`
+* `Model-Results/XGBoost/confusion_matrix.csv`
 
-Metrics included in "test_scores.csv": accuracy, macro F1, balanced accuracy
+Metrics included in "scores.csv": accuracy, macro F1, balanced accuracy
 
 
 <p>&nbsp;</p>

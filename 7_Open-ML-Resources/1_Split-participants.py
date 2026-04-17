@@ -3,8 +3,6 @@ import pandas as pd
 
 
 
-
-
 def split_data(df,seed,split_proportions):
     '''
     This function splits the specified datasets into test/train/split groups.
@@ -94,7 +92,6 @@ def main():
         metadata_path = glucose_ml_dir / "3_Glucose-ML-collection" / project / project_path
         metadata = Path(metadata_path)
         df = pd.read_csv(metadata,dtype={"person_id": str})
-
         df = df[["person_id", "diabetes_type"]]
         df_assignments = split_data(df, seed, split_proportions)
         df_assignments["dataset"] = project

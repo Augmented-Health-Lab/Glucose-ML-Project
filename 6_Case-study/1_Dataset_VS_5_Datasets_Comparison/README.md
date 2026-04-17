@@ -31,9 +31,9 @@ All models were trained to classify:
 * `CGMacros_Models/`: Contains results from Logistic Regression, Random Forest, and XGBoost models trained using only the CGMacros_Dexcom dataset.
 * `Combined_Dataset_Models/`: Contains results from Logistic Regression, Random Forest, and XGBoost models trained using all five datasets combined.
 
-
-* `test_scores.csv`: accuracy, macro F1, and balanced accuracy
-* `test_confusion_matrix.csv`: confusion matrix for test predictions
+Results for each of the Models:
+  - `scores.csv`: accuracy, macro F1, and balanced accuracy
+  - `confusion_matrix.csv`: confusion matrix for test predictions
 
 ---
 
