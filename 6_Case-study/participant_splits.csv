@@ -1,65 +1,4 @@
 person_id,diabetes_type,split_assignment,dataset
-Subject 20,T1D,train,AZT1D
-Subject 24,T1D,train,AZT1D
-Subject 13,T1D,train,AZT1D
-Subject 5,T1D,train,AZT1D
-Subject 19,T1D,train,AZT1D
-Subject 2,T1D,train,AZT1D
-Subject 14,T1D,train,AZT1D
-Subject 17,T1D,train,AZT1D
-Subject 23,T1D,train,AZT1D
-Subject 7,T1D,train,AZT1D
-Subject 18,T1D,train,AZT1D
-Subject 25,T1D,train,AZT1D
-Subject 22,T1D,train,AZT1D
-Subject 15,T1D,train,AZT1D
-Subject 11,T1D,train,AZT1D
-Subject 6,T1D,train,AZT1D
-Subject 9,T1D,train,AZT1D
-Subject 1,T1D,train,AZT1D
-Subject 3,T1D,validate,AZT1D
-Subject 8,T1D,validate,AZT1D
-Subject 12,T1D,test,AZT1D
-Subject 21,T1D,test,AZT1D
-Subject 10,T1D,test,AZT1D
-Subject 16,T1D,test,AZT1D
-Subject 4,T1D,test,AZT1D
-014,No diabetes,train,BIGIDEAs
-016,No diabetes,train,BIGIDEAs
-001,No diabetes,train,BIGIDEAs
-002,No diabetes,train,BIGIDEAs
-015,No diabetes,train,BIGIDEAs
-012,No diabetes,train,BIGIDEAs
-007,No diabetes,validate,BIGIDEAs
-008,No diabetes,test,BIGIDEAs
-010,Prediabetes,train,BIGIDEAs
-013,Prediabetes,train,BIGIDEAs
-003,Prediabetes,train,BIGIDEAs
-004,Prediabetes,train,BIGIDEAs
-011,Prediabetes,train,BIGIDEAs
-009,Prediabetes,train,BIGIDEAs
-005,Prediabetes,validate,BIGIDEAs
-006,Prediabetes,test,BIGIDEAs
-P21,T1D,train,Bris-T1D_Open
-P17,T1D,train,Bris-T1D_Open
-P13,T1D,train,Bris-T1D_Open
-P05,T1D,train,Bris-T1D_Open
-P02,T1D,train,Bris-T1D_Open
-P18,T1D,train,Bris-T1D_Open
-P22,T1D,train,Bris-T1D_Open
-P16,T1D,train,Bris-T1D_Open
-P24,T1D,train,Bris-T1D_Open
-P06,T1D,train,Bris-T1D_Open
-P11,T1D,train,Bris-T1D_Open
-P23,T1D,train,Bris-T1D_Open
-P01,T1D,train,Bris-T1D_Open
-P03,T1D,train,Bris-T1D_Open
-P10,T1D,validate,Bris-T1D_Open
-P07,T1D,validate,Bris-T1D_Open
-P15,T1D,test,Bris-T1D_Open
-P12,T1D,test,Bris-T1D_Open
-P19,T1D,test,Bris-T1D_Open
-P04,T1D,test,Bris-T1D_Open
 CGMacros-048,No diabetes,train,CGMacros_Dexcom
 CGMacros-032,No diabetes,train,CGMacros_Dexcom
 CGMacros-021,No diabetes,train,CGMacros_Dexcom
@@ -313,15 +252,6 @@ case  190,T2D,validate,Colas_2019
 case  160,T2D,test,Colas_2019
 case  154,T2D,test,Colas_2019
 case  28,T2D,test,Colas_2019
-009,T1D,train,D1NAMO
-007,T1D,train,D1NAMO
-006,T1D,train,D1NAMO
-001,T1D,train,D1NAMO
-002,T1D,train,D1NAMO
-008,T1D,train,D1NAMO
-005,T1D,validate,D1NAMO
-003,T1D,test,D1NAMO
-004,T1D,test,D1NAMO
 1636-69-091,T2D,train,Hall_2018
 2133-039,T2D,train,Hall_2018
 1636-69-001,T2D,train,Hall_2018
@@ -379,53 +309,6 @@ case  28,T2D,test,Colas_2019
 2133-001,No diabetes,test,Hall_2018
 2133-020,No diabetes,test,Hall_2018
 2133-037,No diabetes,test,Hall_2018
-HUPA0023P,T1D,train,HUPA-UCM
-HUPA0027P,T1D,train,HUPA-UCM
-HUPA0016P,T1D,train,HUPA-UCM
-HUPA0005P,T1D,train,HUPA-UCM
-HUPA0022P,T1D,train,HUPA-UCM
-HUPA0002P,T1D,train,HUPA-UCM
-HUPA0017P,T1D,train,HUPA-UCM
-HUPA0020P,T1D,train,HUPA-UCM
-HUPA0026P,T1D,train,HUPA-UCM
-HUPA0007P,T1D,train,HUPA-UCM
-HUPA0021P,T1D,train,HUPA-UCM
-HUPA0028P,T1D,train,HUPA-UCM
-HUPA0025P,T1D,train,HUPA-UCM
-HUPA0018P,T1D,train,HUPA-UCM
-HUPA0014P,T1D,train,HUPA-UCM
-HUPA0006P,T1D,train,HUPA-UCM
-HUPA0010P,T1D,train,HUPA-UCM
-HUPA0001P,T1D,train,HUPA-UCM
-HUPA0003P,T1D,validate,HUPA-UCM
-HUPA0009P,T1D,validate,HUPA-UCM
-HUPA0015P,T1D,test,HUPA-UCM
-HUPA0024P,T1D,test,HUPA-UCM
-HUPA0011P,T1D,test,HUPA-UCM
-HUPA0019P,T1D,test,HUPA-UCM
-HUPA0004P,T1D,test,HUPA-UCM
-c2s03,T1D,train,PhysioCGM
-c1s02,T1D,train,PhysioCGM
-c2s04,T1D,train,PhysioCGM
-c2s01,T1D,train,PhysioCGM
-c1s01,T1D,train,PhysioCGM
-c1s03,T1D,train,PhysioCGM
-c2s02,T1D,train,PhysioCGM
-c2s05,T1D,validate,PhysioCGM
-c1s05,T1D,test,PhysioCGM
-c1s04,T1D,test,PhysioCGM
-1008,T1D,train,ShanghaiT1DM
-1002,T1D,train,ShanghaiT1DM
-1009,T1D,train,ShanghaiT1DM
-1006,T1D,train,ShanghaiT1DM
-1001,T1D,train,ShanghaiT1DM
-1003,T1D,train,ShanghaiT1DM
-1007,T1D,train,ShanghaiT1DM
-1012,T1D,train,ShanghaiT1DM
-1005,T1D,validate,ShanghaiT1DM
-1010,T1D,test,ShanghaiT1DM
-1011,T1D,test,ShanghaiT1DM
-1004,T1D,test,ShanghaiT1DM
 2070,T2D,train,ShanghaiT2DM
 2074,T2D,train,ShanghaiT2DM
 2002,T2D,train,ShanghaiT2DM
@@ -526,40 +409,19 @@ c1s04,T1D,test,PhysioCGM
 2015,T2D,test,ShanghaiT2DM
 2090,T2D,test,ShanghaiT2DM
 2099,T2D,test,ShanghaiT2DM
-UoMGlucose2405,T1D,train,T1D-UOM
-UoMGlucose2302,T1D,train,T1D-UOM
-UoMGlucose2306,T1D,train,T1D-UOM
-UoMGlucose2314,T1D,train,T1D-UOM
-UoMGlucose2309,T1D,train,T1D-UOM
-UoMGlucose2403,T1D,train,T1D-UOM
-UoMGlucose2401,T1D,train,T1D-UOM
-UoMGlucose2301,T1D,train,T1D-UOM
-UoMGlucose2303,T1D,train,T1D-UOM
-UoMGlucose2308,T1D,train,T1D-UOM
-UoMGlucose2307,T1D,train,T1D-UOM
-UoMGlucose2305,T1D,train,T1D-UOM
-UoMGlucose2310,T1D,validate,T1D-UOM
-UoMGlucose2404,T1D,validate,T1D-UOM
-UoMGlucose2320,T1D,test,T1D-UOM
-UoMGlucose2313,T1D,test,T1D-UOM
-UoMGlucose2304,T1D,test,T1D-UOM
-HT_08,No diabetes,train,UCHTT1DM
-HT_02,No diabetes,train,UCHTT1DM
-HT_09,No diabetes,train,UCHTT1DM
-HT_06,No diabetes,train,UCHTT1DM
-HT_01,No diabetes,train,UCHTT1DM
-HT_03,No diabetes,train,UCHTT1DM
-HT_07,No diabetes,train,UCHTT1DM
-HT_11,No diabetes,train,UCHTT1DM
-HT_05,No diabetes,validate,UCHTT1DM
-HT_10,No diabetes,test,UCHTT1DM
-HT_04,No diabetes,test,UCHTT1DM
-T1DM_10,T1D,train,UCHTT1DM
-T1DM_08,T1D,train,UCHTT1DM
-T1DM_07,T1D,train,UCHTT1DM
-T1DM_02,T1D,train,UCHTT1DM
-T1DM_03,T1D,train,UCHTT1DM
-T1DM_09,T1D,train,UCHTT1DM
-T1DM_06,T1D,validate,UCHTT1DM
-T1DM_04,T1D,test,UCHTT1DM
-T1DM_05,T1D,test,UCHTT1DM
+014,No diabetes,train,BIGIDEAs
+016,No diabetes,train,BIGIDEAs
+001,No diabetes,train,BIGIDEAs
+002,No diabetes,train,BIGIDEAs
+015,No diabetes,train,BIGIDEAs
+012,No diabetes,train,BIGIDEAs
+007,No diabetes,validate,BIGIDEAs
+008,No diabetes,test,BIGIDEAs
+010,Prediabetes,train,BIGIDEAs
+013,Prediabetes,train,BIGIDEAs
+003,Prediabetes,train,BIGIDEAs
+004,Prediabetes,train,BIGIDEAs
+011,Prediabetes,train,BIGIDEAs
+009,Prediabetes,train,BIGIDEAs
+005,Prediabetes,validate,BIGIDEAs
+006,Prediabetes,test,BIGIDEAs
