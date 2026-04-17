@@ -7,7 +7,6 @@ The 2 Case studies:
 - **Case_Study_2**: Compares diabetes status model classification performance when two sets of three models trained on a single dataset vs multiple datasets from the Glucose-ML collection.
 
 
-
 ## `Case_Study_1/`
 *Overview*: This first case study demonstrates a practical use case of harmonzied CGM datasets from the Glucose-ML collection to predict participant diabetes status (T1D, T2D, ND, PreD). Three common ML classification models (Logistic Regression, Random Forest, and XGBoost) are trained using 13 open-source datasets. Model performance was evaluated based on ability to classify diabetes status of participants from CGM-derived features.
 
@@ -27,8 +26,6 @@ The 2 Case studies:
 **Pre-Generated Model-Result Contents**:
 * `Single_Dataset_Model/Model-Results/`: Contains confusion matricies & performance scores for Logistic Regression, Random Forest, and XGBoost models trained on the CGMacros_Dexcom dataset.
 * `Multi_Dataset_Model/Model-Results/`: Contains confusion matricies & performance scores for Logistic Regression, Random Forest, and XGBoost models trained on all five datasets combined.
-
-
 
 
 
