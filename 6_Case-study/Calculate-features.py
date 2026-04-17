@@ -170,15 +170,15 @@ def main():
     Calculate features to use for our Machine Learning Case Study.
 
     Inputs:
-        - "ML-Ready-Datasets/preprocessing_manifest.csv"
-        - "ML-Ready-Datasets/[dataset]/[subject].csv"
+        - "Open-ML-Ready-Datasets/preprocessing_manifest.csv"
+        - "Open-ML-Ready-Datasets/[dataset]/[subject].csv"
     Output: 
         - "feature_calcs.csv"
 
     '''
     max_days = 15 # Specify the max number of CGM days to consider for calculation.
 
-    manifest = pd.read_csv("ML-Ready-Datasets/preprocessing_manifest.csv", dtype={"person_id": str})
+    manifest = pd.read_csv("Open-ML-Ready-Datasets/preprocessing_manifest.csv", dtype={"person_id": str})
     manifest = manifest[manifest["passed"] == "yes"] # Only pull participants who passed.
     project_ids = manifest["dataset"].unique() # Pull dataset ids.
     
@@ -187,7 +187,7 @@ def main():
         project_df = manifest[manifest["dataset"]==project]
         for i, entry in project_df.iterrows():
             participant = entry["person_id"]
-            participant_file_path = Path("ML-Ready-Datasets") / project / f'{participant}.csv'
+            participant_file_path = Path("Open-ML-Ready-Datasets") / project / f'{participant}.csv'
             participant_file = Path(participant_file_path)
             participant_pop = entry["diabetes_type"]
             split_assignment = entry["split_assignment"]
