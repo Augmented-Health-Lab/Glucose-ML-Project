@@ -15,17 +15,17 @@ The 2 Case studies:
 
 **Pre-Generated Model-Result Contents**:
 * `Case_Study_1/Model-Results/`: Contains confusion matricies & performance scores for Logistic Regression, Random Forest, and XGBoost models trained on the 13 datasets.
-* Additionally, the `Open-ML-Ready-Datasets/`, `feature_calcs.csv`, and `participant_splits.csv` are provided.
+* Additionally, the `Open-ML-Ready-Datasets/` (preprocessed data), `feature_calcs.csv` (features), and `participant_splits.csv` (train/split/validate assignments) are provided.
 
 ## `Case_Study_2/`
-*Overview*: This second case study evaluates whether increasing the number of datasets (and therefore sample size and sample diversity) improves overall model performance in classifying diabetes status (T2D, ND, PreD) from CGM-derived features. Three common ML classification models (Logistic Regression, Random Forest, and XGBoost) are trained two times. The first triplet of models was trained using a single CGM dataset (CGMacros_Dexcom) and the second triplet was trained using five CGM datasets (CGMacros_Dexcom, Colas_2019, Hall_2018, ShanghaiT2DM, BIGIDEAs). Their predictive performance was then compared with each other.
+*Overview*: This second case study evaluates whether increasing the number of datasets (and therefore sample size and sample diversity) improves overall model performance in classifying diabetes status (T2D, ND, PreD) from CGM-derived features. Three common ML classification models (Logistic Regression, Random Forest, and XGBoost) are trained two times. The first triplet of models was trained using a single CGM dataset (CGMacros_Dexcom) and the second triplet was trained using five CGM datasets (CGMacros_Dexcom, Colas_2019, Hall_2018, ShanghaiT2DM, BIGIDEAs). Performance of the single-dataset and multi-dataset was compared.
 
 **The following datasets were used for training**:
 * **Single-dataset**: CGMacros_Dexcom
 * **Multi-dataset**: CGMacros_Dexcom, Colas_2019, Hall_2018, ShanghaiT2DM, BIGIDEAs
 
 **Pre-Generated Model-Result Contents**:
-* `Multi_Dataset_Model/Multi_Dataset_Model//Model-Results/`: Contains confusion matricies & performance scores for Logistic Regression, Random Forest, and XGBoost models trained on the CGMacros_Dexcom dataset.
+* `Single_Dataset_Model/Model-Results/`: Contains confusion matricies & performance scores for Logistic Regression, Random Forest, and XGBoost models trained on the CGMacros_Dexcom dataset.
 * `Multi_Dataset_Model/Model-Results/`: Contains confusion matricies & performance scores for Logistic Regression, Random Forest, and XGBoost models trained on all five datasets combined.
 * Additionally, the `Open-ML-Ready-Datasets/`, `feature_calcs.csv`, and `participant_splits.csv` inputs are provided in both the `Single_Dataset_Model/` and `Multi_Dataset_Model/` directories. 
 
@@ -34,15 +34,14 @@ The 2 Case studies:
 A total of 4 scripts need to be executed sequentially: 
 
 1. `7_Open-ML-Resources/1_Split-participants.py`
-2. `7_Open-ML-Resources/2_Preprocess-datasets.py` -> Note: `Open-ML-Ready-Datasets/` needs to be moved to `6_Case-study` to proceed with step 3.
+2. `7_Open-ML-Resources/2_Preprocess-datasets.py` -> Note: `Open-ML-Ready-Datasets/` needs to be moved to `6_Case-study/` in order to proceed with step 3.
 3. `Calculate-features.py`
 4. `Run-case-study-models.py`
 
 
 ## Running the 4 Script Pipeline.
 
-Note: The following steps assumes the user is starting from the Glucose-ML-Project directory & harmonized CGM files and metadata are avaible in `3_Glucose-ML-collection/`.
-
+Note: The following steps assumes the user is starting from the `Glucose-ML-Project` directory & that harmonized CGM files and metadata exist in `3_Glucose-ML-collection/`.
 
 
 1. Install the following dependencies if you don't already have them
