@@ -1,6 +1,7 @@
 from pathlib import Path
 import pandas as pd
 import numpy as np
+import warnings
 import shutil
 
 
@@ -35,7 +36,14 @@ def process_files(project_df, extracted_glucose_file_path, project, minimum_cove
 
         df = df[["timestamp", "glucose_value_mg_dl"]].copy()
 
-        df["timestamp"] = pd.to_datetime(df["timestamp"], errors="coerce")
+        # Colas_2019 dataset only has "%H:%M:%S" timestamp format, this prevents terminal warning spam.
+        if dataset == "Colas_2019":
+            with warnings.catch_warnings():
+                warnings.simplefilter("ignore", UserWarning)
+                df["timestamp"] = pd.to_datetime(df["timestamp"], errors="coerce")
+        else:
+            df["timestamp"] = pd.to_datetime(df["timestamp"], errors="coerce")
+            
         df["glucose_value_mg_dl"] = pd.to_numeric(df["glucose_value_mg_dl"], errors="coerce")
 
         n_rows_raw = len(df)
