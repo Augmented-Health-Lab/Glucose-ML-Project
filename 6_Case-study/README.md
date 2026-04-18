@@ -101,7 +101,7 @@ Calculates participant-level glucose features using up to 15 CGM days from the p
 
 * `feature_calcs.csv`
 
-Features include summary statistics and glycemic variability measures such as:
+CGM-derived features include summary statistics and glycemic variability measures such as:
 
 * mean, median, SD glucose
 * ADRR, MAGE, LBGI, HBGI, BGRI
