@@ -6,7 +6,7 @@ These scripts perform participant-level splitting and data preprocessing to gene
 
 ---
 
-## Script Summary
+## Overview of the Scripts
 
 ### 1) 1_Split-participants.py
 
@@ -21,7 +21,7 @@ Splits participants into training, validation, and test sets. Splitting operates
 For each dataset:
 * Performs stratified splitting by diabetes type.
 * Splits datasets specified by variable **open_projects**.
-* Applies a 70/10/20 split (train/validate/test). Note: User can modify these values.
+* Applies a 70/10/20 split (train/validate/test).
 
 
 ### 2) 2_Preprocess-datasets.py
@@ -42,12 +42,12 @@ For each participant:
 * Interpolates small gaps (up to 15 minutes)
 * Filters out low-quality CGM days (<70% coverage)
 
-Note: Participants who do not have any valid CGM data for ML analysis post-processing will have 'no' under the 'passed' column in the `preprocessing_manifest.csv`
+Note: Participants who do not have any valid CGM data for ML analysis post-processing will have 'no' assigned to the 'passed' column in the `preprocessing_manifest.csv`.
 
 ---
 
 ## Running these Scripts
-Note: The following steps assumes the user is starting from the Glucose-ML-Project directory & harmonized CGM files and metadata are avaible in `3_Glucose-ML-collection/`.
+Note: The following steps assumes the user is starting from the `Glucose-ML-Project` directory & harmonized CGM files and metadata are avaible in `3_Glucose-ML-collection/`.
 
 2. Change your working directory to the following
 
