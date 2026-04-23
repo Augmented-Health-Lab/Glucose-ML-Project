@@ -4,7 +4,7 @@ This directory contains the results of two case studies using open-access CGM da
 
 The 2 Case studies:
 - **Case_Study_1**: Trains three diabetes status classification models using 13 open-source datasets from the Glucose-ML collection.
-- **Case_Study_2**: Compares diabetes status model classification performance when two sets of three models trained on a single dataset vs multiple datasets from the Glucose-ML collection.
+- **Case_Study_2**: Comparative analysis of diabetes status classification performance when two sets of three models are trained using a single dataset vs multiple datasets from the Glucose-ML collection.
 
 
 ## `Case_Study_1/`
