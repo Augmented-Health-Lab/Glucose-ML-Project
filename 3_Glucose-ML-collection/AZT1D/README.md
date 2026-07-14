@@ -3,7 +3,7 @@ This directory contains the harmonized glucose data and metadata for the *AZT1D*
 
 ## Downloading the Harmonized Data
 
-To download the harmonized AZT1D files WITHOUT the [download script](/1_Auto-scripts/auto-download-open-datasets.py), please download and extract the *AZT1D-from-Glucose-ML.zip* file.
+To download the pre-harmonized AZT1D files prepared by our [download pipeline](/1_Auto-scripts/auto-download-open-datasets.py), please download and extract the *AZT1D-from-Glucose-ML.zip* file.
 
 ## Download Contents
 
