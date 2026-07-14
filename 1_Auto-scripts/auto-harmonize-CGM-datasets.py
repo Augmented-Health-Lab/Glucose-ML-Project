@@ -43,7 +43,7 @@ def standardize_datasets(arg):
     #base_dir points to ../Glucose-ML/Auto-scripts
     base_dir = Path(__file__).resolve().parent
     #harmonize_dir points to ../Glucose-ML/harmonize-CGM-datasets/Bris-T1D_Open
-    harmonize_dir = base_dir.parent / "harmonize-CGM-datasets" / dataset_string
+    harmonize_dir = base_dir.parent / "2_Harmonize-CGM-datasets" / dataset_string
     #Handels dataset downloads that contain more than 1 Glucose-ML dataset and splits them,
     if dataset_string == "CGMacros_Dexcom" or dataset_string == "CGMacros_Libre":
         raw_data_path = (base_dir / "Original-Glucose-ML-datasets" / f"CGMacros_raw_data")
