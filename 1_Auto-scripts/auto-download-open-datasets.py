@@ -224,7 +224,7 @@ def download_datasets(download_request):
     update_interval = 90  # seconds
 
     print(f"{LIME_GREEN}Glucose-ML{R}: Downloading the {LIGHT_RED}{output_string}{R} dataset... May take a while.")
-    print(f"{LIME_GREEN}Glucose-ML{R}: {YELLOW}Download progress will be reported below every {BOLD}90 seconds.")
+    print(f"{LIME_GREEN}Glucose-ML{R}: {YELLOW}Download progress will be reported below every {BOLD}90 seconds.{R}")
 
     with open(output_zip, "wb") as f:
         for chunk in response.iter_content(chunk_size=1024 * 1024):
