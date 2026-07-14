@@ -16,7 +16,7 @@ Directory contents by dataset avalibility:
     * `{Dataset}/README.md`
 
 ---
-## Data Dictionary
+## Download Contents
 This section provides descriptive information for each data column found in the open-access dataset directories. For detailed methods, please refer to the Glucose-ML publication.
 
 1. `{Dataset}/Extracted-glucose-files`:

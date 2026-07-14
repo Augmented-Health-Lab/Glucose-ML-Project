@@ -1,6 +1,6 @@
 # 2_Harmonize-cgm-datasets - /{Dataset}_extract-glucose-data.py & /{Dataset}_metadata.py
 
-This directory contains the harmonization helper scripts called to standardize raw Continuous Glucose Monitoring (CGM) data for Glucose-ML compatible projects.
+This directory contains the helper scripts needed to harmonize the raw Continuous Glucose Monitoring (CGM) data for Glucose-ML compatible projects.
 
 Each dataset directory contains two scripts:
 
@@ -17,7 +17,7 @@ These scripts are typically executed automatically by `auto-harmonize-CGM-datase
 Cleans and converts raw dataset files into standardized, per-subject CGM CSV files.
 
 ### Input:
-The raw, unzipped dataset download located in `Auto-scripts/Original-Glucose-ML-datasets/{Dataset}_raw_data/` (see **Adding a Controlled-Access Dataset** below for step-by-step set-up)
+The raw, unzipped dataset download located in `1_Auto-scripts/Original-Glucose-ML-datasets/{Dataset}_raw_data/` (see **Adding a Controlled-Access Dataset** below for step-by-step set-up)
 
 ### Output:
 Standardized files are written to: `Standardized-datasets/<Dataset>/<subject_id>.csv`
@@ -69,7 +69,7 @@ python <Dataset>_metadata.py Standardized-datasets/<Dataset>
 
 To add a **Controlled-Access** dataset:
 
-1. Create a new directory under `Auto-scripts/Original-Glucose-ML-datasets/` using the following format: `{Dataset}_raw_data/` (see {Dataset} keys below)
+1. Create a new directory under `1_Auto-scripts/Original-Glucose-ML-datasets/` using the following format: `{Dataset}_raw_data/` (see {Dataset} keys below)
 2. Place the raw data download in `{Dataset}_raw_data/` and unzip the contents if needed. Leave the unzipped contents as is, this is important for the script to work.
 3. The dataset can now be harmonized via `auto-harmonize-CGM-datasets.py` (preferred method) or manually using the sequence of scripts below:
    * `{Dataset}_extract-glucose-data.py`
