@@ -44,11 +44,11 @@ It also handles cases where one download contains multiple datasets (e.g. CGMacr
 
 These scripts assume a project layout like:
 
-- `Auto-scripts/`
+- `1_Auto-scripts/`
   - `auto-download-open-datasets.py`
   - `auto-harmonize-CGM-datasets.py`
   - `Original-Glucose-ML-datasets/` (created by auto-download-open-datasets.py)
-- `harmonize-CGM-datasets/`
+- `2_Harmonize-CGM-datasets/`
   - `<DatasetName>/`
     - `<DatasetName>_extract-glucose-data.py`
     - `<DatasetName>_metadata.py`
@@ -66,7 +66,7 @@ These scripts assume a project layout like:
 To download any number of datasets, run:
 
 ```bash
-cd Glucose-ML/Auto-scripts
+cd 1_Auto-scripts
 python auto-download-open-datasets.py d1namo bigideas cgmacros 
 ```
 
@@ -82,7 +82,7 @@ If a dataset download is a `.zip`, it will be unpacked into the same folder auto
 After downloading or manually adding the unzipped raw dataset, run:
 
 ```bash
-cd Glucose-ML/Auto-scripts
+cd Glucose-ML-Project/1_Auto-scripts
 python auto-harmonize-CGM-datasets.py d1namo bigideas cgmacros_dexcom shanghait1dm
 ```
 
@@ -97,8 +97,8 @@ For each dataset, the script:
 Though not all Glucose-ML datasets can be downloaded using the auto-download script, all Glucose-ML datasets can be standardized using the `auto-harmonize-CGM-datasets.py` if set up properly.
 
 Steps to add a controlled-access dataset:
-1. Create or locate the directory `Auto-scripts/Original-Glucose-ML-datasets/`
-2. Create a folder with the following nomenclature `Auto-scripts/Original-Glucose-ML-datasets/<Dataset>_raw_data/`
+1. Create or locate the directory `1_Auto-scripts/Original-Glucose-ML-datasets/`
+2. Create a folder with the following nomenclature `1_Auto-scripts/Original-Glucose-ML-datasets/<Dataset>_raw_data/`
 3. Rename `<Dataset>_raw_data/` to the proper dataset. This can be done by copying/pasteing the appropriate dataset key from the "Harmonize script keys" section below. (e.g. `Auto-scripts/Original-Glucose-ML-datasets/ai-readi_raw_data/`)
 4. Add the download into the `<Dataset>_raw_data/` directory exactly how it was downloaded.
 5. Unzip the download if it needs to be unzipped (don't do anything else at this point.)
