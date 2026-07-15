@@ -6,8 +6,8 @@ The Glucose-ML Project develops and provide helper scripts to extract and harmon
 
 ## Contents
 
-* `AZT1D_extract-glucose-data.py` - Cleans and converts raw dataset files into standardized CGM CSV files, providing one .csv file per participant. See expected output files [here](3_Glucose-ML-collection/AZT1D/AZT1D-extracted-glucose-files).
-* `AZT1D_metadata.py` - Calculates participant-level summary statistics from the standardized CGM files. See expected output file [here](3_Glucose-ML-collection/AZT1D/AZT1D-metadata.csv).
+* `AZT1D_extract-glucose-data.py` - Cleans and converts raw dataset files into standardized CGM CSV files, providing one .csv file per participant. See expected output files [here](../../3_Glucose-ML-collection/AZT1D/AZT1D-extracted-glucose-files).
+* `AZT1D_metadata.py` - Calculates participant-level summary statistics from the standardized CGM files. See expected output file [here](../../3_Glucose-ML-collection/AZT1D/AZT1D-metadata.csv).
     - *NOTE*: The metadata.py script calculates the following data: glucose_level_record_count, average_glucose_level_mg_dl, count_days_with_CGM_data. Additional metadata including diabetes_type, age, gender, race_ethnicity, hba1c_%, and CGM_type was manually curated from the original data source. 
 
 Additional information about these scripts can be found in this [README](/2_Harmonize-cgm-datasets/README.md)
@@ -18,7 +18,7 @@ Additional information about these scripts can be found in this [README](/2_Harm
 
 Steps to execute the scripts:
 
-1. Download the AZT1D dataset from the original data source (https://doi.org/10.17632/gk9m674wcx.1) or use our auto_download scripts [here](1_Auto-scripts). If the download is a zipped file, DO NOT UNZIP.
+1. Download the AZT1D dataset from the original data source (https://doi.org/10.17632/gk9m674wcx.1) or use our auto_download scripts [here](../../1_Auto-scripts). If the download is a zipped file, DO NOT UNZIP.
 2. Place the unzipped download in `1_Auto-scripts/Original-Glucose-ML-datasets/AZT1D_raw_data/` (Make the directory, if needed.)
 3. Execute the following:
 ```bash
