@@ -1,5 +1,5 @@
 # Hall_2018
-The Glucose-ML Project curates and harmonizes CGM data and associated metadata from various datasets in the collection. This directory contains the harmonized glucose data and metadata for the *Hall_2018* dataset.
+The [Glucose-ML Project](https://www.glucose-ml-project.com/) curates and harmonizes public CGM datasets and associated metadata for research. This directory contains the harmonized glucose data and metadata for the *Hall_2018* dataset.
 
 ## Contents
 
@@ -19,7 +19,7 @@ The Glucose-ML Project curates and harmonizes CGM data and associated metadata f
     - *average_glucose_level_mg_dl*: Mean glucose level (mg/dL) across all CGM recordings available for each participant in the dataset.
     - *count_days_with_CGM_data*: Total number of unique days on which at least one glucose reading was recorded for each participant in the dataset.
 
-3. `Hall_2018-from-Glucose-ML.zip`: This zip file contains the harmonized glucose data (`Hall_2018-extracted-glucose-files/`) and metadata (`Hall_2018_metadata.csv`) for the Hall_2018 dataset and is included so the user can download the data directly from our GitHub repository.
+3. `Hall_2018-from-Glucose-ML.zip`: This zip file contains the harmonized glucose data (`Hall_2018-extracted-glucose-files/`), metadata (`Hall_2018_metadata.csv`), and this README for the Hall_2018 dataset and is included so the user can download the data directly from our GitHub repository.
 
 **Where to find the original dataset?**
 - Dataset is available within the paper and its supplemenaty materials.

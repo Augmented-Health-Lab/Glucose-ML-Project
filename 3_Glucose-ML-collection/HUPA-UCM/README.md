@@ -1,5 +1,5 @@
 # HUPA-UCM
-The Glucose-ML Project curates and harmonizes CGM data and associated metadata from various datasets in the collection. This directory contains the harmonized glucose data and metadata for the *HUPA-UCM* dataset.
+The [Glucose-ML Project](https://www.glucose-ml-project.com/) curates and harmonizes public CGM datasets and associated metadata for research. This directory contains the harmonized glucose data and metadata for the *HUPA-UCM* dataset.
 
 ## Contents
 
@@ -19,7 +19,7 @@ The Glucose-ML Project curates and harmonizes CGM data and associated metadata f
     - *average_glucose_level_mg_dl*: Mean glucose level (mg/dL) across all CGM recordings available for each participant in the dataset.
     - *count_days_with_CGM_data*: Total number of unique days on which at least one glucose reading was recorded for each participant in the dataset.
 
-3. `HUPA-UCM-from-Glucose-ML.zip`: This zip file contains the harmonized glucose data (`HUPA-UCM-extracted-glucose-files/`) and metadata (`HUPA-UCM_metadata.csv`) for the HUPA-UCM dataset and is included so the user can download the data directly from our GitHub repository.
+3. `HUPA-UCM-from-Glucose-ML.zip`: This zip file contains the harmonized glucose data (`HUPA-UCM-extracted-glucose-files/`), metadata (`HUPA-UCM_metadata.csv`), and this README for the HUPA-UCM dataset and is included so the user can download the data directly from our GitHub repository.
 
 **Where to find the original dataset?**
 - Hidalgo, J. Ignacio; Alvarado, Jorge; Botella, Marta; Aramendi, Aranzazu; Velasco, J. Manuel; Garnica, Oscar (2024), “HUPA-UCM Diabetes Dataset”, Mendeley Data, V1, doi: 10.17632/3hbcscwz44.1

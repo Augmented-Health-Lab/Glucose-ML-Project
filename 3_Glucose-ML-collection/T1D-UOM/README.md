@@ -1,5 +1,5 @@
 # T1D-UOM
-The Glucose-ML Project curates and harmonizes CGM data and associated metadata from various datasets in the collection. This directory contains the harmonized glucose data and metadata for the *T1D-UOM* dataset.
+The [Glucose-ML Project](https://www.glucose-ml-project.com/) curates and harmonizes public CGM datasets and associated metadata for research. This directory contains the harmonized glucose data and metadata for the *T1D-UOM* dataset.
 
 ## Contents
 
@@ -19,7 +19,7 @@ The Glucose-ML Project curates and harmonizes CGM data and associated metadata f
     - *average_glucose_level_mg_dl*: Mean glucose level (mg/dL) across all CGM recordings available for each participant in the dataset.
     - *count_days_with_CGM_data*: Total number of unique days on which at least one glucose reading was recorded for each participant in the dataset.
 
-3. `T1D-UOM-from-Glucose-ML.zip`: This zip file contains the harmonized glucose data (`T1D-UOM-extracted-glucose-files/`) and metadata (`T1D-UOM_metadata.csv`) for the T1D-UOM dataset and is included so the user can download the data directly from our GitHub repository.
+3. `T1D-UOM-from-Glucose-ML.zip`: This zip file contains the harmonized glucose data (`T1D-UOM-extracted-glucose-files/`), metadata (`T1D-UOM_metadata.csv`), and this README for the T1D-UOM dataset and is included so the user can download the data directly from our GitHub repository.
 
 **Where to find the original dataset?**
 - Alsuhaymi, A., Bilal, A., Gasca Garcia, D., Kongdee, R., Lubasinski, N., Hood, T., Paul, N., & Harper, S. (2025). T1D-UOM – A Longitudinal Multimodal Dataset of Type 1 Diabetes (V1.0.3). Zenodo. [https://doi.org/10.5281/zenodo.15806142](https://doi.org/10.5281/zenodo.15806142)

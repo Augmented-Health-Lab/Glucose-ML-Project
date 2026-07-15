@@ -1,5 +1,5 @@
 # UCHTT1DM
-The Glucose-ML Project curates and harmonizes CGM data and associated metadata from various datasets in the collection. This directory contains the harmonized glucose data and metadata for the *UCHTT1DM* dataset.
+The [Glucose-ML Project](https://www.glucose-ml-project.com/) curates and harmonizes public CGM datasets and associated metadata for research. This directory contains the harmonized glucose data and metadata for the *UCHTT1DM* dataset.
 
 ## Contents
 
@@ -19,7 +19,7 @@ The Glucose-ML Project curates and harmonizes CGM data and associated metadata f
     - *average_glucose_level_mg_dl*: Mean glucose level (mg/dL) across all CGM recordings available for each participant in the dataset.
     - *count_days_with_CGM_data*: Total number of unique days on which at least one glucose reading was recorded for each participant in the dataset.
 
-3. `UCHTT1DM-from-Glucose-ML.zip`: This zip file contains the harmonized glucose data (`UCHTT1DM-extracted-glucose-files/`) and metadata (`UCHTT1DM_metadata.csv`) for the UCHTT1DM dataset and is included so the user can download the data directly from our GitHub repository.
+3. `UCHTT1DM-from-Glucose-ML.zip`: This zip file contains the harmonized glucose data (`UCHTT1DM-extracted-glucose-files/`), metadata (`UCHTT1DM_metadata.csv`), and this README for the UCHTT1DM dataset and is included so the user can download the data directly from our GitHub repository.
 
 **Where to find the original dataset?**
 - Saúl Langarica, Diego de la Vega, Nawel Cariman, Martín Miranda, David C. Andrade, Felipe Núñez, Maria Rodriguez-Fernandez. Deep Learning-Based Glucose Prediction Models: A Guide for Practitioners and a Curated Dataset for Improved Diabetes Management. IEEE Open Journal of Engineering in Medicine and Biology, 2023 (Under review). [https://github.com/fisiologiacuantitativauc/UC_HT_T1DM](https://github.com/fisiologiacuantitativauc/UC_HT_T1DM)

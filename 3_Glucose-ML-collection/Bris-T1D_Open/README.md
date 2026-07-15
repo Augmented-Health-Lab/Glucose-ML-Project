@@ -1,5 +1,5 @@
 # Bris-T1D_Open
-The Glucose-ML Project curates and harmonizes CGM data and associated metadata from various datasets in the collection. This directory contains the harmonized glucose data and metadata for the *Bris-T1D_Open* dataset.
+The [Glucose-ML Project](https://www.glucose-ml-project.com/) curates and harmonizes public CGM datasets and associated metadata for research. This directory contains the harmonized glucose data and metadata for the *Bris-T1D_Open* dataset.
 
 ## Contents
 
@@ -19,7 +19,7 @@ The Glucose-ML Project curates and harmonizes CGM data and associated metadata f
     - *average_glucose_level_mg_dl*: Mean glucose level (mg/dL) across all CGM recordings available for each participant in the dataset.
     - *count_days_with_CGM_data*: Total number of unique days on which at least one glucose reading was recorded for each participant in the dataset.
 
-3. `Bris-T1D_Open-from-Glucose-ML.zip`: This zip file contains the harmonized glucose data (`Bris-T1D_Open-extracted-glucose-files/`) and metadata (`Bris-T1D_Open_metadata.csv`) for the Bris-T1D_Open dataset and is included so the user can download the data directly from our GitHub repository.
+3. `Bris-T1D_Open-from-Glucose-ML.zip`: This zip file contains the harmonized glucose data (`Bris-T1D_Open-extracted-glucose-files/`), metadata (`Bris-T1D_Open_metadata.csv`), and this README for the Bris-T1D_Open dataset and is included so the user can download the data directly from our GitHub repository.
 
 **Where to find the original dataset?**
 - Sam Gordon James, Miranda Armstrong, Aisling O'Kane, Harry Emerson, Zahraa Abdallah (2025): BrisT1D-Open Dataset. [https://doi.org/10.5523/bris.33z5jc8fa6tob21ptrugzqog08](https://doi.org/10.5523/bris.33z5jc8fa6tob21ptrugzqog08)

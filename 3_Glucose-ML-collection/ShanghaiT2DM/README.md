@@ -1,5 +1,5 @@
 # ShanghaiT2DM
-The Glucose-ML Project curates and harmonizes CGM data and associated metadata from various datasets in the collection. This directory contains the harmonized glucose data and metadata for the *ShanghaiT2DM* dataset.
+The [Glucose-ML Project](https://www.glucose-ml-project.com/) curates and harmonizes public CGM datasets and associated metadata for research. This directory contains the harmonized glucose data and metadata for the *ShanghaiT2DM* dataset.
 
 ## Contents
 
@@ -19,7 +19,7 @@ The Glucose-ML Project curates and harmonizes CGM data and associated metadata f
     - *average_glucose_level_mg_dl*: Mean glucose level (mg/dL) across all CGM recordings available for each participant in the dataset.
     - *count_days_with_CGM_data*: Total number of unique days on which at least one glucose reading was recorded for each participant in the dataset.
 
-3. `ShanghaiT2DM-from-Glucose-ML.zip`: This zip file contains the harmonized glucose data (`ShanghaiT2DM-extracted-glucose-files/`) and metadata (`ShanghaiT2DM_metadata.csv`) for the ShanghaiT2DM dataset and is included so the user can download the data directly from our GitHub repository.
+3. `ShanghaiT2DM-from-Glucose-ML.zip`: This zip file contains the harmonized glucose data (`ShanghaiT2DM-extracted-glucose-files/`), metadata (`ShanghaiT2DM_metadata.csv`), and this README for the ShanghaiT2DM dataset and is included so the user can download the data directly from our GitHub repository.
 
 **Where to find the original dataset?**
 - Zhao, Qinpei; Zhu, Jinhao; Wang, Congrong; Rao, Weixiong (2022). Diabetes Datasets, ShanghaiT1DM and ShanghaiT2DM. figshare. Collection. [https://doi.org/10.6084/m9.figshare.c.6310860](https://doi.org/10.6084/m9.figshare.c.6310860)

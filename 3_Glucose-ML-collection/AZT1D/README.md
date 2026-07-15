@@ -19,7 +19,7 @@ The [Glucose-ML Project](https://www.glucose-ml-project.com/) curates and harmon
     - *average_glucose_level_mg_dl*: Mean glucose level (mg/dL) across all CGM recordings available for each participant in the dataset.
     - *count_days_with_CGM_data*: Total number of unique days on which at least one glucose reading was recorded for each participant in the dataset.
 
-3. `AZT1D-from-Glucose-ML.zip`: This zip file contains the harmonized glucose data (`AZT1D-extracted-glucose-files/`) and metadata (`AZT1D_metadata.csv`) for the AZT1D dataset and is included so the user can download the data directly from our GitHub repository.
+3. `AZT1D-from-Glucose-ML.zip`: This zip file contains the harmonized glucose data (`AZT1D-extracted-glucose-files/`), metadata (`AZT1D_metadata.csv`), and this README for the AZT1D dataset and is included so the user can download the data directly from our GitHub repository.
 
 ## Data License & Citation Information
 

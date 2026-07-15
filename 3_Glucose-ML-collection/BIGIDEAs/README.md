@@ -1,5 +1,5 @@
 # BIGIDEAs
-The Glucose-ML Project curates and harmonizes CGM data and associated metadata from various datasets in the collection. This directory contains the harmonized glucose data and metadata for the *BIGIDEAs* dataset.
+The [Glucose-ML Project](https://www.glucose-ml-project.com/) curates and harmonizes public CGM datasets and associated metadata for research. This directory contains the harmonized glucose data and metadata for the *BIGIDEAs* dataset.
 
 ## Contents
 
@@ -19,7 +19,7 @@ The Glucose-ML Project curates and harmonizes CGM data and associated metadata f
     - *average_glucose_level_mg_dl*: Mean glucose level (mg/dL) across all CGM recordings available for each participant in the dataset.
     - *count_days_with_CGM_data*: Total number of unique days on which at least one glucose reading was recorded for each participant in the dataset.
 
-3. `BIGIDEAs-from-Glucose-ML.zip`: This zip file contains the harmonized glucose data (`BIGIDEAs-extracted-glucose-files/`) and metadata (`BIGIDEAs_metadata.csv`) for the BIGIDEAs dataset and is included so the user can download the data directly from our GitHub repository.
+3. `BIGIDEAs-from-Glucose-ML.zip`: This zip file contains the harmonized glucose data (`BIGIDEAs-extracted-glucose-files/`), metadata (`BIGIDEAs_metadata.csv`), and this README for the BIGIDEAs dataset and is included so the user can download the data directly from our GitHub repository.
 
 **Where to find the original dataset?**
 - Cho, P., Kim, J., Bent, B., & Dunn, J. (2023). BIG IDEAs Lab Glycemic Variability and Wearable Device Data (version 1.1.2). PhysioNet. RRID:SCR_007345. [https://doi.org/10.13026/zthx-5212](https://doi.org/10.13026/zthx-5212)

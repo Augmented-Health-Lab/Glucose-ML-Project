@@ -1,5 +1,5 @@
 # D1NAMO
-The Glucose-ML Project curates and harmonizes CGM data and associated metadata from various datasets in the collection. This directory contains the harmonized glucose data and metadata for the *D1NAMO* dataset.
+The [Glucose-ML Project](https://www.glucose-ml-project.com/) curates and harmonizes public CGM datasets and associated metadata for research. This directory contains the harmonized glucose data and metadata for the *D1NAMO* dataset.
 
 ## Contents
 
@@ -19,7 +19,7 @@ The Glucose-ML Project curates and harmonizes CGM data and associated metadata f
     - *average_glucose_level_mg_dl*: Mean glucose level (mg/dL) across all CGM recordings available for each participant in the dataset.
     - *count_days_with_CGM_data*: Total number of unique days on which at least one glucose reading was recorded for each participant in the dataset.
 
-3. `D1NAMO-from-Glucose-ML.zip`: This zip file contains the harmonized glucose data (`D1NAMO-extracted-glucose-files/`) and metadata (`D1NAMO_metadata.csv`) for the D1NAMO dataset and is included so the user can download the data directly from our GitHub repository.
+3. `D1NAMO-from-Glucose-ML.zip`: This zip file contains the harmonized glucose data (`D1NAMO-extracted-glucose-files/`), metadata (`D1NAMO_metadata.csv`), and this README for the D1NAMO dataset and is included so the user can download the data directly from our GitHub repository.
 
 **Where to find the original dataset?**
 - Dubosson, Fabien, Jean-Eudes Ranvier, Stefano Bromuri, Jean-Paul Calbimonte, Juan Ruiz, and Michael Schumacher. "The open D1NAMO dataset: A multi-modal dataset for research on non-invasive type 1 diabetes management." [https://zenodo.org/records/5651217](https://zenodo.org/records/5651217)

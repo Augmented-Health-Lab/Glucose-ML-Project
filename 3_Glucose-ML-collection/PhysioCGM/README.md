@@ -1,5 +1,5 @@
 # PhysioCGM
-The Glucose-ML Project curates and harmonizes CGM data and associated metadata from various datasets in the collection. This directory contains the harmonized glucose data and metadata for the *PhysioCGM* dataset.
+The [Glucose-ML Project](https://www.glucose-ml-project.com/) curates and harmonizes public CGM datasets and associated metadata for research. This directory contains the harmonized glucose data and metadata for the *PhysioCGM* dataset.
 
 ## Contents
 
@@ -19,7 +19,7 @@ The Glucose-ML Project curates and harmonizes CGM data and associated metadata f
     - *average_glucose_level_mg_dl*: Mean glucose level (mg/dL) across all CGM recordings available for each participant in the dataset.
     - *count_days_with_CGM_data*: Total number of unique days on which at least one glucose reading was recorded for each participant in the dataset.
 
-3. `PhysioCGM-from-Glucose-ML.zip`: This zip file contains the harmonized glucose data (`PhysioCGM-extracted-glucose-files/`) and metadata (`PhysioCGM_metadata.csv`) for the PhysioCGM dataset and is included so the user can download the data directly from our GitHub repository.
+3. `PhysioCGM-from-Glucose-ML.zip`: This zip file contains the harmonized glucose data (`PhysioCGM-extracted-glucose-files/`), metadata (`PhysioCGM_metadata.csv`), and this README for the PhysioCGM dataset and is included so the user can download the data directly from our GitHub repository.
 
 **Where to find the original dataset?**
 - Quamer, Waris; Tseng, Mu-Ruei; Vyas, Kathan; Villegas, Carolina; McKay, Siripoom; DeSalvo, Daniel J.; et al. (2025). PhysioCGM: a multimodal physiological dataset for non-invasive blood glucose estimation. figshare. Dataset. [https://doi.org/10.6084/m9.figshare.28136294.v1](https://doi.org/10.6084/m9.figshare.28136294.v1)
