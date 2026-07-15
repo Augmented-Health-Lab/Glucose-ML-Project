@@ -1,6 +1,6 @@
 # AZT1D - Helper Scripts
 
-The Glucose-ML Project develops and provide helper scripts to extract and harmonize CGM data and associated metadata from various CGM datasets in the collection. This directory contains the openly available helper scripts that can be used for the *AZT1D* dataset. 
+The Glucose-ML Project develops and provide helper scripts to extract and harmonize CGM data and associated metadata from various datasets in the collection. This directory contains the openly available helper scripts that can be used for the *AZT1D* dataset. 
 
 ---
 
