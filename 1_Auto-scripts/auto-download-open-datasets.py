@@ -278,6 +278,8 @@ def download_datasets(download_request):
         print(f"{LIME_GREEN}Glucose-ML{R}: Unzipping {LIGHT_RED}{output_file}{R}...")
         shutil.unpack_archive(str(output_zip), str(output_path))
         print(f"{LIME_GREEN}Glucose-ML{R}: Success! Successfully unpacked {LIGHT_RED}{output_file}{R}.\n")
+        output_zip.unlink()
+        print(f"{LIME_GREEN}Glucose-ML{R}: Deleted zip archive {LIGHT_RED}{output_file}{R}.\n")
     else:
         print(f"{LIME_GREEN}Glucose-ML{R}: No need to unzip.\n")
 

@@ -3,6 +3,9 @@
 # dependencies
 node_modules/
 ML_Redo/
+1_Auto-scripts/Standardized-metadata/
+1_Auto-scripts/Standardized-datasets/
+1_Auto-scripts/Original-Glucose-ML-datasets/
 # Vite cache 
 .vite/
 
