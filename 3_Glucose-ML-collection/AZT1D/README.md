@@ -1,27 +1,23 @@
 # AZT1D
-This directory contains the harmonized glucose data and metadata for the *AZT1D* project.
+The Glucose-ML Project curates and harmonizes CGM data and associated metadata from various datasets in the collection. This directory contains the harmonized glucose data and metadata for the *AZT1D* dataset.
 
-## Downloading the Harmonized Data
+## Contents
 
-To download the pre-harmonized AZT1D files prepared by our [download pipeline](/1_Auto-scripts/auto-download-open-datasets.py), please download and extract the *AZT1D-from-Glucose-ML.zip* file.
-
-## Download Contents
-
-1. `{Dataset}/AZT1D-extracted-glucose-files/`:
+1. `{Dataset}/AZT1D-extracted-glucose-files/`: This directory contains .cvs files for each participant in the dataset. Each individual participant file includes:
     - _timestamp_: The time in which the glucose reading was collected.
     - *glucose_value_mg_dl*: The CGM glucose reading in mg/dL.
 
-2. `{Dataset}/{Dataset}_metadata.csv`
+2. `{Dataset}/{Dataset}_metadata.csv`: This file contains a summary of metadata from all participants in this dataset. The columns included are as follows:
     - *person_id*: Unique participant identifier.
-    - *diabetes_type*: Diabetes status as reported by the data curator. If not reported, this value is infered by hba1c_% if available.
-    - _age_: Age of the participant as reported by the data curator.
-    - _gender_: Gender/Sex of the participant as reported by the data curator.
-    - *race_ethnicity*: Race/Ethnicity of the participant as reported by the data curator.
-    - _hba1c_%: Hemoglobin A1C percentage of the participant as reported by the data curator.
-    - *CGM_type*: Continuous glucose monitoring (CGM) device used for data collection as reported by the data curator.
-    - *glucose_level_record_count*: Total number of Glucose-ML standardized CGM records for the participant
-    - *average_glucose_level_mg_dl*: Mean glucose level (mg/dL) across all Glucose-ML standardized readings for the participant.
-    - *count_days_with_CGM_data*: Total number of unique days on which at least one glucose reading was recorded.
+    - *diabetes_type*: Diabetes status as reported by the original dataset creators. If not reported, this value is inferred using hba1c_% if available.
+    - _age_: Age of the participant by the original dataset creators.
+    - _gender_: Gender/Sex of the participant by the original dataset creators.
+    - *race_ethnicity*: Race/Ethnicity of the participant by the original dataset creators.
+    - _hba1c_%: Hemoglobin A1C percentage of the participant by the original dataset creators.
+    - *CGM_type*: Continuous glucose monitoring (CGM) device used for data collection by the original dataset creators.
+    - *glucose_level_record_count*: Total number of CGM recordings available for each participant in the dataset.
+    - *average_glucose_level_mg_dl*: Mean glucose level (mg/dL) across all CGM recordings available for each participant in the dataset.
+    - *count_days_with_CGM_data*: Total number of unique days on which at least one glucose reading was recorded for each participant in the dataset.
 
 ## Data License & Citation Information
 
