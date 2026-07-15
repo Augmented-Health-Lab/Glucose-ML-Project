@@ -1,3 +1,5 @@
+# OhioT1DM
+
 This is a controlled-access dataset. Existing data use agreements (DUA) do not permit access to the extracted glucose files and metadata for this dataset. Please request access at [https://webpages.charlotte.edu/rbunescu/data/ohiot1dm/OhioT1DM-dataset.html](https://webpages.charlotte.edu/rbunescu/data/ohiot1dm/OhioT1DM-dataset.html), after which you can use our provided harmonize-cgm-dataset `1_Auto-scripts/auto-harmonize-CGM-datasets.py` script for processing. See section "Harmonizing Controlled-Access Datasets" in `1_Auto-scripts/README.md` for detailed instructions on harmonizing controlled-access datasets.
 
 **Publication Reference(s)**
