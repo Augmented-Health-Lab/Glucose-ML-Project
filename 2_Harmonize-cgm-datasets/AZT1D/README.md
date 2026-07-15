@@ -18,7 +18,7 @@ Additional information about these scripts can be found in this [README](/2_Harm
 
 Steps to execute the scripts:
 
-1. Download the AZT1D dataset from the original sources (https://doi.org/10.17632/gk9m674wcx.1) or use our auto_download scripts (add link here). If the download is a zipped file, DO NOT UNZIP.
+1. Download the AZT1D dataset from the original data source (https://doi.org/10.17632/gk9m674wcx.1) or use our auto_download scripts [here](../1_Auto-scripts). If the download is a zipped file, DO NOT UNZIP.
 2. Place the unzipped download in `1_Auto-scripts/Original-Glucose-ML-datasets/AZT1D_raw_data/` (Make the directory, if needed.)
 3. Execute the following:
 ```bash
