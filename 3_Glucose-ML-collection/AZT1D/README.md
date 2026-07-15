@@ -1,5 +1,5 @@
 # AZT1D
-The [Glucose-ML Project](https://www.glucose-ml-project.com/) curates and harmonizes CGM data and associated metadata from various datasets in the collection. This directory contains the harmonized glucose data and metadata for the *AZT1D* dataset.
+The [Glucose-ML Project](https://www.glucose-ml-project.com/) curates and harmonizes public CGM datasets and associated metadata for research. This directory contains the harmonized glucose data and metadata for the *AZT1D* dataset.
 
 ## Contents
 
