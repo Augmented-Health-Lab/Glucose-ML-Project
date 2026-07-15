@@ -3,11 +3,11 @@ The Glucose-ML Project curates and harmonizes CGM data and associated metadata f
 
 ## Contents
 
-1. `{Dataset}/AZT1D-extracted-glucose-files/`: This directory contains .cvs files for each participant in the dataset. Each individual participant file includes:
+1. `AZT1D-extracted-glucose-files/`: This directory contains .cvs files for each participant in the dataset. Each individual participant file includes:
     - _timestamp_: The time in which the glucose reading was collected.
     - *glucose_value_mg_dl*: The CGM glucose reading in mg/dL.
 
-2. `{Dataset}/{Dataset}_metadata.csv`: This file contains a summary of metadata from all participants in this dataset. The columns included are as follows:
+2. `AZT1D_metadata.csv`: This file contains a summary of metadata from all participants in this dataset. The columns included are as follows:
     - *person_id*: Unique participant identifier.
     - *diabetes_type*: Diabetes status as reported by the original dataset creators. If not reported, this value is inferred using hba1c_% if available.
     - _age_: Age of the participant by the original dataset creators.
@@ -18,6 +18,8 @@ The Glucose-ML Project curates and harmonizes CGM data and associated metadata f
     - *glucose_level_record_count*: Total number of CGM recordings available for each participant in the dataset.
     - *average_glucose_level_mg_dl*: Mean glucose level (mg/dL) across all CGM recordings available for each participant in the dataset.
     - *count_days_with_CGM_data*: Total number of unique days on which at least one glucose reading was recorded for each participant in the dataset.
+
+3. `AZT1D-from-Glucose-ML.zip`: This zip file contains the harmonized glucose data (`AZT1D-extracted-glucose-files/`) and metadata (`AZT1D_metadata.csv`) for the AZT1D dataset and is included so the user can download the data directly from our GitHub repository.
 
 ## Data License & Citation Information
 
