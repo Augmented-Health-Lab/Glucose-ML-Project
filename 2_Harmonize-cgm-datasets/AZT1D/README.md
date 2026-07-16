@@ -18,15 +18,16 @@ Additional information about these scripts can be found in this [README](/2_Harm
 
 Steps to execute the scripts:
 
-1. Download the AZT1D dataset from the original data source (https://doi.org/10.17632/gk9m674wcx.1) or use our auto_download scripts [here](../../1_Auto-scripts). If the download is a zipped file, DO NOT UNZIP.
-2. Place the unzipped download in `1_Auto-scripts/Original-Glucose-ML-datasets/AZT1D_raw_data/` (Make the directory, if needed.)
-3. Execute the following:
+1. Download the AZT1D dataset from the original data source (https://doi.org/10.17632/gk9m674wcx.1) or use our auto_download scripts [here](../../1_Auto-scripts).
+2. Place the download contents in `1_Auto-scripts/Original-Glucose-ML-datasets/AZT1D_raw_data/` (Make the directory, if needed.)
+3. If the downloaded file is a ZIP archive, extract it. If the archive contains additional nested ZIP files, extract those as well.
+4. Execute the following:
 ```bash
 cd 2_Harmonize-cgm-datasets/AZT1D
 python AZT1D_extract-glucose-data.py ../../1_Auto-scripts/Original-Glucose-ML-datasets/AZT1D_raw_data/
 ```
-4. Harmonized csv files are written to: `Standardized-datasets/AZT1D/<subject_id>.csv`
-5. To calculate the participant-level metadata, run the following:
+5. Harmonized csv files are written to: `Standardized-datasets/AZT1D/<subject_id>.csv`
+6. To calculate the participant-level metadata, run the following:
 
 ```bash
 python AZT1D_metadata.py Standardized-datasets/AZT1D

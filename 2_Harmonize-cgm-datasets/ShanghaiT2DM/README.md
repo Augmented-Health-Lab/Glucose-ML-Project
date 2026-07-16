@@ -18,15 +18,16 @@ Additional information about these scripts can be found in this [README](/2_Harm
 
 Steps to execute the scripts:
 
-1. Download the ShanghaiT2DM dataset from the original data source (https://figshare.com/collections/Diabetes_Datasets_ShanghaiT1DM_and_ShanghaiT2DM/6310860/2) or use our auto_download scripts [here](../../1_Auto-scripts). If the download is a zipped file, DO NOT UNZIP.
-2. Place the unzipped download in `1_Auto-scripts/Original-Glucose-ML-datasets/ShanghaiT2DM_raw_data/` (Make the directory, if needed.)
-3. Execute the following:
+1. Download the ShanghaiT2DM dataset from the original data source (https://figshare.com/collections/Diabetes_Datasets_ShanghaiT1DM_and_ShanghaiT2DM/6310860/2) or use our auto_download scripts [here](../../1_Auto-scripts).
+2. Place the download contents in `1_Auto-scripts/Original-Glucose-ML-datasets/ShanghaiT2DM_raw_data/` (Make the directory, if needed.)
+3. If the downloaded file is a ZIP archive, extract it. If the archive contains additional nested ZIP files, extract those as well.
+4. Execute the following:
 ```bash
 cd 2_Harmonize-cgm-datasets/ShanghaiT2DM
 python ShanghaiT2DM_extract-glucose-data.py ../../1_Auto-scripts/Original-Glucose-ML-datasets/ShanghaiT2DM_raw_data/
 ```
-4. Harmonized csv files are written to: `Standardized-datasets/ShanghaiT2DM/<subject_id>.csv`
-5. To calculate the participant-level metadata, run the following:
+5. Harmonized csv files are written to: `Standardized-datasets/ShanghaiT2DM/<subject_id>.csv`
+6. To calculate the participant-level metadata, run the following:
 
 ```bash
 python ShanghaiT2DM_metadata.py Standardized-datasets/ShanghaiT2DM

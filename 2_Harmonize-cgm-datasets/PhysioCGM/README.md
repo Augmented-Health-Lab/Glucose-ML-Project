@@ -18,15 +18,16 @@ Additional information about these scripts can be found in this [README](/2_Harm
 
 Steps to execute the scripts:
 
-1. Download the PhysioCGM dataset from the original [data source](https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Furldefense.com%2Fv3%2F__https%3A%2Fdoi.org%2F10.6084%2Fm9.figshare.28136294__%3B!!KwNVnqRv!CpauS_FLCRXjpklB38zaqPu5r-5xuhhMBWfQJHIcCa72dESFv3xiQYT5deUXMMGrhVu3Yfc56cPr%24&data=05%7C02%7Ctemiloluwa.prioleau%40emory.edu%7Ca101cc20bc7544f6d0b108de28622579%7Ce004fb9cb0a4424fbcd0322606d5df38%7C0%7C0%7C638992599205738451%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=syyGO0gRORqKBm%2BhyUHn5Uct3XPl%2Bm5%2B9RTJPLWeAhU%3D&reserved=0) or use our auto_download scripts [here](../../1_Auto-scripts). If the download is a zipped file, DO NOT UNZIP.
-2. Place the unzipped download in `1_Auto-scripts/Original-Glucose-ML-datasets/PhysioCGM_raw_data/` (Make the directory, if needed.)
-3. Execute the following:
+1. Download the PhysioCGM dataset from the original [https://springernature.figshare.com/articles/dataset/PhysioCGM_a_multimodal_physiological_dataset_for_non-invasive_blood_glucose_estimation/28136294](https://springernature.figshare.com/articles/dataset/PhysioCGM_a_multimodal_physiological_dataset_for_non-invasive_blood_glucose_estimation/28136294) or use our auto_download scripts [here](../../1_Auto-scripts).
+2. Place the download contents in `1_Auto-scripts/Original-Glucose-ML-datasets/PhysioCGM_raw_data/` (Make the directory, if needed.)
+3. If the downloaded file is a ZIP archive, extract it. If the archive contains additional nested ZIP files, extract those as well.
+4. Execute the following:
 ```bash
 cd 2_Harmonize-cgm-datasets/PhysioCGM
 python PhysioCGM_extract-glucose-data.py ../../1_Auto-scripts/Original-Glucose-ML-datasets/PhysioCGM_raw_data/
 ```
-4. Harmonized csv files are written to: `Standardized-datasets/PhysioCGM/<subject_id>.csv`
-5. To calculate the participant-level metadata, run the following:
+5. Harmonized csv files are written to: `Standardized-datasets/PhysioCGM/<subject_id>.csv`
+6. To calculate the participant-level metadata, run the following:
 
 ```bash
 python PhysioCGM_metadata.py Standardized-datasets/PhysioCGM
