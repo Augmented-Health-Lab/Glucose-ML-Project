@@ -19,7 +19,7 @@ Additional information about these scripts can be found in this [README](/2_Harm
 Steps to execute the scripts:
 
 1. Download the CGMacros_Dexcom dataset from the original data source (https://physionet.org/content/cgmacros/1.0.0/) or use our auto_download scripts [here](../../1_Auto-scripts).
-2. Place the download contents in `1_Auto-scripts/Original-Glucose-ML-datasets/CGMacros_Dexcom_raw_data/` (Make the directory, if needed.)
+2. Place the download contents in `1_Auto-scripts/Original-Glucose-ML-datasets/CGMacros_raw_data/` (Make the directory, if needed.)
 3. If the downloaded file is a ZIP archive, extract it. If the archive contains additional nested ZIP files, extract those as well.
 4. Execute the following:
 ```bash

@@ -48,9 +48,9 @@ def standardize_datasets(arg):
     if dataset_string == "CGMacros_Dexcom" or dataset_string == "CGMacros_Libre":
         raw_data_path = (base_dir / "Original-Glucose-ML-datasets" / f"CGMacros_raw_data")
     elif dataset_string == "ShanghaiT1DM":
-        raw_data_path = (base_dir / "Original-Glucose-ML-datasets" / f"Shanghai_raw_data" / "diabetes_datasets" / "Shanghai_T1DM")
+        raw_data_path = (base_dir / "Original-Glucose-ML-datasets" / f"Shanghai_raw_data" / "Shanghai_T1DM")
     elif dataset_string == "ShanghaiT2DM":
-        raw_data_path = (base_dir / "Original-Glucose-ML-datasets" / f"Shanghai_raw_data" / "diabetes_datasets" / "Shanghai_T2DM")
+        raw_data_path = (base_dir / "Original-Glucose-ML-datasets" / f"Shanghai_raw_data" / "Shanghai_T2DM")
     else:
         raw_data_path = (base_dir / "Original-Glucose-ML-datasets" / f"{dataset_string}_raw_data")
     #raw_data_path = Path(f"Original-Glucose-ML-datasets/{dataset_string}_raw_data")

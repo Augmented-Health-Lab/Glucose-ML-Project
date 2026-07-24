@@ -82,7 +82,7 @@ If a dataset download is a `.zip`, it will be unpacked into the same folder auto
 After downloading or manually adding the unzipped raw dataset, run:
 
 ```bash
-cd Glucose-ML-Project/1_Auto-scripts
+cd 1_Auto-scripts #Only cd if you are not already in this directory.
 python auto-harmonize-CGM-datasets.py d1namo bigideas cgmacros_dexcom shanghait1dm
 ```
 
