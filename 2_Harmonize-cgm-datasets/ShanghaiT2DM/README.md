@@ -24,7 +24,7 @@ Steps to execute the scripts:
 4. Execute the following:
 ```bash
 cd 2_Harmonize-cgm-datasets/ShanghaiT2DM
-python ShanghaiT2DM_extract-glucose-data.py ../../1_Auto-scripts/Original-Glucose-ML-datasets/ShanghaiT2DM_raw_data/
+python ShanghaiT2DM_extract-glucose-data.py ../../1_Auto-scripts/Original-Glucose-ML-datasets/Shanghai_raw_data/
 ```
 5. Harmonized csv files are written to: `Standardized-datasets/ShanghaiT2DM/<subject_id>.csv`
 6. To calculate the participant-level metadata, run the following:
