@@ -54,6 +54,11 @@ def main():
     Output: "Colas_2019_metadata_calcs.csv" file containing computed metadata for all subjects.
     '''
 
+    if len(sys.argv) != 2:
+        print("Invalid command. Usage: python Colas_2019_metadata.py <input_folder>")
+        print("Tip: Make sure to only pass 1 argument & that data exists in input directory")
+        sys.exit(1)
+        
     # Path to where the Colas_2019_extract-glucose-data.py output lives.
     source_data_path = Path(sys.argv[1])
     
@@ -70,11 +75,7 @@ def main():
     metadata_df = pd.DataFrame(metadata_list)
 
     #Helper Regex function to order rows (numerically) by subject ID. Creates a temporary column "subject_num" to order subjects.
-    metadata_df["subject_num"] = (
-        metadata_df["subject_id"]
-        .str.extract(r"(\d+)")
-        .astype(int)
-    )
+    metadata_df["subject_num"] = (metadata_df["subject_id"].str.extract(r"(\d+)").astype(int))
     metadata_df = metadata_df.sort_values("subject_num").drop(columns=["subject_num"])
     
     # Write metadata calculations to the output csv.

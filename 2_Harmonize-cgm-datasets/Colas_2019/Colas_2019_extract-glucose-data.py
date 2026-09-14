@@ -42,7 +42,7 @@ def main():
      2) "glucose_value_mg_dl" = the glucose reading in mg/dL units.
     '''
     if len(sys.argv) != 2:
-        print("Invalid command. Usage: python Colas_2019_extract-demographics.py <input_folder>")
+        print("Invalid command. Usage: python Colas_2019_extract-glucose-data.py <input_folder>")
         print("Tip: Make sure to only pass 1 argument & that data exists in input directory")
         sys.exit(1)
 
