@@ -70,7 +70,7 @@ def main():
     #Helper Regex function to order rows (numerically) by subject ID. Creates a temporary column "subject_num" to order subjects.
     metadata_df["subject_num"] = (metadata_df["subject_id"].str.extract(r"(\d+)").astype(int))
     metadata_df = metadata_df.sort_values("subject_num").drop(columns=["subject_num"])
-
+    metadata_df.rename(columns={"subject_id": "person_id"}, inplace=True)
     os.makedirs("Standardized-metadata", exist_ok=True)
     metadata_df.to_csv("Standardized-metadata/AI-READI_metadata_calcs.csv", index=False)
     print(f"{LIME_GREEN}Glucose-ML{R}: Generated metadata for {LIGHT_RED}{len(metadata_df)}{R} subjects.")

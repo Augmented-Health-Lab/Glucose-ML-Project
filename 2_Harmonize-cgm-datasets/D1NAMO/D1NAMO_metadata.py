@@ -72,7 +72,7 @@ def main():
     metadata_df = pd.DataFrame(metadata_list)
     #Order rows by subject ID.
     metadata_df = metadata_df.sort_values("subject_id")
-
+    metadata_df.rename(columns={"subject_id": "person_id"}, inplace=True)
     # Write metadata calculations to the output csv.
     os.makedirs("Standardized-metadata", exist_ok=True)
     metadata_df.to_csv("Standardized-metadata/D1NAMO_metadata_calcs.csv", index=False)

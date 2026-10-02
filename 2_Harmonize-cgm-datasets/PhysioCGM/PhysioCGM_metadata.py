@@ -68,7 +68,7 @@ def main():
     #Helper Regex function to order rows (numerically) by subject ID. Creates a temporary column "subject_num" to order subjects.
     metadata_df[["cohort_num", "subject_num"]] = (metadata_df["subject_id"].str.extract(r"c(\d+)s(\d+)").astype(int))
     metadata_df = (metadata_df.sort_values(["cohort_num", "subject_num"]).drop(columns=["cohort_num", "subject_num"]))
-
+    metadata_df.rename(columns={"subject_id": "person_id"}, inplace=True)
     os.makedirs("Standardized-metadata", exist_ok=True)
     metadata_df.to_csv("Standardized-metadata/PhysioCGM_metadata_calcs.csv", index=False)
 

@@ -71,7 +71,7 @@ def main():
     #Helper Regex function to order rows (numerically) by subject ID. Creates a temporary column "subject_num" to order subjects.
     metadata_df["subject_num"] = (metadata_df["subject_id"].str.extract(r"(\d+)").astype(int))
     metadata_df = metadata_df.sort_values("subject_num").drop(columns=["subject_num"])
-
+    metadata_df.rename(columns={"subject_id": "person_id"}, inplace=True)
     # Write metadata calculations to the output csv.
     os.makedirs("Standardized-metadata", exist_ok=True)
     metadata_df.to_csv("Standardized-metadata/DiaTrend_metadata_calcs.csv", index=False)
